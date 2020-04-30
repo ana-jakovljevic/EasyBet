@@ -11,4 +11,4 @@ Veb aplikacija koja za korisnika sastavlja tiket na osnovu unetih parametara i o
 - [Ana Jakovljevic, 21/2016](https://gitlab.com/ana-jakovljevic)
 
 Download the project, then run npm install in terminal. After that enter the project folder and run ng serve in terminal. You should see web page on http://
-localhost:4200.
+localhost:4200. hehe
