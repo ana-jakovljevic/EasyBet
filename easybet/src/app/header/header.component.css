@@ -1,3 +1,8 @@
 #header-text {
     font-size: 30px;
 }
+
+li{
+    border: 2px solid black;
+    margin: 2px;
+}
