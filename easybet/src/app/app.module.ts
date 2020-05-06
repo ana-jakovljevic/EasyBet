@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,6 +11,7 @@ import { LogInComponent } from './log-in/log-in.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { PlayComponent } from './play/play.component';
 import { CheckComponent } from './check/check.component';
+import { FootballMatchListComponent } from './football-match-list/football-match-list.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,12 @@ import { CheckComponent } from './check/check.component';
     HomePageComponent,
     PlayComponent,
     CheckComponent,
+    FootballMatchListComponent,
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

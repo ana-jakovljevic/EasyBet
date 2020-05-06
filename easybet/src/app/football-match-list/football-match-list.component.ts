@@ -1,19 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { FootballModel } from 'src/models/football.model';
 import { FootballService } from '../services/football.service';
+import { FootballModel } from 'src/models/football.model';
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.css']
+  selector: 'app-football-match-list',
+  templateUrl: './football-match-list.component.html',
+  styleUrls: ['./football-match-list.component.css']
 })
-export class HomePageComponent implements OnInit {
-
+export class FootballMatchListComponent implements OnInit {
   public footballMatches: FootballModel[];
-
   constructor(private footballService: FootballService) {
     this.footballMatches = this.footballService.getFootballMatches();
   }
+
   ngOnInit(): void {
   }
 
