@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FootballService } from '../services/football.service';
 import { FootballModel } from 'src/models/football.model';
+import * as data from '../fudbal.json';
 
 @Component({
   selector: 'app-football-match-list',
@@ -9,9 +10,14 @@ import { FootballModel } from 'src/models/football.model';
 })
 export class FootballMatchListComponent implements OnInit {
   public footballMatches: FootballModel[];
-  constructor(private footballService: FootballService) {
-    this.footballMatches = this.footballService.getFootballMatches();
+
+  constructor(footballService: FootballService) {
+    this.footballMatches = footballService.getFootballMatches();
   }
+
+
+
+
 
   ngOnInit(): void {
   }

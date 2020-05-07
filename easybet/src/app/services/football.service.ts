@@ -11,11 +11,15 @@ export class FootballService {
 
   }
   public readFileFootball(): void {
-    for (let i = 0; i < 50; i++) {
-      let football = new FootballModel(data[i].date, data[i].leagueName, data[i].teamHome, data[i].teamGuest, data[i].odds);
-      this.footballMatches.push(football);
-      console.log(football);
-    }
+    let football = new FootballModel(data[1].date, data[1].leagueName, data[1].teamHome, data[1].teamGuest, data[1].odds);
+    this.footballMatches.push(football);
+    football = new FootballModel(data[1].date, data[1].leagueName, data[1].teamHome, data[1].teamGuest, data[1].odds);
+    this.footballMatches.push(football);
+    football = new FootballModel(data[2].date, data[2].leagueName, data[2].teamHome, data[2].teamGuest, data[2].odds);
+    this.footballMatches.push(football);
+    football = new FootballModel(data[3].date, data[3].leagueName, data[3].teamHome, data[3].teamGuest, data[3].odds);
+    this.footballMatches.push(football);
+
 
   }
 

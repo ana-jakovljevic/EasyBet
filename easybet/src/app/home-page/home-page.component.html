@@ -1,17 +1,1 @@
-<p>Ne radim</p>
-<div class='container'>
-    <div class="row" *ngFor='let footballMatch of footballMatches'>
-        <div class="col-sm">
-            {{footballMatch.getDate()}}
-        </div>
-        <div class="col-sm">
-            {{footballMatch.getLeagueName()}}
-        </div>
-        <div class="col-sm">
-            {{footballMatch.getTeamHome()}} {{footballMatch.getTeamGuest()}}
-        </div>
-        <div class="col-sm" *ngFor='let odd of footballMatch.getOdds();'>
-            {{odd}}
-        </div>
-    </div>
-</div>
+<app-football-match-list></app-football-match-list>
