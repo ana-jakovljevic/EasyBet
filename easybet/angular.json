@@ -90,6 +90,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css",
               "src/custom_theme.scss"
             ],
@@ -124,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "easybet"
+  "defaultProject": "easybet",
+  "cli": {
+    "analytics": false
+  }
 }
