@@ -1,6 +1,7 @@
 <h2> Log in: </h2>
 <hr />
 
+<!--
 <form [formGroup] = "logInForm" (ngSubmit)= "submitForm(logInForm.value)" class="w-25 p-3">
 
   <div class = "form-group">
@@ -26,4 +27,19 @@
           [disabled] = "!logInForm.valid">
       Log in
   </button>
+</form>
+-->
+
+<form [formGroup] = "logInForm" (ngSubmit)= "submitForm(logInForm.value)">
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput type="email" name="email" id="email">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input matInput type="password" name="password" id="password">
+  </mat-form-field>
+  <br>
+  <button type="submit" mat-flat-button >Log in</button>
 </form>
