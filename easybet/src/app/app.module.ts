@@ -17,6 +17,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { CheckComponent } from './check/check.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FootballMatchesListComponent } from './football-matches-list/football-matches-list.component';
+import { MakeMeRichComponent } from './make-me-rich/make-me-rich.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FootballMatchesListComponent } from './football-matches-list/football-m
     LogInComponent,
     HomePageComponent,
     CheckComponent,
-    FootballMatchesListComponent
+    FootballMatchesListComponent,
+    MakeMeRichComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
