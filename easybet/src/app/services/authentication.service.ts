@@ -9,6 +9,6 @@ export class AuthenticationService {
 
   isLoggedIn() {
     //here is call to the server to check if user is logged in
-    return false;
+    return true;
   }
 }
