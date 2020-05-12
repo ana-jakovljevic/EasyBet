@@ -7,6 +7,7 @@ import {
   Validators,
   ValidationErrors
 } from '@angular/forms';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -19,7 +20,7 @@ export class LogInComponent implements OnInit {
 
   public logInForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private router: Router) {
     this.logInForm = this.formBuilder.group({
         email: ['', [Validators.required]],
         password: ['', [Validators.required]],  
@@ -33,5 +34,6 @@ export class LogInComponent implements OnInit {
     console.log(data);
 
     this.logInForm.reset();
+    this.router.navigate(["/"]);
   }
 }
