@@ -1,1 +1,23 @@
-<p>make-me-rich works!</p>
+<form [formGroup]="ticketInfoForm" (ngSubmit)="submit(ticketInfoForm.value)">
+    <mat-form-field>
+        <label>How much money do you want to win?</label>    
+        <input matInput type="number" formControlName="moneyToGain">
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <label>How much money are you willing to give?</label>
+        <input matInput type="number" formControlName="moneyToGive">
+    </mat-form-field>
+    <br>
+    
+    <label>Do you want to limit number of games?</label>
+    <br>
+    <mat-checkbox formControlName="indicatorLimitNumberOfGames">Yes</mat-checkbox>
+    <br>
+    <mat-form-field *ngIf="userWantsToLimitNumberOfGames()">
+        <label>Enter number of games</label>
+        <input matInput type="number" formControlName="numberOfGames">
+    </mat-form-field>
+    <br>
+    <button mat-button type="submit">Submit</button>
+</form>

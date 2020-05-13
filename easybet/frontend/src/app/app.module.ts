@@ -6,6 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -41,7 +42,8 @@ import { AccountComponent } from './account/account.component';
     MatFormFieldModule,
     MatButtonModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
