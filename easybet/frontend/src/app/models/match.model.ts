@@ -1,4 +1,4 @@
-export class FootballModel {
+export class MatchModel {
     private static index = 1;
     private id: number;
     constructor(private date: string,
@@ -6,8 +6,8 @@ export class FootballModel {
         private teamHome: string,
         private teamGuest: string,
         private odds: string[]) {
-        this.id = FootballModel.index;
-        FootballModel.index++;
+        this.id = MatchModel.index;
+        MatchModel.index++;
     }
 
     public getId() {
