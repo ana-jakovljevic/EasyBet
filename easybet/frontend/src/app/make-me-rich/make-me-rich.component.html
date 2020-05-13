@@ -7,7 +7,10 @@
     <br>
     <mat-form-field>
         <label>How much money are you willing to give?</label>
-        <input matInput type="number" formControlName="moneyToGive">
+        <input matInput 
+               type="number" 
+               formControlName="moneyToGive"
+               matTooltip="Minimum amount of money is 20">
         <mat-error>Invalid entry</mat-error>
     </mat-form-field>
     <br>
@@ -18,7 +21,10 @@
     <br>
     <mat-form-field *ngIf="userWantsToLimitNumberOfGames()">
         <label>Enter number of games</label>
-        <input matInput type="number" formControlName="numberOfGames">
+        <input matInput 
+               type="number" 
+               formControlName="numberOfGames"
+               matTooltip="Maximum number of games is 50">
         <mat-error>Invalid entry</mat-error>
     </mat-form-field>
     <br>
