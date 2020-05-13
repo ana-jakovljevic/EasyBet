@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { TicketInfoValidators } from './ticket-info.validators';
 
 @Component({
   selector: 'app-make-me-rich',
@@ -9,10 +10,10 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class MakeMeRichComponent implements OnInit {
 
   ticketInfoForm = new FormGroup({
-    moneyToGain: new FormControl('', []),
-    moneyToGive: new FormControl('', [Validators.required]),
+    moneyToGain: new FormControl('', [Validators.required]),
+    moneyToGive: new FormControl('', [Validators.required, , TicketInfoValidators.moneyToGiveInRightRange]),
     indicatorLimitNumberOfGames: new FormControl('', []),
-    numberOfGames: new FormControl('', [])
+    numberOfGames: new FormControl('', [TicketInfoValidators.numberOfGamesInRightRange])
 
   });
 
