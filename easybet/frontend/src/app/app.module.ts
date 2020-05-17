@@ -22,6 +22,11 @@ import { FootballMatchesListComponent } from './football-matches-list/football-m
 import { MakeMeRichComponent } from './make-me-rich/make-me-rich.component';
 import { AccountComponent } from './account/account.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { BasketballMatchesListComponent } from './basketball-matches-list/basketball-matches-list.component';
+import { TennisMatchesListComponent } from './tennis-matches-list/tennis-matches-list.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +37,9 @@ import { AccountComponent } from './account/account.component';
     CheckComponent,
     FootballMatchesListComponent,
     MakeMeRichComponent,
-    AccountComponent
+    AccountComponent,
+    BasketballMatchesListComponent,
+    TennisMatchesListComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +52,8 @@ import { AccountComponent } from './account/account.component';
     MatListModule,
     MatTabsModule,
     MatCheckboxModule,
-    MatTooltipModule
+    MatTooltipModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

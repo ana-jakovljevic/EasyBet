@@ -1,0 +1,7 @@
+th{
+    text-align: center;
+}
+
+.odd-col:hover{
+    background-color: gray;
+}

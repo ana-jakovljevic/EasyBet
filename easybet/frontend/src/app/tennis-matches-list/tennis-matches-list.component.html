@@ -11,54 +11,42 @@
                 <th>Home team</th>
                 <th>Guest team</th>
                 <th>1</th>
-                <th>X</th>
                 <th>2</th>
-                <th>1X</th>
-                <th>12</th>
-                <th>X2</th>
-                <th>0-2</th>
-                <th>3+</th>
-                <th>4+</th>
+                <th>FS1</th>
+                <th>FS2</th>
+                <th>H1</th>
+                <th>H2</th>
             </thead>
-            <tr *ngFor='let footballMatch of footballMatches | async'>
+            <tr *ngFor='let tennisMatch of tennisMatches | async'>
                 <th>
-                    {{footballMatch.time}}
-                </th>
-                <th>
-                    {{footballMatch.league}}
+                    {{tennisMatch.time}}
                 </th>
                 <th>
-                    {{footballMatch.homeTeam}}
+                    {{tennisMatch.league}}
                 </th>
                 <th>
-                    {{footballMatch.guestTeam}}
+                    {{tennisMatch.homeTeam}}
+                </th>
+                <th>
+                    {{tennisMatch.guestTeam}}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.odd1 }}
+                    {{ tennisMatch.odd1 }}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.oddX }}
+                    {{ tennisMatch.odd2 }}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.odd2 }}
+                    {{ tennisMatch.oddFirstSet1 }}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.odd1X }}
+                    {{ tennisMatch.oddFirstSet2 }}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.odd12 }}
+                    {{ tennisMatch.oddHen1 }}
                 </th>
                 <th class='odd-col'>
-                    {{ footballMatch.oddX2 }}
-                </th>
-                <th class='odd-col'>
-                    {{ footballMatch.odd0to2 }}
-                </th>
-                <th class='odd-col'>
-                    {{ footballMatch.odd3plus }}
-                </th>
-                <th class='odd-col'>
-                    {{ footballMatch.odd4plus }}
+                    {{ tennisMatch.oddHen2 }}
                 </th>
             </tr>
 

@@ -19,13 +19,13 @@ sleep(2)
 html_football = driver.page_source
 
 # kosarka
-driver.find_elements_by_class_name('main-item')[6].click()
+driver.find_elements_by_class_name('main-item')[5].click()
 #driver.find_elements_by_class_name('buttonLoad')[3].click()
 sleep(1)
 html_basketball = driver.page_source
 
 # tenis
-driver.find_elements_by_class_name('main-item')[7].click()
+driver.find_elements_by_class_name('main-item')[6].click()
 #driver.find_elements_by_class_name('buttonLoad')[3].click()
 sleep(1)
 html_tenis = driver.page_source
@@ -58,7 +58,7 @@ for game in football_matches:
     pairs = soup.find('a','pairs').find_all('span')
     home_team = pairs[0].text.encode('utf-8')
     guest_team = pairs[1].text.encode('utf-8')
-    odds = soup.find_all('span', class_='odd-font betting-regular-match')
+    odds = soup.find_all('div', class_='partvar odds')
     sleep(0.2)
     odds = [odd.text for odd in odds]
     document = {
@@ -66,10 +66,17 @@ for game in football_matches:
         "time" : time,
         "homeTeam": home_team,
         "guestTeam" : guest_team,
-        "odds" : odds
+        "odd1": odds[0],
+        "oddX": odds[1],
+        "odd2": odds[2],
+        "odd1X": odds[3],
+        "odd12": odds[4],
+        "oddX2": odds[5],
+        "odd0to2": odds[6],
+        "odd3plus": odds[7],
+        "odd4plus": odds[8]
     }
     collection.insert_one(document)
-    #print(document)
 
 #kosarka
 soup = BeautifulSoup(html_basketball, 'lxml')
@@ -85,17 +92,22 @@ for game in basketball_matches:
     pairs = soup.find('a','pairs').find_all('span')
     home_team = pairs[0].text.encode('utf-8')
     guest_team = pairs[1].text.encode('utf-8')
-    odds = soup.find_all('span', class_='odd-font betting-regular-match')
+    odds = soup.find_all('div', class_='partvar odds')
     odds = [odd.text for odd in odds]
     document = {
         "league": league,
         "time" : time,
         "homeTeam": home_team,
         "guestTeam" : guest_team,
-        "odds" : odds
+        "odd1": odds[0],
+        "oddX": odds[1],
+        "odd2": odds[2],
+        "odd1X": odds[3],
+        "oddX2": odds[4],
+        "oddWinner1": odds[5],
+        "oddWinner2": odds[6]
     }
     collection.insert_one(document)
-    #print(document)
 
 #tenis
 soup = BeautifulSoup(html_tenis, 'lxml')
@@ -111,14 +123,20 @@ for game in tenis_matches:
     pairs = soup.find('a','pairs').find_all('span')
     home_team = pairs[0].text.encode('utf-8')
     guest_team = pairs[1].text.encode('utf-8')
-    odds = soup.find_all('span', class_='odd-font betting-regular-match')
+    odds = soup.find_all('div', class_='partvar odds')
     odds = [odd.text for odd in odds]
     document = {
         "league": league,
         "time" : time,
         "homeTeam": home_team,
         "guestTeam" : guest_team,
-        "odds" : odds
+        "odd1": odds[0],
+        "odd2": odds[1],
+        "oddFirstSet1": odds[2],
+        "oddFirstSet2": odds[3],
+        "oddHen1": odds[4],
+        "oddHen2": odds[5]     
     }
     collection.insert_one(document)
-    #print(document)
+    
+    
