@@ -9,10 +9,13 @@ import { Observable } from 'rxjs';
   styleUrls: ['./football-matches-list.component.css']
 })
 export class FootballMatchesListComponent implements OnInit {
-  public footballMatches: Observable<FootballMatch[]>;
+  public footballMatches: FootballMatch[] = [];
 
   constructor(private footballService: FootballService) {
-    this.footballMatches = this.footballService.getFootballMatches();
+    this.footballService.getFootballMatches()
+      .subscribe((matches: FootballMatch[]) => {
+        this.footballMatches = matches;
+    });
   }
 
   ngOnInit(): void {

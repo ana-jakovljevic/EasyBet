@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FootballMatch } from '../models/football-match.model';
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -16,11 +16,21 @@ export class FootballService {
   }
 
   private readFileFootball(): Observable<FootballMatch[]> {
-    this.footballMatches = this.http.get<FootballMatch[]>(this.footballMatchesUrl);
+    let leagues = [];
+    let params = new HttpParams();
+    params = params.append('leagues', leagues.join(','));
+    this.footballMatches = this.http.get<FootballMatch[]>(this.footballMatchesUrl, {params: params});
+
     return this.footballMatches;
   }
 
   public getFootballMatches(): Observable<FootballMatch[]> {
     return this.footballMatches;
+  }
+
+  public setChackedFootballMatches(chackedLeagues: string[]): void {
+    let params = new HttpParams();
+    params = params.append('leagues', chackedLeagues.join(','));
+    this.http.get<FootballMatch[]>(this.footballMatchesUrl, {params: params});
   }
 }

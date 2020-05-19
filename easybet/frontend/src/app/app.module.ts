@@ -25,6 +25,7 @@ import { AccountComponent } from './account/account.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BasketballMatchesListComponent } from './basketball-matches-list/basketball-matches-list.component';
 import { TennisMatchesListComponent } from './tennis-matches-list/tennis-matches-list.component';
+import { FootballLeagueComponent } from './football-league/football-league.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TennisMatchesListComponent } from './tennis-matches-list/tennis-matches
     MakeMeRichComponent,
     AccountComponent,
     BasketballMatchesListComponent,
-    TennisMatchesListComponent
+    TennisMatchesListComponent,
+    FootballLeagueComponent
   ],
   imports: [
     BrowserModule,

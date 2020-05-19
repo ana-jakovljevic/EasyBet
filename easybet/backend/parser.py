@@ -19,13 +19,13 @@ sleep(2)
 html_football = driver.page_source
 
 # kosarka
-driver.find_elements_by_class_name('main-item')[5].click()
+driver.find_elements_by_class_name('main-item')[7].click()
 #driver.find_elements_by_class_name('buttonLoad')[3].click()
 sleep(1)
 html_basketball = driver.page_source
 
 # tenis
-driver.find_elements_by_class_name('main-item')[6].click()
+driver.find_elements_by_class_name('main-item')[8].click()
 #driver.find_elements_by_class_name('buttonLoad')[3].click()
 sleep(1)
 html_tenis = driver.page_source
@@ -105,7 +105,7 @@ for game in basketball_matches:
         "odd1X": odds[3],
         "oddX2": odds[4],
         "oddWinner1": odds[5],
-        "oddWinner2": odds[6]
+        "oddWinner2": odds[5]
     }
     collection.insert_one(document)
 
