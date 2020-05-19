@@ -10,11 +10,10 @@ mongoose.connect(database, {
   useUnifiedTopology: true
 });
 
-
 const { exec } = require('child_process');
 mongoose.connection.once('open', function () {
   console.log('Successfully connected.');
-  exec('python parser.py', (err, stdout, stderr) => {
+  exec('python3 parser.py', (err, stdout, stderr) => {
     if (err) {
       console.error(err)
     } else {
@@ -28,7 +27,6 @@ mongoose.connection.on('error', (error) => {
 
 app.use(json());
 app.use(urlencoded({ extended: false }));
-
 
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
