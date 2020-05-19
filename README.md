@@ -1,7 +1,6 @@
-
 # Project 26-EasyBet
 
-Veb aplikacija koja za korisnika sastavlja tiket na osnovu unetih parametara i omogucava korisniku da prati rezultate odigranog tiketa.
+A web application that generates a ticket for user based on the entered parameters and allows him to monitor the result of the played ticket.
 
 ## Developers
 
