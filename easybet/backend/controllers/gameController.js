@@ -3,15 +3,33 @@ const Football = require('../models/footballModel');
 const Basketball = require('../models/basketballModel');
 const Tennis = require('../models/tennisModel');
 
-
-module.exports.getFootballMatches = async(req,res, next) => {
+module.exports.getFootballMatches = async(req, res, next) => {
     try{
-        const footballMatches = await Football.find({},{_id: 0}).exec();
+        var leagues = req.query.leagues;
+        if (leagues.length === 0) {
+            var footballMatches = await Football.find({}, {_id: 0}).exec();
+        } else {
+            leagues = leagues.split(',');
+            var footballMatches = await Football.find({league: {$in: leagues}}, {_id: 0}).exec();
+        }
+
         res.status(200).json(footballMatches);
     } catch(err){
         next(err);
     }
 };
+
+module.exports.getFootballLeagues = async(req,res,next) => {
+    try{
+        let leagues = [];
+        (await Football.distinct('league')).forEach((league) =>{
+            leagues.push({'league': league});
+        });
+        res.status(200).json(leagues);
+    } catch(err){
+        next(err);
+    }
+}
 
 module.exports.getBasketballMatches = async(req,res, next) => {
     try{

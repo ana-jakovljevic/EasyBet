@@ -18,33 +18,15 @@ const matchSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    odd1: {
-        type: Number | String
-    },
-    oddX: {
-        type: Number | String
-    },
-    odd2: {
-        type: Number | String
-    },
-    odd1X: {
-        type: Number | String
-    },
-    odd12: {
-        type: Number | String
-    },
-    oddX2: {
-        type: Number | String
-    },
-    odd0to2: {
-        type: Number | String
-    },
-    odd3plus: {
-        type: Number | String
-    },
-    odd4plus: {
-        type: Number | String
-    }
+    odd1: Number | String,
+    oddX: Number | String,
+    odd2: Number | String,
+    odd1X: Number | String,
+    odd12: Number | String,
+    oddX2: Number | String,
+    odd0to2: Number | String,
+    odd3plus: Number | String,
+    odd4plus: Number | String
 });
 
 const footballModel = mongoose.model('FootballMatches', matchSchema, "FootballMatches");

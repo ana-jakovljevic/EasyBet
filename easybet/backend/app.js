@@ -21,6 +21,7 @@ mongoose.connection.once('open', function () {
     }
   });
 });
+
 mongoose.connection.on('error', (error) => {
   console.log('Connecting error: ', error);
 });

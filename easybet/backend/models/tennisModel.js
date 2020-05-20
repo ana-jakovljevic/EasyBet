@@ -18,24 +18,12 @@ const matchSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    odd1: {
-        type: Number | String
-    },
-    odd2: {
-        type: Number | String
-    },
-    oddFirstSet1: {
-        type: Number | String
-    },
-    oddFirstSet2: {
-        type: Number | String
-    },
-    oddHen1: {
-        type: Number | String
-    },
-    oddHen2: {
-        type: Number | String
-    }
+    odd1: Number | String,
+    odd2: Number | String,
+    oddFirstSet1: Number | String,
+    oddFirstSet2: Number | String,
+    oddHen1: Number | String,
+    oddHen2: Number | String
 });
 
 const tennisModel = mongoose.model('TennisMatches', matchSchema,"TennisMatches");

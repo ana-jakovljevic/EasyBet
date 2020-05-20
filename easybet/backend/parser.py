@@ -8,15 +8,17 @@ options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options)
 
-driver.get('https://www.mozzartbet.com/sr#/date/all?sid=1')
+driver.get('https://www.mozzartbet.com/en#/date/all?sid=1')
 driver.execute_script("document.getElementById('focus').style.overflow='visible'; document.getElementById('vbarCentral').style.overflow='visible';")
 driver.find_elements_by_class_name('accept-button')[0].click()
 driver.find_elements_by_class_name('buttonLoad')[3].click()
-sleep(3)
+
+sleep(5)
+
 html_football = driver.page_source
 
 try:
-    driver.find_elements_by_xpath("//li[contains(@class, 'main-item') and contains(text(), 'Ko\\u010sarka')]").click()
+    driver.find_elements_by_xpath("//li[contains(@class, 'main-item') and contains(text(), 'Basketball')]").click()
     sleep(1)
     html_basketball = driver.page_source
     basketball_exist = True
@@ -24,7 +26,7 @@ except:
     basketball_exist = False
 
 try:
-    driver.find_element_by_xpath("//span[contains(@class, 'name') and contains(@class, 'main') and contains(text(), 'Tenis')]").click() 
+    driver.find_element_by_xpath("//span[contains(@class, 'name') and contains(@class, 'main') and contains(text(), 'Tennis')]").click() 
     sleep(1)
     html_tenis = driver.page_source
     tennis_exist = True

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <th colspan="12">League</th>
+            </thead>
+            <tr *ngFor='let league of leagues | async'>
+                <th>
+                    <div class= "custom-control custom-checkbox">
+                        <input type="checkbox" 
+                               class="custom-control-input" 
+                               id={{league.league}} 
+                               name={{league.league}} 
+                               (change)="getCheckedLeagues($event)">
+                        <label class="custom-control-label" 
+                               for={{league.league}}>{{league.league}}</label>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
