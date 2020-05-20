@@ -1,43 +1,32 @@
 import { Component, OnInit } from '@angular/core';
-import { LeagueModel } from '../models/league.model';
 import { FootballService } from '../services/football.service';
-import { FootballMatch } from '../models/football-match.model';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-football-league',
   templateUrl: './football-league.component.html',
   styleUrls: ['./football-league.component.css']
 })
-export class FootballLeagueComponent extends LeagueModel implements OnInit {
+export class FootballLeagueComponent implements OnInit {
 
-  private chackedLeague: string[] = [];
+  private checkedLeagues: string[] = [];
+  public leagues: Observable<Object>;
 
   constructor(private footballService: FootballService) {
-    super();
-    this.footballService.getFootballMatches()
-      .subscribe((matches: FootballMatch[]) => {
-        let tmpLeague = [];
-        for (let match of matches) {
-          if (tmpLeague.indexOf(match.league) == -1) {
-            tmpLeague.push(match.league);
-          }
-        }
-        this.leagues = tmpLeague;
-      });
+    this.leagues = this.footballService.getLeagues()
   }
 
-  public getChackedLeagues(event: Event) {
+  public getCheckedLeagues(event: Event) {
     if((<HTMLInputElement>event.target).checked) {
-      this.chackedLeague.push((<HTMLInputElement>event.target).name);
+      this.checkedLeagues.push((<HTMLInputElement>event.target).name);
     } else {
-      this.chackedLeague.splice(
-        this.chackedLeague.indexOf((<HTMLInputElement>event.target).name),
+      this.checkedLeagues.splice(
+        this.checkedLeagues.indexOf((<HTMLInputElement>event.target).name),
         1
       );
     }
-    console.log(this.chackedLeague);
-
-    this.footballService.setChackedFootballMatches(this.chackedLeague);
+    
+    this.footballService.setFootballMatches(this.checkedLeagues);
   }
 
   ngOnInit(): void {

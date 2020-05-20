@@ -20,7 +20,7 @@
                 <th>3+</th>
                 <th>4+</th>
             </thead>
-            <tr *ngFor='let footballMatch of footballMatches'>
+            <tr *ngFor='let footballMatch of footballMatches | async'>
                 <th>
                     {{footballMatch.time}}
                 </th>
@@ -33,31 +33,31 @@
                 <th>
                     {{footballMatch.guestTeam}}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd1 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.oddX }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd2 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd1X }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd12 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.oddX2 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd0to2 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd3plus }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col' (click) = "addToTicket(footballMatch, $event)">
                     {{ footballMatch.odd4plus }}
                 </th>
             </tr>

@@ -8,14 +8,19 @@ import { Observable } from 'rxjs';
   templateUrl: './football-matches-list.component.html',
   styleUrls: ['./football-matches-list.component.css']
 })
+
 export class FootballMatchesListComponent implements OnInit {
-  public footballMatches: FootballMatch[] = [];
+  public footballMatches: Observable<FootballMatch[]>;
 
   constructor(private footballService: FootballService) {
-    this.footballService.getFootballMatches()
-      .subscribe((matches: FootballMatch[]) => {
-        this.footballMatches = matches;
-    });
+    this.footballMatches = this.footballService.getFootballMatches();
+  }
+
+  public addToTicket(match: FootballMatch, event: Event){
+    console.log(match.time);
+    console.log(match.guestTeam);
+    console.log(match.homeTeam);
+    console.log((<HTMLTableHeaderCellElement>event.target).textContent);
   }
 
   ngOnInit(): void {

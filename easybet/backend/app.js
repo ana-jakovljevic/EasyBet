@@ -10,7 +10,6 @@ mongoose.connect(database, {
   useUnifiedTopology: true
 });
 
-
 const { exec } = require('child_process');
 mongoose.connection.once('open', function () {
   console.log('Successfully connected.');
@@ -22,6 +21,7 @@ mongoose.connection.once('open', function () {
     }
   });
 });
+
 mongoose.connection.on('error', (error) => {
   console.log('Connecting error: ', error);
 });
