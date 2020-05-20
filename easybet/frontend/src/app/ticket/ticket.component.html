@@ -1,0 +1,44 @@
+<div class="container" *ngIf = "matches.length">
+    <div class="table-responsive">
+        <table class='table table-bordered table-dark'>
+            <thead>
+                <th colspan='12'>Ticket</th>
+            </thead>
+            <thead class='thead-light'>
+                <th>Date</th>
+                <th>Home team</th>
+                <th>Guest team</th>
+                <th>OddType </th>
+                <th>OddValue</th>
+            </thead>
+            <tr *ngFor='let match of matches'>
+                <th>
+                    {{match.time}}
+                </th>
+                <th>
+                    {{match.homeTeam}}
+                </th>
+                <th>
+                    {{match.guestTeam}}
+                </th>
+                <th>
+                    {{match.oddType}}
+                </th>
+                <th>
+                    {{match.oddValue}}
+                </th>
+                <th>
+                    <button class = "btn btn-primary" style="color:red" (click) = "onDeleteMatch(match)" > X </button>
+                </th>
+            </tr>
+            <thead>
+                <th colspan='9'>
+                    Final odd:  {{ matches | mul }}
+                </th>
+                <th>
+                    <button class="btn btn-primary" (click) = "onSaveTicket()"> Save </button>
+                </th>
+            </thead>
+        </table>   
+    </div>
+</div>

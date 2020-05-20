@@ -7,10 +7,10 @@ module.exports.getFootballMatches = async(req, res, next) => {
     try{
         var leagues = req.query.leagues;
         if (leagues.length === 0) {
-            var footballMatches = await Football.find({}, {_id: 0}).exec();
+            var footballMatches = await Football.find({}).exec();
         } else {
             leagues = leagues.split(',');
-            var footballMatches = await Football.find({league: {$in: leagues}}, {_id: 0}).exec();
+            var footballMatches = await Football.find({league: {$in: leagues}}).exec();
         }
 
         res.status(200).json(footballMatches);
@@ -33,7 +33,7 @@ module.exports.getFootballLeagues = async(req,res,next) => {
 
 module.exports.getBasketballMatches = async(req,res, next) => {
     try{
-        const basketballMatches = await Basketball.find({},{_id: 0}).exec();
+        const basketballMatches = await Basketball.find({}).exec();
         res.status(200).json(basketballMatches);
     } catch(err){
         next(err);
@@ -42,7 +42,7 @@ module.exports.getBasketballMatches = async(req,res, next) => {
 
 module.exports.getTennisMatches = async(req,res, next) => {
     try{
-        const tennisMatches = await Tennis.find({},{_id: 0}).exec();
+        const tennisMatches = await Tennis.find({}).exec();
         res.status(200).json(tennisMatches);
     } catch(err){
         next(err);
