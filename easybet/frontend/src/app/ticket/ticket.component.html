@@ -36,7 +36,9 @@
                     Final odd:  {{ matches | mul }}
                 </th>
                 <th>
-                    <button class="btn btn-primary" (click) = "onSaveTicket()"> Save </button>
+                    <button class="btn btn-primary" 
+                            (click)="onSaveTicket()"
+                            [disabled]="!username"> Save </button>
                 </th>
             </thead>
         </table>   

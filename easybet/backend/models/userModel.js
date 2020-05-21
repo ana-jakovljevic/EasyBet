@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const matchSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     username: {
         type: String,
@@ -13,8 +13,11 @@ const matchSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
+    }, 
+    tickets: {
+        type: {}
     }
 });
 
-const userModel = mongoose.model('users', matchSchema,"users");
+const userModel = mongoose.model('users', userSchema,"users");
 module.exports = userModel;

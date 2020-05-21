@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TicketService } from '../services/ticket.service';
 import { TicketMatch } from '../models/ticket.model';
+import { AuthenticationService } from '../services/authentication.service';
 
 @Component({
   selector: 'app-ticket',
@@ -9,18 +10,25 @@ import { TicketMatch } from '../models/ticket.model';
 })
 
 export class TicketComponent implements OnInit {
-  public matches : TicketMatch[] = [];
+  public matches: TicketMatch[] = [];
+  public username: string = "";
 
-  constructor(private ticketService: TicketService) { 
-    this.matches = ticketService.matches;
+  constructor(private ticketService: TicketService,
+              private authenticationService: AuthenticationService) { 
+    ticketService.currentMatches.subscribe(matches => {
+      this.matches = matches;
+    });
+    authenticationService.username.subscribe(username => {
+      this.username = username;
+    })
   }
 
   public onDeleteMatch(match: TicketMatch){
-    this.matches = this.ticketService.deleteMatch(match);
+    this.ticketService.deleteMatch(match);
   }
 
   public onSaveTicket(){
-    //TODO: send request to write in database, using ticket service
+    this.ticketService.saveTicket(this.username);
   }
 
   ngOnInit(): void {

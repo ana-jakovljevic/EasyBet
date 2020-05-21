@@ -50,6 +50,8 @@ const gameRoutes = require('./routes/api/matches');
 app.use('/matches', gameRoutes);
 const usersRoutes = require('./routes/api/users');
 app.use('/users', usersRoutes);
+const ticketsRoutes = require('./routes/api/tickets');
+app.use('/tickets', ticketsRoutes);
 
 app.use(function (req, res, next) {
   res.status(404).send("Bad request.");
