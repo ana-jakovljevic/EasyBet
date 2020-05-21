@@ -4,11 +4,18 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthenticationService {
+  public username: string = ""; 
+  public loggedin: boolean = false;
 
   constructor() { }
 
-  isLoggedIn() {
-    //here is call to the server to check if user is logged in
-    return true;
+  public isLoggedIn(): boolean {
+    return this.loggedin;
   }
+
+  public setUser(username: string): void{
+    this.username = username;
+    this.loggedin = true;
+  }
+
 }

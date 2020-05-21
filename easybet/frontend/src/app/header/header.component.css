@@ -7,11 +7,11 @@ li{
     margin: 2px;
 }
 
-#listWhenLogged {
+#listLeft {
     display: inline-block;
 }
 
-#listAlwaysShowing {
+#listRight {
     display: inline-block;
     float: right;
 }

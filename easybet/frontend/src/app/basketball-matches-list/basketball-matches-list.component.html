@@ -1,3 +1,4 @@
+<app-basketball-league (emitCheckedChange)="onCheckedChange($event)"> </app-basketball-league>
 <div class='container'>
     <div class='table-responsive'>
         <table class='table table-bordered table-dark'>
@@ -42,10 +43,10 @@
                     {{ basketballMatch.oddX }}
                 </th>
                 <th class='odd-col'
-                    (click) = "addToTicket(basketballMatch,$event)",
+                    (click) = "addToTicket(basketballMatch,$event)"
                     id = "2">
                     {{ basketballMatch.odd2 }}
-                </th>
+                    
                 <th class='odd-col'
                     (click) = "addToTicket(basketballMatch,$event)"
                     id = "1X">
@@ -64,7 +65,7 @@
                 <th class='odd-col'
                     (click) = "addToTicket(basketballMatch,$event)"
                     id = "winner2">
-                    {{ basketballMatch.oddWinner1 }}
+                    {{ basketballMatch.oddWinner2 }}
                 </th>
             </tr>
 

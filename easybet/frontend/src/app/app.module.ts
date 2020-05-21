@@ -28,6 +28,8 @@ import { TennisMatchesListComponent } from './tennis-matches-list/tennis-matches
 import { FootballLeagueComponent } from './football-league/football-league.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { MulPipe } from './pipes/mul.pipe';
+import { TennisLeagueComponent } from './tennis-league/tennis-league.component';
+import { BasketballLeagueComponent } from './basketball-league/basketball-league.component';
 
 
 @NgModule({
@@ -45,7 +47,9 @@ import { MulPipe } from './pipes/mul.pipe';
     TennisMatchesListComponent,
     FootballLeagueComponent,
     TicketComponent,
-    MulPipe
+    MulPipe,
+    TennisLeagueComponent,
+    BasketballLeagueComponent
   ],
   imports: [
     BrowserModule,

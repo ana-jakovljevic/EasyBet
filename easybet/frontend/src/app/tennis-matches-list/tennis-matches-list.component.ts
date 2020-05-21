@@ -27,6 +27,10 @@ export class TennisMatchesListComponent implements OnInit {
       Number.parseFloat((<HTMLTableHeaderCellElement>event.target).textContent));
   }
 
+  public onCheckedChange(leagues: string[]){
+    this.tennisMatches = this.tennisService.setTennisMatches(leagues); 
+  }
+
   ngOnInit(): void {
   }
 

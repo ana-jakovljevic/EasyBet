@@ -5,3 +5,20 @@ th{
 .odd-col:hover{
     background-color: gray;
 }
+
+#wrapper {
+    width: 1000px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+
+.matches {
+    width: 500px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+.leagues {
+    width: 500px;
+    border: 1px solid green;
+    float: left; /* add this */
+}

@@ -30,5 +30,8 @@ export class FootballMatchesListComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  public onCheckedChange(leagues: string[]){
+    this.footballMatches = this.footballService.setFootballMatches(leagues); 
+  }
 }

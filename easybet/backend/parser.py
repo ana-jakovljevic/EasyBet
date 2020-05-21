@@ -18,7 +18,7 @@ sleep(5)
 html_football = driver.page_source
 
 try:
-    driver.find_elements_by_xpath("//li[contains(@class, 'main-item') and contains(text(), 'Basketball')]").click()
+    driver.find_element_by_xpath("//span[contains(@class, 'name') and contains(@class, 'main') and contains(text(), 'Basketball')]").click()
     sleep(1)
     html_basketball = driver.page_source
     basketball_exist = True

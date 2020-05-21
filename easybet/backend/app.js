@@ -13,13 +13,13 @@ mongoose.connect(database, {
 const { exec } = require('child_process');
 mongoose.connection.once('open', function () {
   console.log('Successfully connected.');
-  exec('python3 parser.py', (err, stdout, stderr) => {
+  /*exec('python3 parser.py', (err, stdout, stderr) => {
     if (err) {
       console.error(err)
     } else {
       console.log("Parsing finished.");
     }
-  });
+  });*/
 });
 
 mongoose.connection.on('error', (error) => {

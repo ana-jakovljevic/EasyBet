@@ -12,19 +12,19 @@ export class FootballService {
   private readonly footballMatchesUrl = "http://localhost:3000/matches/football";
   
   constructor(private http: HttpClient) {
-    this.setFootballMatches(['Germany - 1. Bundesliga', 'Germany - DFB Pokal']);
+    this.footballMatches = this.http.get<FootballMatch[]>(this.footballMatchesUrl);
   }
 
   public getFootballMatches(): Observable<FootballMatch[]> {
     return this.footballMatches;
   }
 
-  public setFootballMatches(checkedLeagues: string[]): void {
+  public setFootballMatches(checkedLeagues: string[]): Observable<FootballMatch[]> {
     let params = new HttpParams();
     params = params.append('leagues', checkedLeagues.join(','));
 
-    // Not working
-    this.footballMatches = this.http.get<FootballMatch[]>(this.footballMatchesUrl, {params: params});
+    this.footballMatches = this.http.get<FootballMatch[]>(this.footballMatchesUrl, {params});
+    return this.footballMatches;
   }
 
   public getLeagues(): Observable<Object>{

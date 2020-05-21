@@ -8,7 +8,9 @@ import {
   ValidationErrors
 } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { UserService } from '../services/user.service';
+import { Subscription } from 'rxjs';
+import { AuthenticationService } from '../services/authentication.service';
 
 @Component({
   selector: 'app-log-in',
@@ -19,11 +21,16 @@ import { Router } from '@angular/router';
 export class LogInComponent implements OnInit {
 
   public logInForm: FormGroup;
+  public message: string = "";
+  private subscriptions: Subscription[] = [];
 
-  constructor(private formBuilder: FormBuilder, private router: Router) {
+  constructor(private formBuilder: FormBuilder, 
+              private router: Router,
+              private userService: UserService,
+              private authenticationService: AuthenticationService) {
     this.logInForm = this.formBuilder.group({
-        email: ['', [Validators.required]],
-        password: ['', [Validators.required]],  
+        username: ['', [Validators.required, Validators.pattern('[a-zA-Z][a-zA-Z0-9_]+')]],
+        password: ['', [Validators.required, Validators.minLength(8)]]
     });
   }
 
@@ -31,9 +38,14 @@ export class LogInComponent implements OnInit {
   }
 
   public submitForm(data): void{
-    console.log(data);
-
-    this.logInForm.reset();
-    this.router.navigate(["/"]);
+    let sub = this.userService.logInUser(data).subscribe(obj => {
+      this.message = obj.message;
+      if(!this.message.length){
+        this.logInForm.reset();
+        this.authenticationService.setUser(obj.username);
+      }
+    });
+    
+    this.subscriptions.push(sub);
   }
 }

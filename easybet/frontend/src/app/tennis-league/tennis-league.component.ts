@@ -1,26 +1,24 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-import { FootballService } from '../services/football.service';
 import { Observable } from 'rxjs';
+import { TennisService } from '../services/tennis.service';
 
 @Component({
-  selector: 'app-football-league',
-  templateUrl: './football-league.component.html',
-  styleUrls: ['./football-league.component.css']
+  selector: 'app-tennis-league',
+  templateUrl: './tennis-league.component.html',
+  styleUrls: ['./tennis-league.component.css']
 })
-export class FootballLeagueComponent implements OnInit {
-
-  private checkedLeagues: string[] = [];
+export class TennisLeagueComponent implements OnInit {
   public leagues: Observable<Object>;
+  private checkedLeagues: string[] = [];
 
   @Output('emitCheckedChange')
   public emitCheckedChange: EventEmitter<string[]> = new EventEmitter<string[]>();
 
-  constructor(private footballService: FootballService) {
-    this.leagues = this.footballService.getLeagues()
+  constructor(private tennisService: TennisService) { 
+    this.leagues = tennisService.getLeagues();
   }
 
-  ngOnInit(){
-    
+  ngOnInit(): void {
   }
 
   public setCheckedLeague(event: Event){

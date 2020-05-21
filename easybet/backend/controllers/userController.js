@@ -25,4 +25,27 @@ module.exports.registerUser = async(req,res,next) => {
     } catch (err) {
         next(err);
     }
-}
+};
+
+module.exports.logInUser = async(req, res, next) => {
+    let user = await User.find({username: req.body.username}).exec();
+    let message = "";
+    let username = "";
+    
+    if(!user.length){
+        message = "Username doesn't exist";
+    } else{
+        password = user[0].password;
+        if(password === req.body.password){
+            username = user[0].username;
+        } else{
+            message = "Password is not correct";
+        }
+    }
+
+    try {
+        res.status(200).json({username, message});
+    } catch (err) {
+        next(err);
+    }  
+};

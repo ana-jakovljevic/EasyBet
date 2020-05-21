@@ -1,13 +1,16 @@
 
-
-<div id="listWhenLogged">
+<div id="listLeft">
   <button mat-button [routerLink]="['/']">Home Page</button>
-  <button mat-button *ngIf="isUserLogged();" [routerLink]="['/makeMeRich']">Make me rich</button>
-  <button mat-button *ngIf="isUserLogged();" [routerLink]="['/check']">Check your tickets</button>
-  <button mat-button *ngIf="isUserLogged();" [routerLink]="['/account']">Account</button>
+  <button mat-button [routerLink]="['/makeMeRich']">Make me rich</button>
+  <button mat-button [routerLink]="['/check']">Check your tickets</button>
+  <button mat-button [routerLink]="['/account']">Account</button>
 </div>
 
-<div id="listAlwaysShowing">
-  <button mat-button [routerLink]="['/logIn']">Log in</button>
-  <button mat-button [routerLink]="['/register']">Register</button>
+<div id="listRight">
+  <button mat-button *ngIf="!isUserLogged(); else showUsername" [routerLink]="['/logIn']">Log in</button>
+  <button mat-button *ngIf="!isUserLogged();" [routerLink]="['/register']">Register</button>
+
+  <ng-template #showUsername>   
+    {{username}}
+  </ng-template>
 </div>
