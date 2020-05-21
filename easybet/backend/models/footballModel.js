@@ -29,5 +29,5 @@ const matchSchema = new mongoose.Schema({
     odd4plus: Number | String
 });
 
-const footballModel = mongoose.model('FootballMatches', matchSchema, "FootballMatches");
+const footballModel = mongoose.model('footballMatches', matchSchema, "footballMatches");
 module.exports = footballModel;

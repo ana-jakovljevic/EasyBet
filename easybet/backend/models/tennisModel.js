@@ -26,5 +26,5 @@ const matchSchema = new mongoose.Schema({
     oddHen2: Number | String
 });
 
-const tennisModel = mongoose.model('TennisMatches', matchSchema,"TennisMatches");
+const tennisModel = mongoose.model('tennisMatches', matchSchema,"tennisMatches");
 module.exports = tennisModel;

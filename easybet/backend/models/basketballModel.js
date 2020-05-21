@@ -27,5 +27,5 @@ const matchSchema = new mongoose.Schema({
     oddWinner2: Number | String
 });
 
-const basketballModel = mongoose.model('BasketballMatches', matchSchema, "BasketballMatches");
+const basketballModel = mongoose.model('basketballMatches', matchSchema, "basketballMatches");
 module.exports = basketballModel;

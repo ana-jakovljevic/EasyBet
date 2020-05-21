@@ -17,8 +17,9 @@ export class TicketService {
     }
   }
 
-  public deleteMatch(match: TicketMatch){
+  public deleteMatch(match: TicketMatch): TicketMatch[]{
     this.matches = this.matches.filter(m => m._id !== match._id);
+    return this.matches;
   }
 
 }

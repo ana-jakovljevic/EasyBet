@@ -3,29 +3,36 @@
 
 <form [formGroup] = "registerForm" (ngSubmit)= "submitForm(registerForm.value)" >
     <mat-form-field>
-        <mat-label>Name:</mat-label>
-        <input matInput type="text" name="name" id="name">
+        <mat-label>Username:</mat-label>
+        <input matInput 
+               type="text" 
+               name="username" 
+               id="username"
+               formControlName="username">
     </mat-form-field>
     <br>
 
     <mat-form-field>
-        <mat-label>Last name:</mat-label>
-        <input matInput type="text" name="lastName" id="lastName">
-    </mat-form-field>
-    <br>
-
-    <mat-form-field>
-        <mat-label>Email</mat-label>
-        <input matInput type="email" name="email" id="email">
+        <mat-label>Email:</mat-label>
+        <input matInput 
+               type="email" 
+               name="email" 
+               id="email"
+               formControlName="email">
     </mat-form-field>
     <br>
 
     <mat-form-field>
         <mat-label>Password:</mat-label>
-        <input matInput type="password" name="password" id="password">
+        <input matInput
+               type="password" 
+               name="password" 
+               id="password"
+               formControlName="password">
     </mat-form-field>
     <br>
 
+    <span style = "color:red"> {{message}} </span> <br>
     <button mat-flat-button type="submit">Register</button>
 
    

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import {
   FormBuilder,
   FormGroup,
@@ -7,6 +7,8 @@ import {
   Validators,
   ValidationErrors
 } from '@angular/forms';
+import { UserService } from '../services/user.service';
+import { Subscription } from 'rxjs';
 
 
 @Component({
@@ -14,37 +16,37 @@ import {
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class RegisterComponent implements OnInit, OnDestroy {
   public registerForm: FormGroup;
+  public message: string = "";
+  private subscriptions: Subscription[] = [];
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder,
+              private userService: UserService) {
     this.registerForm = this.formBuilder.group({
-        name: ['', [Validators.required]],
-        lastName: ['', [Validators.required]],
-        email: ['', [Validators.required]],
-        password: ['', [Validators.required]],  
+        username: ['', [Validators.required, Validators.pattern('[a-zA-Z][a-zA-Z0-9_]+')]],
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(8)]],  
     });
   }
 
   ngOnInit(): void {
   }
 
+  ngOnDestroy(){
+    this.subscriptions.forEach((sub) => {
+      sub.unsubscribe();
+    });
+  }
+
   public submitForm(data): void{
-    console.log(data);
+    let sub = this.userService.registerUser(data).subscribe(message => {
+        this.message = message.message;
+        if(!message.message.length){
+          this.registerForm.reset();
+        }
+    });
 
-    this.registerForm.reset();
-  }
-
-  /*
-  public get name() {
-    return this.registerForm.get('name');
-  }
-  public get address() {
-    return this.registerForm.get('lastName');
-  }
-  public get email() {
-    return this.registerForm.get('email');
-  }
-  */
-
+    this.subscriptions.push(sub);
+  }     
 }

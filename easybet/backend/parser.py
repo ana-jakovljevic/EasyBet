@@ -40,15 +40,15 @@ try:
     connect = MongoClient()
     print("Connected successfully!")
     db = connect.EasyBet
-    db.FootballMatches.drop()
-    db.BasketballMatches.drop()
-    db.TennisMatches.drop()
+    db.footballMatches.drop()
+    db.basketballMatches.drop()
+    db.tennisMatches.drop()
 except:
     print("Could not connect to MongoDB")
 
 
 # football
-collection = db.FootballMatches
+collection = db.footballMatches
 
 soup = BeautifulSoup(html_football, 'lxml')
 wrapper = soup.select('.sportsoffer')
@@ -83,7 +83,7 @@ for game in football_matches:
     collection.insert_one(document)
 
 #basketball
-collection = db.create_collection("BasketballMatches")
+collection = db.create_collection("basketballMatches")
 
 if basketball_exist:
     soup = BeautifulSoup(html_basketball, 'lxml')
@@ -116,7 +116,7 @@ if basketball_exist:
        
 
 #tennis
-collection = db.create_collection("TennisMatches")
+collection = db.create_collection("tennisMatches")
 
 if tennis_exist:
     soup = BeautifulSoup(html_tenis, 'lxml')

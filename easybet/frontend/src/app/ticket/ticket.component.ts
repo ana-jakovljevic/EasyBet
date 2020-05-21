@@ -16,8 +16,7 @@ export class TicketComponent implements OnInit {
   }
 
   public onDeleteMatch(match: TicketMatch){
-    this.ticketService.deleteMatch(match);
-    this.matches = this.ticketService.matches;
+    this.matches = this.ticketService.deleteMatch(match);
   }
 
   public onSaveTicket(){
