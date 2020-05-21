@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TennisMatch } from '../models/tennis-match.model';
 import { TennisService } from '../services/tennis.service';
 import { Observable } from 'rxjs';
+import { TicketService } from '../services/ticket.service';
 
 @Component({
   selector: 'app-tennis-matches-list',
@@ -11,8 +12,19 @@ import { Observable } from 'rxjs';
 export class TennisMatchesListComponent implements OnInit {
   public tennisMatches: Observable<TennisMatch[]>;
 
-  constructor(private tennisService: TennisService) { 
+  constructor(private tennisService: TennisService,
+              private ticketService: TicketService) { 
     this.tennisMatches = this.tennisService.getTennisMatches();
+  }
+
+  public addToTicket(match: TennisMatch, event: Event){
+    this.ticketService.addToTicket(
+      match._id,
+      match.time, 
+      match.homeTeam, 
+      match.guestTeam,
+      (<HTMLTableHeaderCellElement>event.target).id,
+      Number.parseFloat((<HTMLTableHeaderCellElement>event.target).textContent));
   }
 
   ngOnInit(): void {

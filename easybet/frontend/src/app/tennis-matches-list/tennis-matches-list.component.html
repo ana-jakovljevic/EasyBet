@@ -30,22 +30,34 @@
                 <th>
                     {{tennisMatch.guestTeam}}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id="1">
                     {{ tennisMatch.odd1 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id="2">
                     {{ tennisMatch.odd2 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id = "firstSet1">
                     {{ tennisMatch.oddFirstSet1 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id = "firstSet2">
                     {{ tennisMatch.oddFirstSet2 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id = "hen1">
                     {{ tennisMatch.oddHen1 }}
                 </th>
-                <th class='odd-col'>
+                <th class='odd-col'
+                    (click) = "addToTicket(tennisMatch, $event)"
+                    id = "hen2">
                     {{ tennisMatch.oddHen2 }}
                 </th>
             </tr>
