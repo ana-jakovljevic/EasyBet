@@ -47,5 +47,6 @@ export class LogInComponent implements OnInit {
     });
     
     this.subscriptions.push(sub);
+    this.router.navigate(['/']);
   }
 }

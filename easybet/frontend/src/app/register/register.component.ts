@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import {
   FormBuilder,
@@ -22,7 +23,8 @@ export class RegisterComponent implements OnInit, OnDestroy {
   private subscriptions: Subscription[] = [];
 
   constructor(private formBuilder: FormBuilder,
-              private userService: UserService) {
+              private userService: UserService,
+              private router: Router) {
     this.registerForm = this.formBuilder.group({
         username: ['', [Validators.required, Validators.pattern('[a-zA-Z][a-zA-Z0-9_]+')]],
         email: ['', [Validators.required, Validators.email]],
@@ -48,5 +50,6 @@ export class RegisterComponent implements OnInit, OnDestroy {
     });
 
     this.subscriptions.push(sub);
+    this.router.navigate(['/logIn']);
   }     
 }
