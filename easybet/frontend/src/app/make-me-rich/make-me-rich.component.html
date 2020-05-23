@@ -1,14 +1,24 @@
 <form [formGroup]="ticketInfoForm"
       (ngSubmit)="submit(ticketInfoForm.value)"
       *ngIf="notGenerated; else generatedTicket" >
-    
-        Choose sport:
+
+        <mat-form-field>
+            <mat-label>Choose sport</mat-label>
+            <mat-select formControlName="sport" (change)="onSportChange($event)">
+                <mat-option value="all">all</mat-option>
+                <mat-option value="football">football</mat-option>
+                <mat-option value="basketball">basketball</mat-option>
+                <mat-option value="tennis">tennis</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+       <!-- Choose sport:
         <select formControlName="sport" (change)="onSportChange($event)">
             <option value="all">all</option>
             <option value="football">football</option>
             <option value="basketball">basketball</option>
             <option value="tennis">tennis</option>
-        </select>
+        </select> -->
 
       <div class="table-responsive">
         <table class="table table-bordered">
@@ -31,7 +41,7 @@
     <br>
       
     <mat-form-field>
-        <label> Quota? </label>    
+        <mat-label> Quota? </mat-label>    
         <input matInput 
                type="number" 
                formControlName="quota">
@@ -40,7 +50,7 @@
     <br>
     
     <mat-form-field>
-        <label>Enter number of games</label>
+        <mat-label>Enter number of games</mat-label>
         <input matInput 
                type="number" 
                formControlName="limit"
