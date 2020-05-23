@@ -4,4 +4,19 @@ th{
 
 .odd-col:hover{
     background-color: gray;
+    cursor: pointer;
 }
+
+#footballLeaguesList {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+}
+
+#footballMatchesTable{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    width: 900px;
+}
+

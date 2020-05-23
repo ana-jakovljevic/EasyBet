@@ -4,4 +4,18 @@ th{
 
 .odd-col:hover{
     background-color: gray;
+    cursor: pointer;
+}
+
+#tennisLeaguesList {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+}
+
+#tennisMatchesTable{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    width: 900px;
 }

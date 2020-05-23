@@ -23,14 +23,15 @@ export class FootballLeagueComponent implements OnInit {
     
   }
 
-  public setCheckedLeague(event: Event){
-    let target = <HTMLInputElement>event.target;
-    if(target.checked){
-      this.checkedLeagues.push(target.name);
-    } else {
-      this.checkedLeagues.splice(this.checkedLeagues.indexOf(target.name),1);
+  public setCheckedLeague(footballLeagues){
+    
+    this.checkedLeagues = [];
+    let selectedLeagues = footballLeagues.selectedOptions.selected;
+    for (let i = 0; i < selectedLeagues.length; i++) {
+      this.checkedLeagues.push(selectedLeagues[i]._value);
     }
-
     this.emitCheckedChange.emit(this.checkedLeagues);
-  }
+
+  } 
+ 
 }

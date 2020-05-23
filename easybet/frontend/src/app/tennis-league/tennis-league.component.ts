@@ -21,14 +21,14 @@ export class TennisLeagueComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public setCheckedLeague(event: Event){
-    let target = <HTMLInputElement>event.target;
-    if(target.checked){
-      this.checkedLeagues.push(target.name);
-    } else {
-      this.checkedLeagues.splice(this.checkedLeagues.indexOf(target.name),1);
+  public setCheckedLeague(tennisLeagues){
+    
+    this.checkedLeagues = [];
+    let selectedLeagues = tennisLeagues.selectedOptions.selected;
+    for (let i = 0; i < selectedLeagues.length; i++) {
+      this.checkedLeagues.push(selectedLeagues[i]._value);
     }
-
     this.emitCheckedChange.emit(this.checkedLeagues);
-  }
+
+  } 
 }

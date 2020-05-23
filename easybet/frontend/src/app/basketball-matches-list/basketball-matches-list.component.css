@@ -4,6 +4,7 @@ th{
 
 .odd-col:hover{
     background-color: gray;
+    cursor: pointer;
 }
 
 #wrapper {
@@ -21,4 +22,17 @@ th{
     width: 500px;
     border: 1px solid green;
     float: left; /* add this */
+}  
+
+#basketballLeaguesList {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+}
+
+#basketballMatchesTable{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    width: 900px;
 }
