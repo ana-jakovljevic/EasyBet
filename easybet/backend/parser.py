@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
 from time import sleep
 from pymongo import MongoClient
+import sys
 
 options = Options()
 options.headless = True

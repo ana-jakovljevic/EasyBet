@@ -1,32 +1,98 @@
-<form [formGroup]="ticketInfoForm" (ngSubmit)="submit(ticketInfoForm.value)">
-    <mat-form-field>
-        <label>How much money do you want to win?</label>    
-        <input matInput type="number" formControlName="moneyToGain">
-        <mat-error>Invalid entry</mat-error>
-    </mat-form-field>
+<form [formGroup]="ticketInfoForm"
+      (ngSubmit)="submit(ticketInfoForm.value)"
+      *ngIf="notGenerated; else generatedTicket" >
+    
+        Choose sport:
+        <select formControlName="sport" (change)="onSportChange($event)">
+            <option value="all">all</option>
+            <option value="football">football</option>
+            <option value="basketball">basketball</option>
+            <option value="tennis">tennis</option>
+        </select>
+
+      <div class="table-responsive">
+        <table class="table table-bordered">
+            <tr *ngFor='let league of leagues | async'>
+                <th>
+                    <div class= "custom-control">
+                        <input type="checkbox" 
+                               class="custom-control-input" 
+                               (change)="setSelectedLeagues($event)"
+                               id={{league.league}} 
+                               name={{league.league}}>
+                        <label class="custom-control-label" 
+                               for={{league.league}}>{{league.league}}</label>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+
     <br>
+      
     <mat-form-field>
-        <label>How much money are you willing to give?</label>
+        <label> Quota? </label>    
         <input matInput 
                type="number" 
-               formControlName="moneyToGive"
-               matTooltip="Minimum amount of money is 20">
+               formControlName="quota">
         <mat-error>Invalid entry</mat-error>
     </mat-form-field>
     <br>
     
-    <label>Do you want to limit number of games?</label>
-    <br>
-    <mat-checkbox formControlName="indicatorLimitNumberOfGames">Yes</mat-checkbox>
-    <br>
-    <mat-form-field *ngIf="userWantsToLimitNumberOfGames()">
+    <mat-form-field>
         <label>Enter number of games</label>
         <input matInput 
                type="number" 
-               formControlName="numberOfGames"
+               formControlName="limit"
                matTooltip="Maximum number of games is 50">
         <mat-error>Invalid entry</mat-error>
     </mat-form-field>
     <br>
     <button mat-button type="submit">Submit</button>
+
+
 </form>
+
+
+<ng-template #generatedTicket>
+    <div class="container"> 
+    <div class="table-responsive">
+        <table class='table table-bordered table-dark'>
+            <thead>
+                <th colspan='12'>Ticket</th>
+            </thead>
+            <thead class='thead-light'>
+                <th>Date</th>
+                <th>Home team</th>
+                <th>Guest team</th>
+                <th>OddType </th>
+                <th>OddValue</th>
+            </thead>
+            <tr *ngFor='let match of ticket | async'>
+                <th>
+                    {{match.time}}
+                </th>
+                <th>
+                    {{match.homeTeam}}
+                </th>
+                <th>
+                    {{match.guestTeam}}
+                </th>
+                <th>
+                    {{match.oddType}}
+                </th>
+                <th>
+                    {{match.oddValue}}
+                </th>
+            </tr>
+            <thead>
+                <button class="btn btn-primary"
+                        (click)="saveTicket()"
+                        [disabled]="!username"> Save </button> 
+                <button class="btn btn-primary"
+                        (click)="notGenerated=true;"> I don't like this </button>
+            </thead>
+        </table>   
+    </div>
+    </div>
+</ng-template>

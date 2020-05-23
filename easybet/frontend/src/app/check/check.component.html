@@ -1,1 +1,39 @@
-<p>check works!</p>
+<div class="container" *ngIf="username.length > 0; else cantCheckTickets"> 
+    <div *ngFor="let ticket of tickets | async">   
+        <div class="table-responsive">
+            <table class='table table-bordered table-dark'>
+                <thead>
+                    <th colspan='12'>Ticket</th>
+                </thead>
+                <thead class='thead-light'>
+                    <th>Date</th>
+                    <th>Home team</th>
+                    <th>Guest team</th>
+                    <th>OddType </th>
+                    <th>OddValue</th>
+                </thead>
+                <tr *ngFor='let match of ticket.matches'>
+                    <th>
+                        {{match.time}}
+                    </th>
+                    <th>
+                        {{match.homeTeam}}
+                    </th>
+                    <th>
+                        {{match.guestTeam}}
+                    </th>
+                    <th>
+                        {{match.oddType}}
+                    </th>
+                    <th>
+                        {{match.oddValue}}
+                    </th>
+                </tr>
+            </table>   
+        </div>
+    </div>
+</div>
+
+<ng-template class="container" #cantCheckTickets>
+    <span color="green"> You need to register and log in. </span>
+</ng-template>

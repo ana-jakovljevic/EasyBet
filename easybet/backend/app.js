@@ -1,6 +1,7 @@
 const express = require('express');
 const { urlencoded, json } = require('body-parser');
 const mongoose = require('mongoose');
+const { spawn } = require('child_process');
 
 const app = express();
 
@@ -10,16 +11,14 @@ mongoose.connect(database, {
   useUnifiedTopology: true
 });
 
-const { exec } = require('child_process');
 mongoose.connection.once('open', function () {
   console.log('Successfully connected.');
-  /*exec('python3 parser.py', (err, stdout, stderr) => {
-    if (err) {
-      console.error(err)
-    } else {
-      console.log("Parsing finished.");
-    }
+
+  /*let parser = spawn('python3',["parser.py"]);
+  parser.stderr.on('data', (data) => {
+    console.log(`stderr: ${data}`);
   });*/
+
 });
 
 mongoose.connection.on('error', (error) => {

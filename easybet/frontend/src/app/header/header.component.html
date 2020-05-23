@@ -8,9 +8,11 @@
 
 <div id="listRight">
   <button mat-button *ngIf="!isUserLogged(); else showUsername" [routerLink]="['/logIn']">Log in</button>
-  <button mat-button *ngIf="!isUserLogged();" [routerLink]="['/register']">Register</button>
+  <button mat-button *ngIf="!isUserLogged()" [routerLink]="['/register']">Register</button>
 
   <ng-template #showUsername>   
-    {{username}}
+    <button mat-button>  {{username}} </button>
+    <button mat-button (click) = "logOut()"> Log out </button>
   </ng-template>
+
 </div>
