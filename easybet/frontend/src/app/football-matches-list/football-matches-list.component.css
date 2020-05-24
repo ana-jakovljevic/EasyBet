@@ -1,5 +1,11 @@
 th{
     text-align: center;
+    
+}
+
+thead {
+    position: sticky;
+    top: 0px;
 }
 
 .odd-col:hover{
