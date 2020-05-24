@@ -10,7 +10,7 @@ export class MulPipe implements PipeTransform {
   transform(matches: TicketMatch[]): number {
     return matches
       .map(match => match.oddValue)
-      .reduceRight((acc, next) => acc * next);
+      .reduceRight((acc, next) => Number((acc * next).toFixed(5)));
   }
 
 }

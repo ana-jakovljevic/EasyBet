@@ -1,4 +1,4 @@
-<div class="container" *ngIf = "matches.length">
+<!--<div class="container" *ngIf = "matches.length">
     <div class="table-responsive">
         <table class='table table-bordered table-dark'>
             <thead>
@@ -6,20 +6,16 @@
             </thead>
             <thead class='thead-light'>
                 <th>Date</th>
-                <th>Home team</th>
-                <th>Guest team</th>
+                <th>Game</th>
                 <th>OddType </th>
                 <th>OddValue</th>
             </thead>
-            <tr *ngFor='let match of matches'>
+            <tr *ngFor='let match of matches'> 
                 <th>
                     {{match.time}}
                 </th>
                 <th>
-                    {{match.homeTeam}}
-                </th>
-                <th>
-                    {{match.guestTeam}}
+                    {{match.homeTeam}} - {{match.guestTeam}}
                 </th>
                 <th>
                     {{match.oddType}}
@@ -43,4 +39,51 @@
             </thead>
         </table>   
     </div>
+</div>-->
+
+<div *ngIf = "matches.length">
+    <p [style.text-align]="'center'"
+       [style.padding-top]="'10px'"><b>Your ticket</b></p>
+    <mat-list>
+        <mat-list-item *ngFor="let match of matches" id="ticketItem">
+            <mat-card [style.display]="'block'" [style.width]="'300px'">
+                <p [style.display]="'inline-block'"
+                   [style.padding-top]="'10px'">
+                    {{match.homeTeam}} - {{match.guestTeam}}
+                </p>
+                <button mat-stroked-button
+                        [style.float]="'right'"
+                        (click) = "onDeleteMatch(match)">
+                    X
+                </button>
+                <br>
+                <p>{{match.time}}</p>
+                <p [style.display]="'inline-block'">
+                    {{match.oddType}}
+                </p>
+                <p [style.display]="'inline-block'"
+                   [style.float]="'right'">
+                    {{match.oddValue}}
+                </p>
+            </mat-card> 
+        
+        </mat-list-item>
+        <div [style.padding]="'15px'">
+            <p [style.display]="'inline-block'"
+               [style.font-size]="'15px'"
+               [style.font-weight]="'bold'"
+               [style.padding-top]="'10px'">
+                Final odd:  {{ matches | mul }}
+            </p>
+            <button mat-raised-button 
+                    color="primary"
+                    [style.float]="'right'"
+                    (click)="onSaveTicket()"
+                    [disabled]="!username">
+                Save    
+            </button>
+        </div>
+         
+    </mat-list>
+
 </div>

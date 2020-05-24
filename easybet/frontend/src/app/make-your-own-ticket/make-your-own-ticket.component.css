@@ -1,0 +1,21 @@
+th{
+    text-align: center;
+}
+
+.odd-col:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.tableMakeTicket {
+    display: inline-block;
+    width: 900px;
+   
+}
+
+.makingTicket {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+}
+
