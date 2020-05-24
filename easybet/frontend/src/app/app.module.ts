@@ -33,7 +33,6 @@ import { TicketComponent } from './ticket/ticket.component';
 import { MulPipe } from './pipes/mul.pipe';
 import { TennisLeagueComponent } from './tennis-league/tennis-league.component';
 import { BasketballLeagueComponent } from './basketball-league/basketball-league.component';
-import { MakeYourOwnTicketComponent } from './make-your-own-ticket/make-your-own-ticket.component';
 
 
 @NgModule({
@@ -53,8 +52,7 @@ import { MakeYourOwnTicketComponent } from './make-your-own-ticket/make-your-own
     TicketComponent,
     MulPipe,
     TennisLeagueComponent,
-    BasketballLeagueComponent,
-    MakeYourOwnTicketComponent
+    BasketballLeagueComponent
   ],
   imports: [
     BrowserModule,
