@@ -9,6 +9,7 @@ th{
 
 .tableMakeTicket {
     display: inline-block;
+    position: relative;
     width: 900px;
    
 }
@@ -16,6 +17,6 @@ th{
 .makingTicket {
     display: inline-block;
     width: 300px;
-    position: absolute;
+    position: absolute;;
 }
 

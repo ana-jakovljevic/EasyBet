@@ -1,4 +1,4 @@
-<mat-tab-group>
+<mat-tab-group [style.display]="'inline-block'">
     <mat-tab label="Football">
         <div class='container' class="tableMakeTicket" >
             <div class='table-responsive' >
@@ -32,47 +32,47 @@
                             {{footballMatch.homeTeam}} - {{footballMatch.guestTeam}}
                         </th>
                         <th class='odd-col' 
-                            (click) = "addToTicket(footballMatch, $event)"
+                            (click) = "addToTicketFootball(footballMatch, $event)"
                             id = "1"> 
                             {{ footballMatch.odd1 }}
                         </th>
                         <th class='odd-col' 
-                            (click) = "addToTicket(footballMatch, $event)"
+                            (click) = "addToTicketFootball(footballMatch, $event)"
                             id = "X">
                             {{ footballMatch.oddX }}
                         </th>
                         <th class='odd-col' 
-                            (click) = "addToTicket(footballMatch, $event)"
+                            (click) = "addToTicketFootball(footballMatch, $event)"
                             id = "2">
                             {{ footballMatch.odd2 }}
                         </th>
                         <th class='odd-col'
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="1X">
                             {{ footballMatch.odd1X }}
                         </th>
                         <th class='odd-col' 
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="12">
                             {{ footballMatch.odd12 }}
                         </th>
                         <th class='odd-col'
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="X2">
                             {{ footballMatch.oddX2 }}
                         </th>
                         <th class='odd-col' 
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="0-2">
                             {{ footballMatch.odd0to2 }}
                         </th>
                         <th class='odd-col' 
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="3+">
                             {{ footballMatch.odd3plus }}
                         </th>
                         <th class='odd-col' 
-                            (click)="addToTicket(footballMatch, $event)"
+                            (click)="addToTicketFootball(footballMatch, $event)"
                             id="4+">
                             {{ footballMatch.odd4plus }}
                         </th>
@@ -81,12 +81,151 @@
                 </table>
             </div>
         </div>
-        <app-ticket class="makingTicket"></app-ticket>
+        
     </mat-tab>
     <mat-tab label="Basketball">
+        <div class='container' class="tableMakeTicket">
+            <div class='table-responsive'>
+                <table class='table table-bordered table-dark' >
+                    <thead>
+                        <th colspan='4'>BASKETBALL</th>
+                        <th colspan='9'>Odds</th>
+                    </thead>
+                    <thead class='thead-light'>
+                        <th>Date</th>
+                        <th>League name</th>
+                        <th>Home team</th>
+                        <th>Guest team</th>
+                        <th>1</th>
+                        <th>X</th>
+                        <th>2</th>
+                        <th>1X</th>
+                        <th>X2</th>
+                        <th>Winner1</th>
+                        <th>Winner2</th>
+                    </thead>
+                    <tr *ngFor='let basketballMatch of basketballMatches | async'>
+                        <th>
+                            {{basketballMatch.time}}
+                        </th>
+                        <th>
+                            {{basketballMatch.league}}
+                        </th>
+                        <th>
+                            {{basketballMatch.homeTeam}}
+                        </th>
+                        <th>
+                            {{basketballMatch.guestTeam}}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "1">
+                            {{ basketballMatch.odd1 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "X">
+                            {{ basketballMatch.oddX }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "2">
+                            {{ basketballMatch.odd2 }}
+                            
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "1X">
+                            {{ basketballMatch.odd1X }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "X2">
+                            {{ basketballMatch.oddX2 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "winner1">
+                            {{ basketballMatch.oddWinner1 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketBasketball(basketballMatch,$event)"
+                            id = "winner2">
+                            {{ basketballMatch.oddWinner2 }}
+                        </th>
+                    </tr>
         
+                </table>
+            </div>
+        </div>
     </mat-tab>
     <mat-tab label="Tennis">
+        <div class='container' class="tableMakeTicket">
+            <div class='table-responsive'>
+                <table class='table table-bordered table-dark'>
+                    <thead>
+                        <th colspan='4'>TENNIS</th>
+                        <th colspan='9'>Odds</th>
+                    </thead>
+                    <thead class='thead-light'>
+                        <th>Date</th>
+                        <th>League name</th>
+                        <th>Home team</th>
+                        <th>Guest team</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>FS1</th>
+                        <th>FS2</th>
+                        <th>H1</th>
+                        <th>H2</th>
+                    </thead>
+                    <tr *ngFor='let tennisMatch of tennisMatches | async'>
+                        <th>
+                            {{tennisMatch.time}}
+                        </th>
+                        <th>
+                            {{tennisMatch.league}}
+                        </th>
+                        <th>
+                            {{tennisMatch.homeTeam}}
+                        </th>
+                        <th>
+                            {{tennisMatch.guestTeam}}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id="1">
+                            {{ tennisMatch.odd1 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id="2">
+                            {{ tennisMatch.odd2 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id = "firstSet1">
+                            {{ tennisMatch.oddFirstSet1 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id = "firstSet2">
+                            {{ tennisMatch.oddFirstSet2 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id = "hen1">
+                            {{ tennisMatch.oddHen1 }}
+                        </th>
+                        <th class='odd-col'
+                            (click) = "addToTicketTennis(tennisMatch, $event)"
+                            id = "hen2">
+                            {{ tennisMatch.oddHen2 }}
+                        </th>
+                    </tr>
         
+                </table>
+            </div>
+        </div>
     </mat-tab>
 </mat-tab-group>
+<app-ticket class="makingTicket"></app-ticket>
