@@ -42,8 +42,7 @@
 </div>-->
 
 <div *ngIf = "matches.length">
-    <p [style.text-align]="'center'"
-       [style.padding-top]="'10px'"><b>Your ticket</b></p>
+   
     <mat-list>
         <mat-list-item *ngFor="let match of matches" id="ticketItem">
             <mat-card [style.display]="'block'" [style.width]="'300px'">
@@ -68,11 +67,15 @@
             </mat-card> 
         
         </mat-list-item>
-        <div [style.padding]="'15px'">
+        
+        <div [style.padding]="'15px'"
+             [style.display]="'inline-block'"
+             [style.width]="'300px'">
             <p [style.display]="'inline-block'"
                [style.font-size]="'15px'"
                [style.font-weight]="'bold'"
-               [style.padding-top]="'10px'">
+               [style.padding-top]="'10px'"
+               >
                 Final odd:  {{ matches | mul }}
             </p>
             <button mat-raised-button 

@@ -28,6 +28,8 @@ th{
     position: absolute;
     display: inline-block;
     width: 300px;
+    height: 400px;
+    overflow-y: scroll;
 }
 
 #basketballMatchesTable{
@@ -35,4 +37,6 @@ th{
     left: 300px;
     display: inline-block;
     width: 900px;
+    height: 400px;
+    overflow-y: scroll;
 }
