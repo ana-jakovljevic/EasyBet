@@ -9,8 +9,7 @@
             <thead class='thead-light'>
                 <th>Date</th>
                 <th>League name</th>
-                <th>Home team</th>
-                <th>Guest team</th>
+                <th>Game</th>
                 <th>1</th>
                 <th>X</th>
                 <th>2</th>
@@ -29,10 +28,7 @@
                     {{footballMatch.league}}
                 </th>
                 <th>
-                    {{footballMatch.homeTeam}}
-                </th>
-                <th>
-                    {{footballMatch.guestTeam}}
+                    {{footballMatch.homeTeam}} - {{footballMatch.guestTeam}}
                 </th>
                 <th class='odd-col' 
                     (click) = "addToTicket(footballMatch, $event)"
