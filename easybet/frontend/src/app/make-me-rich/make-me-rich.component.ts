@@ -19,7 +19,7 @@ export class MakeMeRichComponent implements OnInit {
   public notGenerated: boolean = true;
   public leagues: Observable<Object>;
   public selectedLeagues: string[]= [];
-  private selectedSport: string;
+  public selectedSport: string;
   public username: string;
 
   constructor(private formBuilder: FormBuilder,
@@ -47,7 +47,6 @@ export class MakeMeRichComponent implements OnInit {
 
 
   public onSportChange(event: Event){
-    this.selectedSport = (<HTMLSelectElement>event.target).value;
     this.leagues = this.leagueService.getLeagues(this.selectedSport);
     this.selectedLeagues = [];
   }
