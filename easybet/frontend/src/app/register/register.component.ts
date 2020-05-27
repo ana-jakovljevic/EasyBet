@@ -57,4 +57,8 @@ export class RegisterComponent implements OnInit, OnDestroy {
     this.router.navigate(['/logIn']);
 
   }
+
+  public isFormValid() {
+    return this.registerForm.valid;
+  }
 }

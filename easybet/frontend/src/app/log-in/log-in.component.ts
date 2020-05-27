@@ -34,6 +34,8 @@ export class LogInComponent implements OnInit {
     });
   }
 
+  
+
   ngOnInit(): void {
   }
 
@@ -49,5 +51,9 @@ export class LogInComponent implements OnInit {
     });
     // this.subscriptions.push(sub);
     // this.router.navigate(['/']);
+  }
+
+  public isFormValid() {
+    return this.logInForm.valid;
   }
 }

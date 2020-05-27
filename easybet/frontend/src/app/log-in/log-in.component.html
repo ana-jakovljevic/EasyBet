@@ -14,6 +14,8 @@
   <br>
 
   <span style="color:red"> {{message}} </span> <br>
-  <button type="submit" mat-flat-button>Log in</button>
+  <button type="submit" 
+          mat-flat-button
+          [disabled]="isFormValid() ? false : true">Log in</button>
 
 </form>
