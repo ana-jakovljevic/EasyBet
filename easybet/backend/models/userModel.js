@@ -12,12 +12,12 @@ const userSchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        required: true
-    }, 
+        required: true,
+    },
     tickets: {
         type: {}
     }
 });
 
-const userModel = mongoose.model('users', userSchema,"users");
+const userModel = mongoose.model('users', userSchema, "users");
 module.exports = userModel;
