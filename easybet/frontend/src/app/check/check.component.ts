@@ -24,4 +24,8 @@ export class CheckComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  deleteTicket(ticket) {
+    console.log(ticket);
+  }
+
 }
