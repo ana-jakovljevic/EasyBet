@@ -23,38 +23,33 @@ export class RegisterComponent implements OnInit, OnDestroy {
   private subscriptions: Subscription[] = [];
 
   constructor(private formBuilder: FormBuilder,
-    private userService: UserService,
-    private router: Router) {
+              private userService: UserService,
+              private router: Router) {
     this.registerForm = this.formBuilder.group({
-      username: ['', [Validators.required, Validators.pattern('[a-zA-Z][a-zA-Z0-9_]+')]],
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required, Validators.minLength(8)]],
+        username: ['', [Validators.required, Validators.pattern('[a-zA-Z][a-zA-Z0-9_]+')]],
+        email: ['', [Validators.required, Validators.email]],
+        password: ['', [Validators.required, Validators.minLength(8)]],  
     });
   }
 
   ngOnInit(): void {
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(){
     this.subscriptions.forEach((sub) => {
       sub.unsubscribe();
     });
   }
 
-  public submitForm(data): void {
-    if (!this.registerForm.valid) {
-      console.log("Register from not valid");
-      return;
-    }
+  public submitForm(data): void{
     let sub = this.userService.registerUser(data).subscribe(message => {
-      this.message = message.message;
-      if (!message.message.length) {
-        this.registerForm.reset();
-      }
+        this.message = message.message;
+        if(!message.message.length){
+          this.registerForm.reset();
+        }
     });
 
     this.subscriptions.push(sub);
     this.router.navigate(['/logIn']);
-
-  }
+  }     
 }
