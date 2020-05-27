@@ -5,6 +5,7 @@ import { FormGroup, FormBuilder, Validators, ValidatorFn, AbstractControl, Valid
 import { getCurrencySymbol } from '@angular/common';
 import { User } from '../models/user/user.model';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-account',
@@ -19,7 +20,7 @@ export class AccountComponent implements OnInit {
   public email: string = "";
   public id: string = "";
 
-  constructor(private userService: UserService, private formBuilder: FormBuilder, private authService: AuthenticationService) {
+  constructor(private userService: UserService, private formBuilder: FormBuilder, private authService: AuthenticationService, private router: Router) {
     this.ChangePasswordForm = this.formBuilder.group({
       username: ['', Validators.required],
       currentPassword: ['', [Validators.required]],
@@ -51,6 +52,11 @@ export class AccountComponent implements OnInit {
       let sub = this.userService.changePassword(data).subscribe(obj => {
         this.message = obj.message;
         this.ok = obj.ok;
+        if (this.ok) {
+          this.logOut();
+          window.alert("Password changed");
+          this.router.navigate(['/logIn']);
+        }
         //this.ChangePasswordForm.reset();
       });
     } else {
@@ -61,4 +67,8 @@ export class AccountComponent implements OnInit {
   public colorMessage() {
     return { 'alert-success': this.ok, 'alert-warning': !this.ok };
   }
+  public logOut(): void {
+    this.authService.setUser("");
+  }
+
 }
