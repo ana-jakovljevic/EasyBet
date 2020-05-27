@@ -12,12 +12,17 @@ import { Observable } from 'rxjs';
   styleUrls: ['./account.component.css']
 })
 export class AccountComponent implements OnInit {
+
+  
+
   public ChangePasswordForm: FormGroup;
   public message: string = "";
   public username = "";
   private ok = false;
   public email: string = "";
   public id: string = "";
+
+  public showFormForChangingPassword = false;
 
   constructor(private userService: UserService, private formBuilder: FormBuilder, private authService: AuthenticationService) {
     this.ChangePasswordForm = this.formBuilder.group({
@@ -50,5 +55,9 @@ export class AccountComponent implements OnInit {
 
   public colorMessage() {
     return { 'alert-success': this.ok, 'alert-warning': !this.ok };
+  }
+
+  public isFormValid() {
+    return this.ChangePasswordForm.valid;
   }
 }

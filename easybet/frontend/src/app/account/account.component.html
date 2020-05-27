@@ -1,17 +1,27 @@
-<h2> Account information: </h2>
-<hr />
+<!--<h2> Account information: </h2>
+<hr />-->
 
-<div>
-    <p> Id: {{ id }}</p>
-    <p> Username: {{ username }} </p>
-    <p> Email: {{ email }} </p>
-</div>
-<hr />
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Account information</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p> Username: {{ username }} </p>
+        <p> Email: {{ email }} </p>
+    </mat-card-content>
+</mat-card>
+<br>
+<mat-divider></mat-divider>
+<br>
+<button mat-raised-button
+        (click)="showFormForChangingPassword = !showFormForChangingPassword">
+    Change password
+</button>
+<br><br>
 
-<h2> Change password: </h2>
-<hr />
-
-<form [formGroup]="ChangePasswordForm" (ngSubmit)="submitChangePassword(ChangePasswordForm.value)">
+<form [formGroup]="ChangePasswordForm"
+      (ngSubmit)="submitChangePassword(ChangePasswordForm.value)"
+      *ngIf="showFormForChangingPassword ? true : false">
     <mat-form-field>
         <mat-label> Username:</mat-label>
         <input matInput type="text" name="username" id="username" formControlName="username" [value]="username"
@@ -28,8 +38,10 @@
         <input matInput type="password" name="newPassword" id="newPassword" formControlName="newPassword">
     </mat-form-field>
     <br>
-
+    <button type="submit" 
+            mat-flat-button
+            [disabled]="isFormValid() ? false : true">Change</button>
+    <br>
     <span [ngClass]="colorMessage()"> {{message}} </span> <br>
-    <button type="submit" mat-flat-button>Change</button>
 
 </form>
