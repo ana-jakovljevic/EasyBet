@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema({
     },
     tickets: {
         type: {}
+    },
+    date: {
+        type: String,
+        required: true
     }
 });
 

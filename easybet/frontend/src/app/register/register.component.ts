@@ -49,13 +49,14 @@ export class RegisterComponent implements OnInit, OnDestroy {
     let sub = this.userService.registerUser(data).subscribe(message => {
       this.message = message.message;
       if (!message.message.length) {
+        window.alert("Registration successfully completed");
         this.registerForm.reset();
+        this.router.navigate(['/logIn']);
+
       }
     });
 
     this.subscriptions.push(sub);
-    this.router.navigate(['/logIn']);
-
   }
 
   public isFormValid() {

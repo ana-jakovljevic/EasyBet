@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const User = require('../models/userModel');
+const months = require('../models/monthNameModel');
 
 module.exports.registerUser = async (req, res, next) => {
     let foundUsername = await User.find({ username: req.body.username }).exec();
@@ -11,11 +12,13 @@ module.exports.registerUser = async (req, res, next) => {
     } else if (foundEmail.length) {
         message = "Email already in use";
     } else {
+        const d = new Date();
         const user = new User({
             _id: new mongoose.Types.ObjectId(),
             username: req.body.username,
             email: req.body.email,
-            password: req.body.password
+            password: req.body.password,
+            date: d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear()
         });
         await user.save();
     }

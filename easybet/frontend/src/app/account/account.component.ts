@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
 })
 export class AccountComponent implements OnInit {
 
-  
+
 
   public ChangePasswordForm: FormGroup;
   public message: string = "";
@@ -22,6 +22,7 @@ export class AccountComponent implements OnInit {
   private ok = false;
   public email: string = "";
   public id: string = "";
+  public date: string = "";
 
   public showFormForChangingPassword = false;
 
@@ -39,6 +40,7 @@ export class AccountComponent implements OnInit {
     this.userService.getUserInfo(this.username).subscribe(obj => {
       this.email = obj.email;
       this.id = obj._id;
+      this.date = obj.date;
     });
   }
 
