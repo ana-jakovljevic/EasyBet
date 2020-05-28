@@ -18,19 +18,19 @@ export class MakeMeRichComponent implements OnInit {
   public ticket: Observable<TicketMatch[]>;
   public notGenerated: boolean = true;
   public leagues: Observable<Object>;
-  public selectedLeagues: string[]= [];
-  public selectedSport: string;
+  public selectedLeagues: string[] = [];
+  public selectedSport: string = "";
   public username: string;
 
   constructor(private formBuilder: FormBuilder,
-              private ticketService: TicketService, 
-              private leagueService: LeagueService, 
-              private authenticationService: AuthenticationService) {
+    private ticketService: TicketService,
+    private leagueService: LeagueService,
+    private authenticationService: AuthenticationService) {
     this.ticketInfoForm = this.formBuilder.group({
-      sport: ['',[]],
-      leagues: ['',[]],
-      quota: ['1',[Validators.min(1)]],
-      limit: ['1',[Validators.min(1)]]
+      sport: ['', []],
+      leagues: ['', []],
+      quota: ['1', [Validators.min(1)]],
+      limit: ['1', [Validators.min(1)]]
     });
     this.authenticationService.currentUserName.subscribe(username => {
       this.username = username;
@@ -41,29 +41,38 @@ export class MakeMeRichComponent implements OnInit {
   }
 
   public submit(data) {
-    this.ticket = this.ticketService.generateTicket(data.quota,this.selectedSport,this.selectedLeagues, data.limit);
+    this.ticket = this.ticketService.generateTicket(data.quota, this.selectedSport, this.selectedLeagues, data.limit);
     this.notGenerated = false;
   }
 
 
-  public onSportChange(event: Event){
+  public onSportChange(event: Event) {
     this.leagues = this.leagueService.getLeagues(this.selectedSport);
     this.selectedLeagues = [];
   }
 
-  public setSelectedLeagues(event: Event){
+  public setSelectedLeagues(event: Event) {
     let target = <HTMLInputElement>event.target;
-    if(target.checked){
+    if (target.checked) {
       this.selectedLeagues.push(target.name);
     } else {
-      this.selectedLeagues.splice(this.selectedLeagues.indexOf(target.name),1);
+      this.selectedLeagues.splice(this.selectedLeagues.indexOf(target.name), 1);
     }
   }
 
-  public saveTicket(){
+  public saveTicket() {
     this.ticket.subscribe(ticket => {
-      this.ticketService.saveTicket(this.username,ticket);
+      this.ticketService.saveTicket(this.username, ticket);
     });
     this.notGenerated = true;
   }
+
+  public isSelected() {
+    if (this.selectedSport === "" || this.selectedSport === "all") {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
 }
