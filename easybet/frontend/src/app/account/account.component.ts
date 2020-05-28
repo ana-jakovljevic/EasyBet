@@ -23,6 +23,7 @@ export class AccountComponent implements OnInit {
   public email: string = "";
   public id: string = "";
   public date: string = "";
+  public birthDate: string = "";
 
   public showFormForChangingPassword = false;
 
@@ -41,6 +42,7 @@ export class AccountComponent implements OnInit {
       this.email = obj.email;
       this.id = obj._id;
       this.date = obj.date;
+      this.birthDate = obj.birthDate;
     });
   }
 

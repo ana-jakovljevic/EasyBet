@@ -20,8 +20,16 @@
     </mat-form-field>
     <br>
 
-    <span style="color:red"> {{message}} </span> <br>
-    <button mat-flat-button
-            type="submit"
-            [disabled]="isFormValid() ? false : true">Register</button>
+    <mat-form-field>
+        <mat-label>Choose your date of birth</mat-label>
+        <input matInput [max]="maxDate" name="birthDate" id="birthDate" formControlName="birthDate" type="date">
+        <mat-hint align="end">You must be 18 or older</mat-hint>
+    </mat-form-field>
+    <br>
+
+    <button mat-flat-button type="submit" [disabled]="isFormValid() ? false : true">Register</button>
+    <br>
+
+    <span style="color:red"> {{message}} </span>
+    <br>
 </form>

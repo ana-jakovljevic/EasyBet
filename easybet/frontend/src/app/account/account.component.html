@@ -8,6 +8,7 @@
     <mat-card-content>
         <p> Username: {{ username }} </p>
         <p> Email: {{ email }} </p>
+        <p> Date of birth: {{ birthDate }} </p>
         <p> Date of registration: {{ date }} </p>
     </mat-card-content>
 </mat-card>
@@ -37,16 +38,17 @@
         <input matInput type="password" name="newPassword" id="newPassword" formControlName="newPassword">
     </mat-form-field>
     <br>
+
     <mat-form-field>
         <mat-label>Confirm password:</mat-label>
         <input matInput type="password" name="confirmPassword" id="confirmPassword" formControlName="confirmPassword">
     </mat-form-field>
     <br>
+
     <button type="submit" mat-flat-button [disabled]="isFormValid() ? false : true">Change</button>
-
-
     <br>
 
-    <span [ngClass]="colorMessage()"> {{message}} </span> <br>
+    <span [ngClass]="colorMessage()"> {{message}} </span>
+    <br>
 
 </form>

@@ -22,6 +22,7 @@ export class MakeMeRichComponent implements OnInit {
   public selectedSport: string = "";
   public username: string;
 
+
   constructor(private formBuilder: FormBuilder,
     private ticketService: TicketService,
     private leagueService: LeagueService,

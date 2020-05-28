@@ -12,6 +12,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -33,6 +35,7 @@ import { TicketComponent } from './ticket/ticket.component';
 import { MulPipe } from './pipes/mul.pipe';
 import { TennisLeagueComponent } from './tennis-league/tennis-league.component';
 import { BasketballLeagueComponent } from './basketball-league/basketball-league.component';
+
 
 
 @NgModule({
@@ -69,9 +72,10 @@ import { BasketballLeagueComponent } from './basketball-league/basketball-league
     HttpClientModule,
     MatSelectModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

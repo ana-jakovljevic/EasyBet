@@ -20,6 +20,10 @@ const userSchema = new mongoose.Schema({
     date: {
         type: String,
         required: true
+    },
+    birthDate: {
+        type: String,
+        required: true
     }
 });
 

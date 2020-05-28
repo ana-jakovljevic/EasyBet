@@ -13,12 +13,14 @@ module.exports.registerUser = async (req, res, next) => {
         message = "Email already in use";
     } else {
         const d = new Date();
+        const birth = new Date(req.body.birthDate);
         const user = new User({
             _id: new mongoose.Types.ObjectId(),
             username: req.body.username,
             email: req.body.email,
             password: req.body.password,
-            date: d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear()
+            date: d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear(),
+            birthDate: birth.getDate() + ' ' + months[birth.getMonth()] + ' ' + birth.getFullYear()
         });
         await user.save();
     }
