@@ -15,13 +15,13 @@ module.exports.saveTicket = async(req,res,next) => {
         res.end();
     } catch(err){
         next(err);
-    }
+    } 
 };
 
 module.exports.getTicketsByUsername = async(req,res,next) => {
     try{
         const username = req.params.username;
-        const tickets = await Ticket.find({username}, {username:0, __v:0, _id:0}).exec();
+        const tickets = await Ticket.find({username: username}).exec();
 
         res.status(200).json(tickets);
     } catch(err) {
@@ -53,4 +53,20 @@ module.exports.generateTicket = async(req,res,next) =>  {
     } catch(err) {
         next(err);
     }
+};
+
+module.exports.deleteTicket = async (req, res, next) => {
+
+    try {
+        let value = await Ticket.deleteOne({_id: req.params.id}).exec();
+        if (value) {
+            res.status(200).json({message: "deleted ticket"});
+        }
+        else {
+            res.status(400).json({message: "ticket couldn't be deleted"});
+        }
+    } catch (error) {
+        next(error);
+    }
+
 };

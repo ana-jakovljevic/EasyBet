@@ -52,4 +52,8 @@ export class TicketService {
     
     return this.http.get<TicketMatch[]>(this.ticketUrl + "makeMeRich", {params});
   }
+
+  public deleteTicket(username: string, ticketId: string) {
+    return this.http.delete(this.ticketUrl + "history/" + username + "/" + ticketId);
+  }
 }
