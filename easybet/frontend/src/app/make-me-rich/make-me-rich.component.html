@@ -18,7 +18,20 @@
             <option value="tennis">tennis</option>
         </select> -->
 
-    <div class="table-responsive" [class.chooseLeague]="isSelected()">
+    <div [class.chooseLeague]="isSelected()">
+        <mat-selection-list>
+            <mat-list-option *ngFor="let league of leagues | async"
+                            [value]="league.league"
+                            (change)="setSelectedLeagues($event)"
+                            id={{league.league}}
+                            >
+                {{league.league}}
+            </mat-list-option>
+        </mat-selection-list>
+    </div>
+
+
+    <!--<div class="table-responsive" [class.chooseLeague]="isSelected()">
         <table class="table table-bordered">
             <tr *ngFor='let league of leagues | async'>
                 <th>
@@ -30,7 +43,7 @@
                 </th>
             </tr>
         </table>
-    </div>
+    </div>-->
 
     <br>
 
