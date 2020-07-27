@@ -1,35 +1,37 @@
-<h2> Register: </h2>
-<hr />
+<div class='accountContainer'>
+    <h2> Register: </h2>
+    <hr />
 
-<form [formGroup]="registerForm" (ngSubmit)="submitForm(registerForm.value)">
-    <mat-form-field>
-        <mat-label>Username:</mat-label>
-        <input matInput type="text" name="username" id="username" formControlName="username">
-    </mat-form-field>
-    <br>
+    <form [formGroup]="registerForm" (ngSubmit)="submitForm(registerForm.value)">
+        <mat-form-field>
+            <mat-label>Username:</mat-label>
+            <input matInput type="text" name="username" id="username" formControlName="username">
+        </mat-form-field>
+        <br>
 
-    <mat-form-field>
-        <mat-label>Email:</mat-label>
-        <input matInput type="email" name="email" id="email" formControlName="email">
-    </mat-form-field>
-    <br>
+        <mat-form-field>
+            <mat-label>Email:</mat-label>
+            <input matInput type="email" name="email" id="email" formControlName="email">
+        </mat-form-field>
+        <br>
 
-    <mat-form-field>
-        <mat-label>Password:</mat-label>
-        <input matInput type="password" name="password" id="password" formControlName="password">
-    </mat-form-field>
-    <br>
+        <mat-form-field>
+            <mat-label>Password:</mat-label>
+            <input matInput type="password" name="password" id="password" formControlName="password">
+        </mat-form-field>
+        <br>
 
-    <mat-form-field>
-        <mat-label>Choose your date of birth</mat-label>
-        <input matInput [max]="maxDate" name="birthDate" id="birthDate" formControlName="birthDate" type="date">
-        <mat-hint align="end">You must be 18 or older</mat-hint>
-    </mat-form-field>
-    <br>
+        <mat-form-field>
+            <mat-label>Choose your date of birth</mat-label>
+            <input matInput [max]="maxDate" name="birthDate" id="birthDate" formControlName="birthDate" type="date">
+            <mat-hint align="end">You must be 18 or older</mat-hint>
+        </mat-form-field>
+        <br>
 
-    <button mat-flat-button type="submit" [disabled]="isFormValid() ? false : true">Register</button>
-    <br>
+        <button mat-flat-button type="submit" [disabled]="isFormValid() ? false : true">Register</button>
+        <br>
 
-    <span style="color:red"> {{message}} </span>
-    <br>
-</form>
+        <span style="color:red"> {{message}} </span>
+        <br>
+    </form>
+</div>

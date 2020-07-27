@@ -1,14 +1,13 @@
-<app-football-league (emitCheckedChange)="onCheckedChange($event)" 
-                     id="footballLeaguesList"> 
+<app-football-league (emitCheckedChange)="onCheckedChange($event)" id="footballLeaguesList">
 </app-football-league>
-<div class='container'  >
+<div class='container'>
     <div class='table-responsive' id="footballMatchesTable">
-        <table class='table table-bordered table-dark' >
-            <thead >
+        <table class='table table-bordered table-dark'>
+            <thead>
                 <th colspan='4'>FOOTBALL</th>
                 <th colspan='9'>Odds</th>
             </thead>
-            <thead class='thead-light' >
+            <thead class='thead-light'>
                 <th>Date</th>
                 <th>League name</th>
                 <th>Game</th>
@@ -32,49 +31,31 @@
                 <th>
                     {{footballMatch.homeTeam}} - {{footballMatch.guestTeam}}
                 </th>
-                <th class='odd-col' 
-                    (click) = "addToTicket(footballMatch, $event)"
-                    id = "1"> 
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="1">
                     {{ footballMatch.odd1 }}
                 </th>
-                <th class='odd-col' 
-                    (click) = "addToTicket(footballMatch, $event)"
-                    id = "X">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="X">
                     {{ footballMatch.oddX }}
                 </th>
-                <th class='odd-col' 
-                    (click) = "addToTicket(footballMatch, $event)"
-                    id = "2">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="2">
                     {{ footballMatch.odd2 }}
                 </th>
-                <th class='odd-col'
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="1X">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="1X">
                     {{ footballMatch.odd1X }}
                 </th>
-                <th class='odd-col' 
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="12">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="12">
                     {{ footballMatch.odd12 }}
                 </th>
-                <th class='odd-col'
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="X2">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="X2">
                     {{ footballMatch.oddX2 }}
                 </th>
-                <th class='odd-col' 
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="0-2">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="0-2">
                     {{ footballMatch.odd0to2 }}
                 </th>
-                <th class='odd-col' 
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="3+">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="3+">
                     {{ footballMatch.odd3plus }}
                 </th>
-                <th class='odd-col' 
-                    (click)="addToTicket(footballMatch, $event)"
-                    id="4+">
+                <th class='odd-col' (click)="addToTicket(footballMatch, $event)" id="4+">
                     {{ footballMatch.odd4plus }}
                 </th>
             </tr>
@@ -82,4 +63,3 @@
         </table>
     </div>
 </div>
- 
