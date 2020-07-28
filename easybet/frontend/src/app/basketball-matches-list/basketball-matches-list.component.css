@@ -33,7 +33,7 @@ thead {
     position: absolute;
     display: inline-block;
     overflow-y: scroll;
-    width: 10vw;
+    width: 15vw;
     height: 80vh;
 }
 
@@ -41,9 +41,7 @@ thead {
     position: relative;
     display: inline-block;
     overflow-y: scroll;
-    width: 70vw;
+    width: 65vw;
+    left: 1.9vw;
     height: 80vh;
-}
-.container{
-    min-width: 61.5vw;
 }

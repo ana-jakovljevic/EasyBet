@@ -22,11 +22,11 @@
         <br>
 
         <mat-form-field>
-            <mat-label>Choose your date of birth</mat-label>
-            <input matInput [max]="maxDate" name="birthDate" id="birthDate" formControlName="birthDate" type="date">
-            <mat-hint align="end">You must be 18 or older</mat-hint>
+            <input [style.color]="'#6D6E71'" matInput [max]="maxDate" name="birthDate" id="birthDate"
+                formControlName="birthDate" type="date">
+            <mat-hint [style.color]="'#58595B'" aligne="end">You must be 18 or older</mat-hint>
         </mat-form-field>
-        <br>
+        <br><br>
 
         <button mat-flat-button type="submit" [disabled]="isFormValid() ? false : true">Register</button>
         <br>

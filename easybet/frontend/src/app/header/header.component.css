@@ -19,3 +19,6 @@ li{
 .mat-list-item {
     display: inline;
 }
+button{
+    font-size: 25px;
+}
