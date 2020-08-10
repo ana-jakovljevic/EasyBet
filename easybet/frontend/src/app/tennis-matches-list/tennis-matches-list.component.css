@@ -13,18 +13,12 @@ thead {
 }
 
 #tennisLeaguesList {
-    position: absolute;
-    display: inline-block;
-    width: 300px;
-    height: 400px;
     overflow-y: scroll;
+    height: 80vh;
 }
 
 #tennisMatchesTable{
-    position: relative;
-    left: 300px;
-    display: inline-block;
-    width: 900px;
-    height: 400px;
+
     overflow-y: scroll;
+    height: 80vh;
 }

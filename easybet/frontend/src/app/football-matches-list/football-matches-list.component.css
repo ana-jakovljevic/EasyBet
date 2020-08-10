@@ -11,24 +11,16 @@ thead {
 .odd-col:hover{
     background-color: gray;
     cursor: pointer;
+  
 }
 
 #footballLeaguesList {
-    position: absolute;
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    height: 80vh;
 }
-
 
 
 #footballMatchesTable{
-    position: relative;
-    left: 300px;
-    display: inline-block;
-    width: 900px;
-    height: 400px;
-    overflow-y: scroll;
+   overflow-y: auto;
+   height: 80vh;
 }
-

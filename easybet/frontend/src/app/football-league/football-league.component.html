@@ -1,8 +1,7 @@
-<div>
+<div class='container'>
     <mat-selection-list #footballLeagues (selectionChange)="setCheckedLeague(footballLeagues)">
-        <mat-list-option *ngFor="let league of leagues | async"
-                         [value]="league.league">
-           {{league.league}}
+        <mat-list-option *ngFor="let league of leagues | async" [value]="league.league">
+            {{league.league}}
         </mat-list-option>
     </mat-selection-list>
-</div> 
+</div>

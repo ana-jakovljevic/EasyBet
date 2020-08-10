@@ -1,5 +1,23 @@
 .chooseLeague{
     position: relative;
-    height: 300px;
+    max-height: 50vh;
+    width: 80vw;
     overflow-y: scroll;
+}
+#makeMeRichContainer{
+    position: absolute;    
+    left: 5vw;
+    width: 80vw;
+}
+
+mat-label{
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+
+}
+
+button{
+    font-size: 20px;
 }

@@ -1,3 +1,11 @@
-div{
-   color: burlywood; 
+.matchTab{
+   position: absolute;
+   left: 5vw;
+   width: 80vw;
 }
+#ticketContainer{
+   position: absolute;
+   left: 5vw;
+   top: 90vh;
+}
+

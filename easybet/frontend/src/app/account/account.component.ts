@@ -24,7 +24,6 @@ export class AccountComponent implements OnInit {
   public id: string = "";
   public date: string = "";
   public birthDate: string = "";
-
   public showFormForChangingPassword = false;
 
   constructor(private userService: UserService, private formBuilder: FormBuilder, private authService: AuthenticationService, private router: Router) {
@@ -37,7 +36,6 @@ export class AccountComponent implements OnInit {
     this.authService.currentUserName.subscribe(username => {
       this.username = username;
     });
-
     this.userService.getUserInfo(this.username).subscribe(obj => {
       this.email = obj.email;
       this.id = obj._id;
