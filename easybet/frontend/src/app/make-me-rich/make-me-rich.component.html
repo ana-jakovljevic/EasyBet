@@ -58,7 +58,7 @@
             <mat-error>Invalid entry</mat-error>
         </mat-form-field>
         <br>
-        <button mat-button type="submit">Submit</button>
+        <button mat-flat-button type="submit" [disabled]="isSelected() ? false : true">Submit</button>
 
 
     </form>

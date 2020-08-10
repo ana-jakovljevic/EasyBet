@@ -30,18 +30,11 @@ thead {
 }  
 
 #basketballLeaguesList {
-    position: absolute;
-    display: inline-block;
     overflow-y: scroll;
-    width: 15vw;
     height: 80vh;
 }
 
 #basketballMatchesTable{
-    position: relative;
-    display: inline-block;
     overflow-y: scroll;
-    width: 65vw;
-    left: 1.9vw;
     height: 80vh;
 }
