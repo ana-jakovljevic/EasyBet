@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import { TicketService } from '../services/ticket.service';
 import { TicketMatch } from '../models/ticket.model';
 import { AuthenticationService } from '../services/authentication.service';
@@ -22,7 +22,7 @@ export class TicketComponent implements OnInit {
       this.username = username;
     })
   }
-
+  
   public onDeleteMatch(match: TicketMatch){
     this.ticketService.deleteMatch(match);
   }

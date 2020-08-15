@@ -95,13 +95,11 @@
                             {{match.oddValue}}
                         </th>
                     </tr>
-                    <thead>
-                        <button mat-flat-button color="primary" (click)="saveTicket()" [disabled]="!username"> Save
-                        </button>
-                        <button mat-flat-button color="primary" (click)="notGenerated=true;"> I don't like this
-                        </button>
-                    </thead>
                 </table>
+                <button mat-raised-button color="primary" (click)="saveTicket()" [disabled]="!username"> Save
+                </button>
+                <button mat-raised-button color="primary" (click)="notGenerated=true;" [style.float]="'right'" > I don't like this
+                </button>
             </div>
         </div>
     </ng-template>

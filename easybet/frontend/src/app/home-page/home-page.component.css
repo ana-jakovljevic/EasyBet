@@ -1,11 +1,13 @@
-.matchTab{
+#homeContainer{
    position: absolute;
-   left: 5vw;
-   width: 80vw;
-}
-#ticketContainer{
-   position: absolute;
-   left: 5vw;
-   top: 90vh;
+   width: 90vw;
+   right: 1vw;
+   background-color:transparent;
 }
 
+#showTicketButton{
+    position: absolute;
+    right:-4vw;
+    top:20vw;
+    transform: rotate(90deg);
+}
