@@ -2,7 +2,6 @@
   <button mat-button [routerLink]="['/']">Home Page</button>
   <button mat-button [routerLink]="['/makeMeRich']">Make me rich</button>
   <button mat-button [routerLink]="['/check']">Check your tickets</button>
-  <button mat-button [routerLink]="['/account']">Account</button>
 </div>
 
 <div id="listRight">
@@ -10,7 +9,7 @@
   <button mat-button *ngIf="!isUserLogged()" [routerLink]="['/register']">Register</button>
 
   <ng-template #showUsername>
-    <button mat-button> {{username}} </button>
+    <button mat-button [routerLink]="['/account']" > {{username}} </button>
     <button mat-button (click)="logOut()"> Log out </button>
   </ng-template>
 
