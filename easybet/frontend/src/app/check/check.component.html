@@ -13,21 +13,21 @@
                     <th>OddValue</th>
                 </thead>
                 <tr *ngFor='let match of ticket.matches'>
-                    <th>
+                    <td>
                         {{match.time}}
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         {{match.homeTeam}}
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         {{match.guestTeam}}
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         {{match.oddType}}
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         {{match.oddValue}}
-                    </th>
+                    </td>
                 </tr>
             </table> 
             <span [style.float]="'right'" >
