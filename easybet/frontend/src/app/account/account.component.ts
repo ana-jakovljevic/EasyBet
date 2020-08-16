@@ -35,9 +35,10 @@ export class AccountComponent implements OnInit {
       newPassword: ['', [Validators.required, Validators.minLength(8)]],
       confirmPassword: ['', [Validators.required]]
     }, { validator: this.confirmPasswordValidator });
-    this.authService.currentUserName.subscribe(username => {
+    /*this.authService.currentUserName.subscribe(username => {
       this.username = username;
-    });
+    });*/
+    this.username = this.authService.currentUserName;
     this.userService.getUserInfo(this.username).subscribe(obj => {
       this.name = obj.name;
       this.lastName = obj.lastName;
@@ -66,6 +67,7 @@ export class AccountComponent implements OnInit {
         if (this.ok) {
           this.logOut();
           window.alert("Password changed");
+          localStorage.clear();
           this.router.navigate(['/logIn']);
         }
         //this.ChangePasswordForm.reset();

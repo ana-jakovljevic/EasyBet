@@ -33,9 +33,7 @@ export class MakeMeRichComponent implements OnInit {
       quota: ['1', [Validators.min(1)]],
       limit: ['1', [Validators.min(1)]]
     });
-    this.authenticationService.currentUserName.subscribe(username => {
-      this.username = username;
-    });
+    this.username = this.authenticationService.currentUserName;
   }
 
   ngOnInit(): void {

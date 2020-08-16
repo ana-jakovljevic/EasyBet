@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { AuthenticationService } from './../services/authentication.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,13 +10,17 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   public username: string;
 
-  constructor(private authService: AuthenticationService) {
-    this.authService.currentUserName.subscribe(username => {
+  constructor(private authService: AuthenticationService, private router: Router) {
+    /*this.authService.currentUserName.subscribe(username => {
       this.username = username;
-    });
+    });*/
+
+    //this.username = localStorage.getItem("username");
+
   }
 
   ngOnInit(): void {
+    this.username = this.authService.currentUserName;
   }
 
   public isUserLogged(): boolean {
@@ -23,7 +28,9 @@ export class HeaderComponent implements OnInit {
   }
 
   public logOut(): void{
-    this.authService.setUser("");
+    localStorage.clear();
+    this.router.navigate(["/"]);
+    //this.authService.setUser("");
   }
 
 }

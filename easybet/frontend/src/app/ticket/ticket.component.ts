@@ -18,9 +18,7 @@ export class TicketComponent implements OnInit {
     ticketService.currentMatches.subscribe(matches => {
       this.matches = matches;
     });
-    authenticationService.username.subscribe(username => {
-      this.username = username;
-    })
+    this.username = this.authenticationService.currentUserName;
   }
   
   public onDeleteMatch(match: TicketMatch){

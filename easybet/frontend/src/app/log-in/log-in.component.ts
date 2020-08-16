@@ -41,7 +41,7 @@ export class LogInComponent implements OnInit {
 
   public submitForm(data): void {
     let sub = this.userService.logInUser(data).subscribe(obj => {
-      this.message = obj.message;
+      this.message = obj.message; 
       if (!this.message.length) {
         this.logInForm.reset();
         this.authenticationService.setUser(obj.username);

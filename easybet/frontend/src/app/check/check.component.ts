@@ -17,10 +17,10 @@ export class CheckComponent implements OnInit {
   constructor(private ticketService: TicketService,
               private authenticationService: AuthenticationService,
               private router: Router ){
-    authenticationService.username.subscribe(username => {
-      this.username = username;
+    
+      this.username = this.authenticationService.currentUserName;
       this.tickets = this.ticketService.getTickets(this.username);
-    });
+    
   }
 
   ngOnInit(): void {

@@ -7,16 +7,19 @@ import { BehaviorSubject, Observable } from 'rxjs'
 export class AuthenticationService {
   public username = new BehaviorSubject<string>("");
 
-  public currentUserName = this.username.asObservable();
+  //public currentUserName = this.username.asObservable();
+  public currentUserName = localStorage.getItem("username");
 
   constructor() { }
 
   public isLoggedIn(): boolean {
-    return (this.username.getValue().length > 0);
+    return localStorage.length !== 0;
+    //return (this.username.getValue().length > 0);
   }
 
   public setUser(username: string): void {
-    this.username.next(username);
+    localStorage.setItem("username", username);
+    //this.username.next(username);
   }
 
 }
