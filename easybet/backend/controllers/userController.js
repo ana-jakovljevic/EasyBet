@@ -16,6 +16,8 @@ module.exports.registerUser = async (req, res, next) => {
         const birth = new Date(req.body.birthDate);
         const user = new User({
             _id: new mongoose.Types.ObjectId(),
+            name: req.body.name,
+            lastName: req.body.lastName,
             username: req.body.username,
             email: req.body.email,
             password: req.body.password,

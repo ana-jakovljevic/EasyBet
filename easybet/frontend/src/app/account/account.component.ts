@@ -18,6 +18,8 @@ export class AccountComponent implements OnInit {
 
   public ChangePasswordForm: FormGroup;
   public message: string = "";
+  public name = "";
+  public lastName = "";
   public username = "";
   private ok = false;
   public email: string = "";
@@ -37,6 +39,8 @@ export class AccountComponent implements OnInit {
       this.username = username;
     });
     this.userService.getUserInfo(this.username).subscribe(obj => {
+      this.name = obj.name;
+      this.lastName = obj.lastName;
       this.email = obj.email;
       this.id = obj._id;
       this.date = obj.date;
