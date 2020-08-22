@@ -46,9 +46,15 @@ export class LogInComponent implements OnInit {
         this.logInForm.reset();
         this.authenticationService.setUser(obj.username);
         this.subscriptions.push(sub);
-        this.router.navigate(['/']);
+        
+        this.router.navigateByUrl("/", {skipLocationChange: false}).then(() => {
+          location.reload();
+        });
+        
       }
     });
+
+    
     // this.subscriptions.push(sub);
     // this.router.navigate(['/']);
   }

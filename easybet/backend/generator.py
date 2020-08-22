@@ -36,6 +36,7 @@ elif sport == "tennis":
     else: 
         searchableMatches += db.tennisMatches.find({})
 
+print (searchableMatches)
 
 chosen = set()
 matches = []
@@ -46,6 +47,7 @@ if limit < len(searchableMatches):
         matches.append(searchableMatches[ch])
 else:
     matches = searchableMatches
+    
 
 quotaEpsilon = pow(quota, 1.0/limit)
 for match in matches:

@@ -29,7 +29,9 @@ export class HeaderComponent implements OnInit {
 
   public logOut(): void{
     localStorage.clear();
-    this.router.navigate(["/"]);
+    this.router.navigateByUrl("/", {skipLocationChange: false}).then(() => {
+      location.reload();
+    });
     //this.authService.setUser("");
   }
 
