@@ -29,11 +29,11 @@ if sport == "all":
     searchableMatches += db.basketballMatches.find({})
     searchableMatches += db.tennisMatches.find({})
 elif sport == "football":
-    os.system("mongoexport --db=EasyBet --collection=footballMatches --fields=time,homeTeam,guestTeam,odd1,oddX,odd2,odd1X,odd12,oddX2,odd0to2,odd3plus,odd4plus --type=csv --out=scripts/matches.csv " + query) 
+    os.system("mongoexport --db=EasyBet --collection=footballMatches --fields=time,homeTeam,guestTeam,odd1,oddX,odd2,odd1X,odd12,oddX2,odd0to2,odd3plus,odd4plus --type=csv --out=./scripts/matches.csv " + query) 
 elif sport == "basketball":
-    os.system("mongoexport --db=EasyBet --collection=basketballMatches --fields=time,homeTeam,guestTeam,odd1,oddX,odd2,odd1X,oddX2,oddWinner1,oddWinner2  --type=csv --out=scripts/matches.csv " + query) 
+    os.system("mongoexport --db=EasyBet --collection=basketballMatches --fields=time,homeTeam,guestTeam,odd1,oddX,odd2,odd1X,oddX2,oddWinner1,oddWinner2  --type=csv --out=./scripts/matches.csv " + query) 
 elif sport == "tennis":
-    os.system("mongoexport --db=EasyBet --collection=tennisMatches --fields=time,homeTeam,guestTeam,odd1,odd2,oddFirstSet1,oddFirstSet2,oddHen1,oddHen2  --type=csv --out=scripts/matches.csv " + query)
+    os.system("mongoexport --db=EasyBet --collection=tennisMatches --fields=time,homeTeam,guestTeam,odd1,odd2,oddFirstSet1,oddFirstSet2,oddHen1,oddHen2  --type=csv --out=./scripts/matches.csv " + query)
 
 import pandas as pd
 import csv 
@@ -41,7 +41,7 @@ import numpy
 import time
 import random
 
-df_matches = pd.read_csv('scripts/matches.csv')
+df_matches = pd.read_csv('./scripts/matches.csv')
 rows = df_matches.shape[0]
 columns = df_matches.shape[1]
 
@@ -104,7 +104,7 @@ def combinations(values, limit, quota):
 result = None
 timeout = time.time()
 while result is None:
-    if time.time() - timeout > 20:
+    if time.time() - timeout > 25:
         break
     result = combinations(values, limit, quota)
 
