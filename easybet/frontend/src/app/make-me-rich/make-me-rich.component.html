@@ -22,8 +22,8 @@
         <div [class.chooseLeague]="isSelected()">
             <mat-selection-list>
                 <mat-list-option *ngFor="let league of leagues | async" [value]="league.league"
-                    (change)="setSelectedLeagues($event)" id={{league.league}}>
-                    {{league.league}}
+                    (click)="setSelectedLeagues($event)" id={{league.league}} name="league.league" >
+                    {{league.league}} 
                 </mat-list-option>
             </mat-selection-list>
         </div>

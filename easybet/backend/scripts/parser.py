@@ -14,7 +14,7 @@ driver.execute_script(
     "document.getElementById('focus').style.overflow='visible'; document.getElementById('vbarCentral').style.overflow='visible';")
 driver.find_elements_by_class_name('accept-button')[0].click()
 driver.find_elements_by_class_name('buttonLoad')[3].click()
-sleep(5)
+sleep(10)
 
 html_football = driver.page_source
 

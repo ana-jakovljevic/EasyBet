@@ -14,7 +14,7 @@ mongoose.connect(database, {
 mongoose.connection.once('open', function () {
   console.log('Successfully connected.');
 
-  let parser = spawn('python3', ["parser.py"]);
+  let parser = spawn('python3', ["scripts/parser.py"]);
   parser.stderr.on('data', (data) => {
     console.log(`stderr: ${data}`);
   });

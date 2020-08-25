@@ -34,7 +34,7 @@ import { TicketComponent } from './ticket/ticket.component';
 import { MulPipe } from './pipes/mul.pipe';
 import { TennisLeagueComponent } from './tennis-league/tennis-league.component';
 import { BasketballLeagueComponent } from './basketball-league/basketball-league.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -71,7 +71,8 @@ import { BasketballLeagueComponent } from './basketball-league/basketball-league
     MatSelectModule,
     MatIconModule,
     MatCardModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FormsModule
   ],
   providers: [
   ],

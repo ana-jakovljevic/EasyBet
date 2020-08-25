@@ -36,7 +36,7 @@ module.exports.generateTicket = async(req,res,next) =>  {
         const leagues = req.query.leagues;
         const limit = req.query.limit;
     
-        let generator = spawn('python3',["generator.py", quota, sport, leagues, limit]);
+        let generator = spawn('python3',["scripts/generator.py", quota, sport, leagues, limit]);
         generator.stdout.on('data',(data) => {   
             let finalData = [];
             let dataString = data.toString();

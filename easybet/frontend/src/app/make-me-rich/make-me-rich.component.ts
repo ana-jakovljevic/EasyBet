@@ -22,7 +22,6 @@ export class MakeMeRichComponent implements OnInit {
   public selectedSport: string = "";
   public username: string;
 
-
   constructor(private formBuilder: FormBuilder,
     private ticketService: TicketService,
     private leagueService: LeagueService,
@@ -42,6 +41,7 @@ export class MakeMeRichComponent implements OnInit {
   public submit(data) {
     this.ticket = this.ticketService.generateTicket(data.quota, this.selectedSport, this.selectedLeagues, data.limit);
     this.notGenerated = false;
+    this.selectedLeagues = []
   }
 
 
@@ -51,11 +51,13 @@ export class MakeMeRichComponent implements OnInit {
   }
 
   public setSelectedLeagues(event: Event) {
-    let target = <HTMLInputElement>event.target;
-    if (target.checked) {
-      this.selectedLeagues.push(target.name);
+    let target = <HTMLDivElement>event.target;
+
+    let indeks = this.selectedLeagues.indexOf(target.textContent);
+    if (indeks < 0) {
+      this.selectedLeagues.push(target.textContent);
     } else {
-      this.selectedLeagues.splice(this.selectedLeagues.indexOf(target.name), 1);
+      this.selectedLeagues.splice(indeks, 1);
     }
   }
 
