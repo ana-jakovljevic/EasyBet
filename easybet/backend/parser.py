@@ -14,7 +14,6 @@ driver.execute_script(
     "document.getElementById('focus').style.overflow='visible'; document.getElementById('vbarCentral').style.overflow='visible';")
 driver.find_elements_by_class_name('accept-button')[0].click()
 driver.find_elements_by_class_name('buttonLoad')[3].click()
-
 sleep(5)
 
 html_football = driver.page_source
@@ -64,8 +63,10 @@ for game in football_matches:
     time = soup.find('div', 'time').text
     league = soup.find('span', 'leagueName').text
     pairs = soup.find('a', 'pairs').find_all('span')
+    if len(pairs)<2:
+            continue
     home_team = pairs[0].text
-    guest_team = pairs[1].text
+    guest_team = pairs[1].text   
     odds = soup.find_all('div', class_='partvar odds')
     sleep(0.2)
     odds = [odd.text for odd in odds]
@@ -101,8 +102,10 @@ if basketball_exist:
         time = soup.find('div', 'time').text
         league = soup.find('span', 'leagueName').text
         pairs = soup.find('a', 'pairs').find_all('span')
+        if len(pairs)<2:
+            continue
         home_team = pairs[0].text
-        guest_team = pairs[1].text
+        guest_team = pairs[1].text  
         odds = soup.find_all('div', class_='partvar odds')
         odds = [odd.text for odd in odds]
         document = {
@@ -110,13 +113,13 @@ if basketball_exist:
             "time": time,
             "homeTeam": home_team,
             "guestTeam": guest_team,
-            "odd1": odds[0],
-            "oddX": odds[1],
-            "odd2": odds[2],
-            "odd1X": odds[3],
-            "oddX2": odds[4],
-            "oddWinner1": odds[5],
-            "oddWinner2": odds[6]
+            "odd1": odds.pop(),
+            "oddX": odds.pop(),
+            "odd2": odds.pop(),
+            "odd1X": odds.pop(),
+            "oddX2": odds.pop(),
+            "oddWinner1": odds.pop(),
+            "oddWinner2": odds.pop()
         }
         collection.insert_one(document)
 
@@ -136,8 +139,10 @@ if tennis_exist:
         time = soup.find('div', 'time').text
         league = soup.find('span', 'leagueName').text
         pairs = soup.find('a', 'pairs').find_all('span')
+        if len(pairs)<2:
+            continue
         home_team = pairs[0].text
-        guest_team = pairs[1].text
+        guest_team = pairs[1].text  
         odds = soup.find_all('div', class_='partvar odds')
         odds = [odd.text for odd in odds]
         document = {
@@ -145,12 +150,12 @@ if tennis_exist:
             "time": time,
             "homeTeam": home_team,
             "guestTeam": guest_team,
-            "odd1": odds[0],
-            "odd2": odds[1],
-            "oddFirstSet1": odds[2],
-            "oddFirstSet2": odds[3],
-            "oddHen1": odds[4],
-            "oddHen2": odds[5]
+            "odd1": odds.pop(),
+            "odd2": odds.pop(),
+            "oddFirstSet1": odds.pop(),
+            "oddFirstSet2": odds.pop(),
+            "oddHen1": odds.pop(),
+            "oddHen2": odds.pop()
         }
         collection.insert_one(document)
 
