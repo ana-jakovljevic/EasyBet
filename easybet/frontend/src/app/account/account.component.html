@@ -1,61 +1,70 @@
-<!--<h2> Account information: </h2>
-<hr />-->
-<div *ngIf="username.length > 0; else logInComponent">
-    <mat-card>
-        <mat-card-header>
-            <mat-card-title>Account information</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <p> <b>Name:</b> {{ name }} </p>
-            <p> <b>Last name:</b> {{lastName}} </p>
-            <p> <b>Username:</b> {{ username }} </p>
-            <p> <b>Email:</b> {{ email }} </p>
-            <p> <b>Date of birth:</b> {{ birthDate }} </p>
-            <p> <b>Date of registration:</b> {{ date }} </p>
-        </mat-card-content>
-    </mat-card>
-    <br>
-    <mat-divider></mat-divider>
-    <br>
-    <button mat-raised-button (click)="showFormForChangingPassword = !showFormForChangingPassword">
-        Change password
-    </button>
-    <br><br>
+<div class='container'>
+    <div *ngIf="username.length > 0; else logInComponent" class='row'>
+        <div class='col-6'>
+          <mat-card id="accountId">
+        <!--            <mat-card-header>
+                <mat-card-title id="textInfo">Account information</mat-card-title>
+            </mat-card-header> -->
 
-    <form [formGroup]="ChangePasswordForm" (ngSubmit)="submitChangePassword(ChangePasswordForm.value)"
-        *ngIf="showFormForChangingPassword ? true : false">
-        <mat-form-field>
-            <mat-label> Username:</mat-label>
-            <input matInput type="text" name="username" id="username" formControlName="username" [value]="username"
-                readonly="true">
-        </mat-form-field>
-        <br>
-        <mat-form-field>
-            <mat-label>Current password:</mat-label>
-            <input matInput type="password" name="currentPassword" id="currentPassword"
-                formControlName="currentPassword">
-        </mat-form-field>
-        <br>
-        <mat-form-field>
-            <mat-label>New password:</mat-label>
-            <input matInput type="password" name="newPassword" id="newPassword" formControlName="newPassword">
-        </mat-form-field>
-        <br>
 
-        <mat-form-field>
-            <mat-label>Confirm password:</mat-label>
-            <input matInput type="password" name="confirmPassword" id="confirmPassword"
-                formControlName="confirmPassword">
-        </mat-form-field>
-        <br>
+            <mat-card-content class='container'>
+                <div class="row account"> <p class="col infoL"><b>Name: </b></p> <p class='info col'>{{ name }}</p> </div>
+                <div class="account row"> <p class="col infoL"><b>Last name: </b></p> <p class='info col'>{{ lastName }}</p> </div>
+                <div class="account row"> <p class="col infoL"><b>UserName: </b></p> <p class='info col'>{{ username }}</p> </div>
+                <div class="account row"> <p class="col infoL"><b>Email: </b></p> <p class='info col'>{{ email }}</p> </div>
+                <div class="account row"> <p class="col infoL"><b>Date of birth: </b></p> <p class='info col'>{{ birthDate }}</p> </div>
+                <div class="account row"> <p class="col infoL"><b>Date of registration </b></p> <p class='info col'>{{ date }}</p> </div>
 
-        <button type="submit" mat-flat-button [disabled]="isFormValid() ? false : true">Change</button>
-        <br>
+            </mat-card-content>
+            </mat-card>
+            <br>
+            <mat-divider></mat-divider>
+            <br>
+            <button mat-raised-button (click)="showFormForChangingPassword = !showFormForChangingPassword">
+                Change password
+            </button>
 
-        <span [ngClass]="colorMessage()"> {{message}} </span>
-        <br>
-    </form>
+
+
+        </div>
+
+        <div class='col'>
+            <form [formGroup]="ChangePasswordForm" (ngSubmit)="submitChangePassword(ChangePasswordForm.value)"
+                *ngIf="showFormForChangingPassword ? true : false" class='col'>
+                <mat-form-field>
+                    <mat-label> Username:</mat-label>
+                    <input matInput type="text" name="username" id="username" formControlName="username" [value]="username"
+                        readonly="true">
+                </mat-form-field>
+                <br>
+                <mat-form-field>
+                    <mat-label>Current password:</mat-label>
+                    <input matInput type="password" name="currentPassword" id="currentPassword"
+                        formControlName="currentPassword">
+                </mat-form-field>
+                <br>
+                <mat-form-field>
+                    <mat-label>New password:</mat-label>
+                    <input matInput type="password" name="newPassword" id="newPassword" formControlName="newPassword">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>Confirm password:</mat-label>
+                    <input matInput type="password" name="confirmPassword" id="confirmPassword"
+                        formControlName="confirmPassword">
+                </mat-form-field>
+                <br>
+
+                <button type="submit" mat-flat-button [disabled]="isFormValid() ? false : true">Change</button>
+                <br>
+
+                <span [ngClass]="colorMessage()"> {{message}} </span>
+                <br>
+            </form>
+        </div>
+    </div>
+    <ng-template class="container" #logInComponent>
+        <app-log-in></app-log-in>
+    </ng-template>
 </div>
-<ng-template class="container" #logInComponent>
-    <app-log-in></app-log-in>
-</ng-template>

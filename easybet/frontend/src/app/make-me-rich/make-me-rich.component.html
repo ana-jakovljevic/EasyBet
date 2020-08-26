@@ -23,7 +23,7 @@
             <mat-selection-list>
                 <mat-list-option *ngFor="let league of leagues | async" [value]="league.league"
                     (click)="setSelectedLeagues($event)" id={{league.league}} name="league.league" >
-                    {{league.league}} 
+                    {{league.league}}
                 </mat-list-option>
             </mat-selection-list>
         </div>
@@ -89,7 +89,7 @@
                             {{match.guestTeam}}
                         </th>
                         <th>
-                            {{match.oddType}}
+                            {{ match.oddType | oddPipe }}
                         </th>
                         <th>
                             {{match.oddValue}}

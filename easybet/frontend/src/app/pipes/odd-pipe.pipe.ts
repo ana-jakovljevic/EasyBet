@@ -6,8 +6,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class OddPipePipe implements PipeTransform {
 
   transform(oddType: string): string {
-
     let odd: string = "";
+
     if (oddType == "1" || oddType == "2" || oddType == "winner1" || oddType == "winner2") {
       odd = oddType;
     }
@@ -21,8 +21,8 @@ export class OddPipePipe implements PipeTransform {
     } else if (oddType == "hen2") {
       odd = "H2";
     }
-    else if (oddType.indexOf("odd") != 0) {
-      let tmp: string = oddType.substring(oddType.indexOf("odd"));
+    else if (oddType.indexOf("odd") != -1) {
+      let tmp: string = oddType.substring(oddType.indexOf("odd")+3);
       if (tmp == "0to2")
         odd = "0-2";
       else if (tmp == "3plus")
@@ -31,10 +31,10 @@ export class OddPipePipe implements PipeTransform {
         odd = "4+";
       else
         odd = tmp;
-    } else {
+    }else{
       odd = oddType;
     }
-    console.log(odd);
+
     return odd;
 
   }

@@ -7,3 +7,22 @@ mat-label{
 input{
     font-size: 20px;
 }
+#accountId{
+    background-color:ghostwhite;
+}
+#textInfo{
+    text-align: center;
+}
+.account{
+    font-size: 20px;
+}
+.info{
+    color: black;
+    font-weight: 900;
+    text-align: left;
+    color: coral;
+}
+.infoL{
+    color: cadetblue;
+    font-weight: 900;
+}

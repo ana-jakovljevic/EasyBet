@@ -1,5 +1,5 @@
-<div class="container" *ngIf="username.length > 0; else cantCheckTickets"> 
-    <div *ngFor="let ticket of tickets | async">   
+<div class="container" *ngIf="username.length > 0; else cantCheckTickets">
+    <div *ngFor="let ticket of tickets | async">
         <div class="table-responsive">
             <table class='table table-bordered table-dark'>
                 <thead>
@@ -23,27 +23,27 @@
                         {{match.guestTeam}}
                     </td>
                     <td>
-                        {{ match.oddType | oddPipe}} 
+                        {{ match.oddType  | oddPipe}}
                     </td>
                     <td>
                         {{match.oddValue}}
                     </td>
                 </tr>
-            </table> 
+            </table>
             <span [style.float]="'right'" >
                 <b>Final odd: {{ticket.matches | mul}}</b>
-            </span>  
+            </span>
             <button mat-raised-button
                     color="primary"
                     (click)="deleteTicket(ticket)">
                 Delete ticket
             </button>
-            
-            
+
+
         </div>
         <br>
     </div>
-    
+
 </div>
 
 <ng-template class="container" #cantCheckTickets>
