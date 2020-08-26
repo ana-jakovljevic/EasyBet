@@ -35,6 +35,7 @@ import { MulPipe } from './pipes/mul.pipe';
 import { TennisLeagueComponent } from './tennis-league/tennis-league.component';
 import { BasketballLeagueComponent } from './basketball-league/basketball-league.component';
 import { FormsModule } from '@angular/forms';
+import { OddPipePipe } from './pipes/odd-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { FormsModule } from '@angular/forms';
     TicketComponent,
     MulPipe,
     TennisLeagueComponent,
-    BasketballLeagueComponent
+    BasketballLeagueComponent,
+    OddPipePipe
   ],
   imports: [
     BrowserModule,
