@@ -10,3 +10,22 @@ button{
 h2{
     font-size: 25px;
 }
+mat-form-field {
+    width: 50%;
+    left: 25%;
+}
+button{
+    left: 25%;
+    width: 50%;
+}
+
+.formField{
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+.errorMsg{
+    color:red;
+    text-align: center;
+}

@@ -1,50 +1,51 @@
 <div class='accountContainer container'>
-    <h2> Register: </h2>
+    <h2 class="formField"> Register: </h2>
     <hr />
 
-    <form [formGroup]="registerForm" (ngSubmit)="submitForm(registerForm.value)">
+    <form [formGroup]="registerForm" (ngSubmit)="submitForm(registerForm.value)" >
+      <div>
+          <mat-form-field appearance="outline">
+              <mat-label>Name:</mat-label>
+              <input matInput type="text" name="name" id="name" formControlName="name">
+          </mat-form-field>
+          <br>
 
-        <mat-form-field>
-            <mat-label>Name:</mat-label>
-            <input matInput type="text" name="name" id="name" formControlName="name">
-        </mat-form-field>
-        <br>
+          <mat-form-field appearance="outline">
+              <mat-label>Last name:</mat-label>
+              <input matInput type="text" name="lastName" id="lastName" formControlName="lastName">
+          </mat-form-field>
+          <br>
 
-        <mat-form-field>
-            <mat-label>Last name:</mat-label>
-            <input matInput type="text" name="lastName" id="lastName" formControlName="lastName">
-        </mat-form-field>
-        <br>
+          <mat-form-field appearance="outline">
+              <mat-label>Username:</mat-label>
+              <input matInput type="text" name="username" id="username" formControlName="username">
+          </mat-form-field>
+          <br>
 
-        <mat-form-field>
-            <mat-label>Username:</mat-label>
-            <input matInput type="text" name="username" id="username" formControlName="username">
-        </mat-form-field>
-        <br>
+          <mat-form-field appearance="outline">
+              <mat-label>Email:</mat-label>
+              <input matInput type="email" name="email" id="email" formControlName="email">
+          </mat-form-field>
+          <br>
 
-        <mat-form-field>
-            <mat-label>Email:</mat-label>
-            <input matInput type="email" name="email" id="email" formControlName="email">
-        </mat-form-field>
-        <br>
+          <mat-form-field appearance="outline">
+              <mat-label>Password:</mat-label>
+              <input matInput type="password" name="password" id="password" formControlName="password">
+          </mat-form-field>
+          <br>
 
-        <mat-form-field>
-            <mat-label>Password:</mat-label>
-            <input matInput type="password" name="password" id="password" formControlName="password">
-        </mat-form-field>
-        <br>
+          <mat-form-field appearance="outline">
+              <input [style.color]="'#6D6E71'" matInput [max]="maxDate" name="birthDate" id="birthDate"
+                  formControlName="birthDate" type="date">
+              <mat-hint [style.color]="'#58595B'" aligne="end">You must be 18 or older</mat-hint>
+          </mat-form-field>
+          <br><br>
+          <div  class="errorMsg"> {{message}} </div>
 
-        <mat-form-field>
-            <input [style.color]="'#6D6E71'" matInput [max]="maxDate" name="birthDate" id="birthDate"
-                formControlName="birthDate" type="date">
-            <mat-hint [style.color]="'#58595B'" aligne="end">You must be 18 or older</mat-hint>
-        </mat-form-field>
-        <br><br>
+          <button mat-flat-button class="btn btn-primary btn-block" type="submit" [disabled]="isFormValid() ? false : true">Register</button>
+          <br>
 
-        <button mat-flat-button type="submit" [disabled]="isFormValid() ? false : true">Register</button>
-        <br>
-
-        <span style="color:red"> {{message}} </span>
-        <br>
+          <br>
+        </div>
     </form>
 </div>
