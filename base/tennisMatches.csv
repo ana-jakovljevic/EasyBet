@@ -1,0 +1,40 @@
+_id,league,time,homeTeam,guestTeam,odd1,odd2,oddFirstSet1,oddFirstSet2,oddHen1,oddHen2
+ObjectId(5f5a0ae0863543710f9c0ee1),Gsm Us Open Hard,Fri 16:00,Medvedev D.,Thiem D.,1.48,2.45,1.90,1.80,1.95,1.75
+ObjectId(5f5a0ae0863543710f9c0ee2),Gsm Us Open Hard,Fri 16:00,Zverev A.,Carreno P.,2.10,1.65,2.41,1.50,2.90,1.35
+ObjectId(5f5a0ae0863543710f9c0ee3),Gsw Us Open Hard,Fri 01:05,Osaka N.,Brady J.,1.70,2.05,2.41,1.50,2.70,1.40
+ObjectId(5f5a0ae0863543710f9c0ee4),Gsw Us Open Hard,Fri 01:05,Osaka N.,Brady J.,1.80,2.15,2.55,1.60,2.85,1.50
+ObjectId(5f5a0ae0863543710f9c0ee5),Gsw Us Open Hard,Fri 02:20,Williams S.,Azarenka V.,1.33,3.00,1.85,1.85,1.85,1.85
+ObjectId(5f5a0ae0863543710f9c0ee6),Gsw Us Open Hard,Fri 02:20,Williams S.,Azarenka V.,1.40,3.10,1.95,1.95,1.95,1.95
+ObjectId(5f5a0ae0863543710f9c0ee7),Gsw Us Open Hard Doubles,Fri 18:05,Meli/Xu,Sieg/Zvon,1.40,2.70,1.95,1.75,1.95,1.75
+ObjectId(5f5a0ae0863543710f9c0ee8),Gsm Us Open Hard Doubles,Thu 21:05,Pavi/Soar ,Kool/Mekt,1.50,2.40,2.03,1.70,2.19,1.60
+ObjectId(5f5a0ae0863543710f9c0ee9),Atp Kitzbuhel Clay,Thu 13:25,Thompson J.,Kecmanovic M.,1.90,1.80,1.40,2.70,1.30,3.20
+ObjectId(5f5a0ae0863543710f9c0eea),Atp Kitzbuhel Clay,Thu 13:25,Thompson J.,Kecmanovic M.,2.05,1.95,1.50,2.90,1.40,3.45
+ObjectId(5f5a0ae0863543710f9c0eeb),Atp Kitzbuhel Clay,Thu 14:00,Schwartzman D.,Ofner S.,2.40,1.50,4.40,1.17,5.30,1.12
+ObjectId(5f5a0ae0863543710f9c0eec),Atp Kitzbuhel Clay,Thu 14:50,Lopez F.,Pella G.,1.85,1.85,1.40,2.70,1.30,3.20
+ObjectId(5f5a0ae0863543710f9c0eed),Atp Kitzbuhel Clay,Thu 14:50,Lopez F.,Pella G.,2.10,1.90,1.55,2.75,1.45,3.10
+ObjectId(5f5a0ae0863543710f9c0eee),Atp Kitzbuhel Clay,Thu 15:25,Fognini F.,Huesler M.,1.65,2.10,2.41,1.50,2.70,1.40
+ObjectId(5f5a0ae0863543710f9c0eef),Atp Kitzbuhel Clay,Thu 15:25,Fognini F.,Huesler M.,1.75,2.25,2.55,1.60,2.85,1.50
+ObjectId(5f5a0ae0863543710f9c0ef0),Atp Kitzbuhel Clay Doubles ,Thu 13:35,Kraj/Skug,Purc/Savi,2.95,1.35,1.85,1.85,1.85,1.85
+ObjectId(5f5a0ae0863543710f9c0ef1),Atp Kitzbuhel Clay Doubles ,Fri 10:00,Mara/Melz,Demo/Midd,1.60,2.20,2.29,1.55,2.55,1.45
+ObjectId(5f5a0ae0863543710f9c0ef2),Wta Istanbul Clay,Thu 13:40,Kuznetsova S.,Bouchard E.,2.90,1.35,1.80,1.90,1.80,1.90
+ObjectId(5f5a0ae0863543710f9c0ef3),Wta Istanbul Clay,Thu 13:40,Sasnovich A.,Schmiedlova A.,1.50,2.40,2.03,1.70,2.11,1.65
+ObjectId(5f5a0ae0863543710f9c0ef4),Wta Istanbul Clay,Thu 14:35,Doi M.,Tig P.,2.20,1.60,1.60,2.19,1.50,2.41
+ObjectId(5f5a0ae0863543710f9c0ef5),Wta Istanbul Clay,Thu 14:35,Sorribes S.,Badosa P.,1.60,2.20,2.19,1.60,2.41,1.50
+ObjectId(5f5a0ae0863543710f9c0ef6),Wta Istanbul Clay,Thu 18:05,Gasparyan M.,Peterson R.,2.30,1.55,1.70,2.03,1.60,2.19
+ObjectId(5f5a0ae0863543710f9c0ef7),Wta Istanbul Clay,Thu 19:20,Martincova T.,Garcia C.,2.40,1.50,1.70,2.03,1.60,2.19
+ObjectId(5f5a0ae0863543710f9c0ef8),Wta Istanbul Clay Doubles,Thu 15:50,Dani/Sizi,Schm/Zava,1.45,2.55,2.03,1.70,2.11,1.65
+ObjectId(5f5a0ae0863543710f9c0ef9),Wta Istanbul Clay Doubles,Thu 17:05,Guar/Kraw,Lech/Neel,1.60,2.20,2.19,1.60,2.41,1.50
+ObjectId(5f5a0ae0863543710f9c0efa),Wta Istanbul Clay Doubles,Fri 09:00,Chri/Olmo,Minn/Uytv,2.70,1.40,1.75,1.95,1.75,1.95
+ObjectId(5f5a0ae0863543710f9c0efb),Wta Istanbul Clay Doubles,Fri 09:00,Pere/Sand,Broa/Rout,1.60,2.20,2.19,1.60,2.41,1.50
+ObjectId(5f5a0ae0863543710f9c0efc),Chal. Prostejov Clay,Thu 13:55,Travaglia S.,Klizan M.,1.50,2.40,2.11,1.65,2.29,1.55
+ObjectId(5f5a0ae0863543710f9c0efd),Chal.Aix en Provence Clay,Thu 13:40,Gaio F.,Ymer E.,2.40,1.50,1.65,2.11,1.55,2.29
+ObjectId(5f5a0ae0863543710f9c0efe),Chal.Aix en Provence Clay,Thu 14:05,Mayot H.,Cuevas P.,2.10,1.65,1.50,2.41,1.40,2.70
+ObjectId(5f5a0ae0863543710f9c0eff),Chal.Aix en Provence Clay,Thu 15:30,Altmaier D.,Sousa Pe.,1.45,2.55,2.03,1.70,2.19,1.60
+ObjectId(5f5a0ae0863543710f9c0f00),Chal.Aix en Provence Clay,Fri 10:00,Seyboth T.,Hoang A.,1.65,2.10,2.41,1.50,2.70,1.40
+ObjectId(5f5a0ae0863543710f9c0f01),W15 Saint Palais Sur Mer Clay,Thu 13:30,Nicault I.,Stevens L.,1.90,1.80,1.50,2.41,1.40,2.70
+ObjectId(5f5a0ae0863543710f9c0f02),W15 Saint Palais Sur Mer Clay,Thu 14:30,Stadler N.,Wolff V.,1.90,1.80,2.55,1.45,2.90,1.35
+ObjectId(5f5a0ae0863543710f9c0f03),W15 Saint Palais Sur Mer Clay,Thu 17:15,Orange M.,Paszek T.,2.05,1.70,1.55,2.29,1.45,2.55
+ObjectId(5f5a0ae0863543710f9c0f04),W25 Figueira Da Foz Hard,Thu 14:00,Burrage J.,Samir S.,2.55,1.45,3.80,1.22,4.70,1.15
+ObjectId(5f5a0ae0863543710f9c0f05),W25 Figueira Da Foz Hard,Thu 14:00,Tauson C.,Kempen M.,3.20,1.30,4.40,1.17,5.80,1.10
+ObjectId(5f5a0ae0863543710f9c0f06),W25 Tarvisio Clay,Thu 15:00,Jones F.,Gerlach K.,1.70,2.05,2.29,1.55,2.55,1.45
+ObjectId(5f5a0ae0863543710f9c0f07),W60 Saint Malo Clay,Thu 14:30,Dodin O.,Kostic N.,3.20,1.30,4.70,1.15,5.80,1.10

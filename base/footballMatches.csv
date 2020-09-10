@@ -1,0 +1,551 @@
+_id,league,time,homeTeam,guestTeam,odd1,oddX,odd2,odd1X,odd12,oddX2,odd0to2,odd3plus,odd4plus
+ObjectId(5f5a0a62863543710f9c0ca3),Qualification Champions League,Tue 19:00,Dynamo Kyiv,AZ Alkmaar,2.15,3.35,3.50,1.31,1.33,1.71,1.76,1.95,3.45
+ObjectId(5f5a0a68863543710f9c0ca4),Qualification Champions League,Tue 20:00,PAOK,Benfica,4.70,3.50,1.80,2.01,1.30,1.19,1.80,1.90,3.30
+ObjectId(5f5a0a69863543710f9c0ca5),Qualification Champions League,Tue 20:30,Gent,Rapid,1.85,3.50,4.40,1.21,1.30,1.95,1.96,1.75,2.90
+ObjectId(5f5a0a69863543710f9c0ca6),Qualification Champions League,Wed 17:00,Omonia,Crvena Zvezda,4.50,3.45,1.85,1.95,1.31,1.20,1.69,2.05,3.80
+ObjectId(5f5a0a69863543710f9c0ca7),Qualification Champions League,Wed 19:00,Ferencvaros,Dinamo Z.,3.35,3.35,2.20,1.68,1.33,1.33,1.80,1.90,3.30
+ObjectId(5f5a0a69863543710f9c0ca8),Qualification Champions League,Wed 19:00,Maccabi T.A.,Dinamo Brest,1.60,3.80,6.00,1.13,1.26,2.33,1.85,1.85,3.15
+ObjectId(5f5a0a69863543710f9c0ca9),Qualification Champions League,Wed 19:00,Qarabag,Molde,2.80,3.25,2.55,1.50,1.33,1.43,1.80,1.90,3.30
+ObjectId(5f5a0a6a863543710f9c0caa),Qualification Champions League,Wed 20:30,Midtjylland,Young Boys,2.70,3.25,2.65,1.47,1.34,1.46,1.90,1.80,3.05
+ObjectId(5f5a0a6a863543710f9c0cab),Qualification Europa League,Thu 19:30,Nomme,Mura,13.0,7.75,1.18,4.80,1.08,1.02,3.20,1.30,1.73
+ObjectId(5f5a0a6a863543710f9c0cac),Qualification Europa League,Wed 19:00,Hammarby TFF,Lech Poznan,2.45,3.30,2.95,1.41,1.34,1.56,1.90,1.80,3.05
+ObjectId(5f5a0a6a863543710f9c0cad),Qualification Europa League,17.09. Thu 17:45,Botosani,Shkendija,1.80,3.50,4.70,1.19,1.30,2.01,1.76,1.95,3.45
+ObjectId(5f5a0a6b863543710f9c0cae),Qualification Europa League,17.09. Thu 18:00,Riteriai,Liberec,7.25,4.40,1.45,2.70,1.21,1.09,2.19,1.60,2.55
+ObjectId(5f5a0a6b863543710f9c0caf),Qualification Europa League,17.09. Thu 19:00,Lok.Tbilisi,Dinamo Moscow,7.75,4.30,1.45,2.75,1.22,1.08,1.85,1.85,3.15
+ObjectId(5f5a0a6b863543710f9c0cb0),Qualification Europa League,17.09. Thu 19:00,Sfintul,Partizan,6.50,4.30,1.50,2.55,1.22,1.11,2.11,1.65,2.70
+ObjectId(5f5a0a6b863543710f9c0cb1),Qualification Europa League,17.09. Thu 20:00,Piast Gliwice,Hartberg,2.25,3.35,3.20,1.35,1.32,1.64,1.96,1.75,2.90
+ObjectId(5f5a0a6b863543710f9c0cb2),Qualification Europa League,17.09. Thu 20:45,Dac Streda,Jablonec,2.20,3.35,3.35,1.33,1.33,1.68,1.76,1.95,3.45
+ObjectId(5f5a0a6c863543710f9c0cb3),Qualification Europa League,17.09. Thu 21:00,Backa Topola,FCSB,4.40,3.50,1.85,1.95,1.30,1.21,1.85,1.85,3.15
+ObjectId(5f5a0a6c863543710f9c0cb4),England - Premier,Sat 13:30,Fulham,Arsenal,5.80,3.90,1.60,2.33,1.25,1.13,2.03,1.70,2.75
+ObjectId(5f5a0a6c863543710f9c0cb5),England - Premier,Sat 16:00,Crystal Pal.,Southampton,3.00,3.10,2.50,1.52,1.36,1.38,1.62,2.15,4.00
+ObjectId(5f5a0a6c863543710f9c0cb6),England - Premier,Sat 18:30,Liverpool,Leeds,1.30,5.70,9.00,1.06,1.14,3.45,2.41,1.50,2.20
+ObjectId(5f5a0a6c863543710f9c0cb7),England - Premier,Sat 21:00,West Ham,Newcastle,2.25,3.30,3.25,1.34,1.33,1.64,1.85,1.85,3.15
+ObjectId(5f5a0a6d863543710f9c0cb8),England - Premier,Sun 15:00,WBA,Leicester,3.60,3.45,2.05,1.76,1.31,1.29,1.90,1.80,3.05
+ObjectId(5f5a0a6d863543710f9c0cb9),England - Premier,Sun 17:30,Tottenham,Everton,1.90,3.50,4.10,1.23,1.30,1.89,1.90,1.80,3.05
+ObjectId(5f5a0a6d863543710f9c0cba),England - Premier,Mon 19:00,Sheffield Utd,Wolverhampton,3.05,2.95,2.55,1.50,1.39,1.37,1.47,2.50,5.00
+ObjectId(5f5a0a6d863543710f9c0cbb),England - Premier,Mon 21:15,Brighton,Chelsea,5.20,3.70,1.70,2.16,1.28,1.16,2.03,1.70,2.75
+ObjectId(5f5a0a6d863543710f9c0cbc),England - Premier,19.09. Sat 13:30,Everton,WBA,1.60,4.00,5.70,1.14,1.25,2.35,2.11,1.65,2.70
+ObjectId(5f5a0a6e863543710f9c0cbd),England - Premier,19.09. Sat 16:00,Leeds,Fulham,1.75,3.50,5.10,1.17,1.30,2.08,1.72,2.00,3.60
+ObjectId(5f5a0a6e863543710f9c0cbe),England - Premier,19.09. Sat 18:30,Man.Utd.,Crystal Pal.,1.30,5.70,9.00,1.06,1.14,3.45,2.41,1.50,2.20
+ObjectId(5f5a0a6e863543710f9c0cbf),England - Premier,19.09. Sat 21:00,Arsenal,West Ham,1.55,4.10,6.00,1.12,1.23,2.44,2.19,1.60,2.55
+ObjectId(5f5a0a6e863543710f9c0cc0),England - Premier,20.09. Sun 13:00,Southampton,Tottenham,3.15,3.30,2.30,1.61,1.33,1.36,1.80,1.90,3.30
+ObjectId(5f5a0a6f863543710f9c0cc1),England - Premier,20.09. Sun 15:00,Newcastle,Brighton,2.60,3.00,2.95,1.39,1.38,1.49,1.55,2.30,4.40
+ObjectId(5f5a0a6f863543710f9c0cc2),England - Premier,20.09. Sun 17:30,Chelsea,Liverpool,3.25,3.45,2.20,1.67,1.31,1.34,2.11,1.65,2.70
+ObjectId(5f5a0a6f863543710f9c0cc3),England - Premier,20.09. Sun 20:00,Leicester,Burnley,1.60,3.80,6.00,1.13,1.26,2.33,1.85,1.85,3.15
+ObjectId(5f5a0a6f863543710f9c0cc4),England - Premier,21.09. Mon 19:00,Aston Villa,Sheffield Utd,2.70,3.10,2.75,1.44,1.36,1.46,1.69,2.05,3.80
+ObjectId(5f5a0a6f863543710f9c0cc5),England - Premier,21.09. Mon 21:15,Wolverhampton,Man.City,6.50,4.30,1.50,2.55,1.22,1.11,2.19,1.60,2.55
+ObjectId(5f5a0a70863543710f9c0cc6),Spain - Primera Division,Sat 16:00,Eibar,Celta,2.60,3.10,2.85,1.41,1.36,1.48,1.62,2.15,4.00
+ObjectId(5f5a0a70863543710f9c0cc7),Spain - Primera Division,Sat 18:30,Granada,Ath.Bilbao,2.80,2.85,2.90,1.41,1.42,1.44,1.47,2.50,5.00
+ObjectId(5f5a0a70863543710f9c0cc8),Spain - Primera Division,Sat 21:00,Cadiz,Osasuna,2.90,2.95,2.70,1.46,1.40,1.41,1.47,2.50,5.00
+ObjectId(5f5a0a70863543710f9c0cc9),Spain - Primera Division,Sun 14:00,Alaves,Betis,2.75,3.10,2.70,1.46,1.36,1.44,1.69,2.05,3.80
+ObjectId(5f5a0a70863543710f9c0cca),Spain - Primera Division,Sun 16:00,Valladolid,Sociedad,2.80,3.10,2.65,1.47,1.36,1.43,1.62,2.15,4.00
+ObjectId(5f5a0a71863543710f9c0ccb),Spain - Primera Division,Sun 18:30,Villareal,Huesca,1.60,3.80,6.00,1.13,1.26,2.33,1.90,1.80,3.05
+ObjectId(5f5a0a71863543710f9c0ccc),Spain - Primera Division,Sun 21:00,Valencia,Levante,2.05,3.45,3.60,1.29,1.31,1.76,2.03,1.70,2.75
+ObjectId(5f5a0a71863543710f9c0ccd),Spain - Primera Division,18.09. Fri 21:00,Getafe,Osasuna,1.85,3.35,4.70,1.19,1.33,1.96,1.47,2.50,5.00
+ObjectId(5f5a0a71863543710f9c0cce),Spain - Primera Division,19.09. Sat 16:00,Villareal,Eibar,1.60,4.00,5.70,1.14,1.25,2.35,2.11,1.65,2.70
+ObjectId(5f5a0a72863543710f9c0ccf),Spain - Primera Division,19.09. Sat 21:00,Celta,Valencia,2.55,3.25,2.80,1.43,1.33,1.50,1.80,1.90,3.30
+ObjectId(5f5a0a72863543710f9c0cd0),Spain - Primera Division,20.09. Sun 16:00,Huesca,Cadiz,2.25,3.00,3.60,1.29,1.38,1.64,1.47,2.50,5.00
+ObjectId(5f5a0a72863543710f9c0cd1),Spain - Primera Division,20.09. Sun 18:30,Granada,Alaves,2.30,3.00,3.50,1.30,1.39,1.62,1.53,2.35,4.60
+ObjectId(5f5a0a72863543710f9c0cd2),Spain - Primera Division,20.09. Sun 21:00,Sociedad,Real Madrid,4.90,3.60,1.75,2.08,1.29,1.18,2.19,1.60,2.55
+ObjectId(5f5a0a72863543710f9c0cd3),Spain - Primera Division,21.09. Mon 21:00,Betis,Valladolid,1.75,3.60,4.90,1.18,1.29,2.08,1.80,1.90,3.30
+ObjectId(5f5a0a73863543710f9c0cd4),Italy - Serie A,19.09. Sat 18:00,Fiorentina,Torino,1.90,3.50,4.10,1.23,1.30,1.89,1.96,1.75,2.90
+ObjectId(5f5a0a73863543710f9c0cd5),Italy - Serie A,19.09. Sat 20:45,Verona,Roma,3.50,3.45,2.10,1.74,1.31,1.31,1.96,1.75,2.90
+ObjectId(5f5a0a73863543710f9c0cd6),Italy - Serie A,20.09. Sun 12:30,Parma,Napoli,5.50,3.80,1.65,2.25,1.27,1.15,2.29,1.55,2.40
+ObjectId(5f5a0a73863543710f9c0cd7),Italy - Serie A,20.09. Sun 15:00,Genoa,Crotone,1.90,3.50,4.10,1.23,1.30,1.89,1.90,1.80,3.05
+ObjectId(5f5a0a73863543710f9c0cd8),Italy - Serie A,20.09. Sun 18:00,Sassuolo,Cagliari,1.95,3.50,3.90,1.25,1.30,1.84,2.29,1.55,2.40
+ObjectId(5f5a0a74863543710f9c0cd9),Italy - Serie A,20.09. Sun 20:45,Juventus,Sampdoria,1.25,6.50,10.0,1.05,1.11,3.90,2.55,1.45,2.10
+ObjectId(5f5a0a74863543710f9c0cda),Italy - Serie A,21.09. Mon 20:45,Milan,Bologna,1.55,4.10,6.00,1.12,1.23,2.44,2.29,1.55,2.40
+ObjectId(5f5a0a74863543710f9c0cdb),Italy - Serie A,26.09. Sat 15:00,Torino,Atalanta,3.90,3.50,1.95,1.84,1.30,1.25,2.29,1.55,2.40
+ObjectId(5f5a0a74863543710f9c0cdc),Italy - Serie A,26.09. Sat 18:00,Cagliari,Lazio,4.30,3.60,1.85,1.96,1.29,1.22,2.11,1.65,2.70
+ObjectId(5f5a0a75863543710f9c0cdd),Italy - Serie A,26.09. Sat 18:00,Sampdoria,Benevento,1.95,3.50,3.90,1.25,1.30,1.84,1.90,1.80,3.05
+ObjectId(5f5a0a75863543710f9c0cde),Italy - Serie A,26.09. Sat 20:45,Inter,Fiorentina,1.50,4.30,6.50,1.11,1.22,2.55,2.19,1.60,2.55
+ObjectId(5f5a0a75863543710f9c0cdf),Italy - Serie A,27.09. Sun 12:30,Spezia,Sassuolo,3.20,3.40,2.25,1.65,1.32,1.35,2.03,1.70,2.75
+ObjectId(5f5a0a75863543710f9c0ce0),Italy - Serie A,27.09. Sun 15:00,Napoli,Genoa,1.30,5.50,10.0,1.05,1.15,3.55,2.29,1.55,2.35
+ObjectId(5f5a0a75863543710f9c0ce1),Italy - Serie A,27.09. Sun 15:00,Verona,Udinese,3.20,3.10,2.40,1.57,1.37,1.35,1.62,2.15,4.00
+ObjectId(5f5a0a76863543710f9c0ce2),Italy - Serie A,27.09. Sun 18:00,Crotone,Milan,6.00,4.10,1.55,2.44,1.23,1.12,2.19,1.60,2.55
+ObjectId(5f5a0a76863543710f9c0ce3),Italy - Serie A,27.09. Sun 20:45,Roma,Juventus,3.50,3.45,2.10,1.74,1.31,1.31,2.19,1.60,2.55
+ObjectId(5f5a0a76863543710f9c0ce4),Italy - Serie A,28.09. Mon 20:45,Bologna,Parma,2.15,3.40,3.40,1.32,1.32,1.70,2.03,1.70,2.75
+ObjectId(5f5a0a76863543710f9c0ce5),Italy - Serie A,30.09. Wed 15:00,Benevento,Inter,8.00,5.30,1.35,3.15,1.16,1.08,2.41,1.50,2.25
+ObjectId(5f5a0a76863543710f9c0ce6),Italy - Serie A,30.09. Wed 15:00,Lazio,Atalanta,2.30,3.40,3.10,1.37,1.32,1.62,2.29,1.55,2.40
+ObjectId(5f5a0a77863543710f9c0ce7),Italy - Serie A,30.09. Wed 15:00,Udinese,Spezia,1.60,3.80,6.00,1.13,1.26,2.33,1.90,1.80,3.05
+ObjectId(5f5a0a77863543710f9c0ce8),Germany - 1. Bundesliga,18.09. Fri 20:30,Bayern,Schalke,1.15,8.50,15.0,1.01,1.07,5.40,4.00,1.20,1.53
+ObjectId(5f5a0a77863543710f9c0ce9),Germany - 1. Bundesliga,19.09. Sat 15:30,Eintr.Frankfurt,Bielefeld,1.60,4.00,5.60,1.14,1.24,2.33,2.41,1.50,2.25
+ObjectId(5f5a0a77863543710f9c0cea),Germany - 1. Bundesliga,19.09. Sat 15:30,Koln,Hoffenheim,2.50,3.40,2.75,1.44,1.31,1.52,2.41,1.50,2.25
+ObjectId(5f5a0a77863543710f9c0ceb),Germany - 1. Bundesliga,19.09. Sat 15:30,Stuttgart,Freiburg,2.15,3.40,3.40,1.32,1.32,1.70,1.96,1.75,2.90
+ObjectId(5f5a0a78863543710f9c0cec),Germany - 1. Bundesliga,19.09. Sat 15:30,Union Berlin,Augsburg,2.20,3.35,3.35,1.33,1.33,1.68,1.76,1.95,3.45
+ObjectId(5f5a0a78863543710f9c0ced),Germany - 1. Bundesliga,19.09. Sat 15:30,Werder,Hertha,2.80,3.35,2.50,1.53,1.32,1.43,2.11,1.65,2.70
+ObjectId(5f5a0a78863543710f9c0cee),Germany - 1. Bundesliga,19.09. Sat 18:30,Dortmund,M' gladbach,1.60,4.00,5.60,1.14,1.24,2.33,2.70,1.40,2.00
+ObjectId(5f5a0a78863543710f9c0cef),Germany - 1. Bundesliga,20.09. Sun 15:30,RB Leipzig,Mainz,1.35,5.30,8.00,1.08,1.16,3.15,2.90,1.35,1.95
+ObjectId(5f5a0a79863543710f9c0cf0),Germany - 1. Bundesliga,20.09. Sun 18:00,Wolfsburg,Leverkusen,2.95,3.35,2.40,1.57,1.32,1.40,2.03,1.70,2.75
+ObjectId(5f5a0a79863543710f9c0cf1),Germany - 1. Bundesliga,25.09. Fri 20:30,Hertha,Eintr.Frankfurt,2.20,3.45,3.25,1.34,1.31,1.67,2.11,1.65,2.70
+ObjectId(5f5a0a79863543710f9c0cf2),Germany - 1. Bundesliga,26.09. Sat 15:30,Augsburg,Dortmund,6.25,4.40,1.50,2.55,1.21,1.12,2.55,1.45,2.15
+ObjectId(5f5a0a79863543710f9c0cf3),Germany - 1. Bundesliga,26.09. Sat 15:30,Bielefeld,Koln,2.90,3.40,2.40,1.57,1.31,1.41,2.19,1.60,2.55
+ObjectId(5f5a0a79863543710f9c0cf4),Germany - 1. Bundesliga,26.09. Sat 15:30,Leverkusen,RB Leipzig,2.90,3.40,2.40,1.57,1.31,1.41,2.29,1.55,2.40
+ObjectId(5f5a0a7a863543710f9c0cf5),Germany - 1. Bundesliga,26.09. Sat 15:30,M' gladbach,Union Berlin,1.50,4.30,6.50,1.11,1.22,2.55,2.11,1.65,2.70
+ObjectId(5f5a0a7a863543710f9c0cf6),Germany - 1. Bundesliga,26.09. Sat 15:30,Mainz,Stuttgart,2.25,3.40,3.20,1.35,1.32,1.65,2.19,1.60,2.55
+ObjectId(5f5a0a7a863543710f9c0cf7),Germany - 1. Bundesliga,26.09. Sat 18:30,Schalke,Werder,2.25,3.40,3.20,1.35,1.32,1.65,2.11,1.65,2.70
+ObjectId(5f5a0a7a863543710f9c0cf8),Germany - 1. Bundesliga,27.09. Sun 15:30,Hoffenheim,Bayern,8.00,5.30,1.35,3.15,1.16,1.08,3.20,1.30,1.82
+ObjectId(5f5a0a7a863543710f9c0cf9),Germany - 1. Bundesliga,27.09. Sun 18:00,Freiburg,Wolfsburg,3.00,3.30,2.40,1.57,1.33,1.39,1.85,1.85,3.15
+ObjectId(5f5a0a7b863543710f9c0cfa),Germany - DFB Pokal,Fri 20:45,Braunschweig,Hertha,4.90,3.60,1.75,2.08,1.29,1.18,1.96,1.75,2.90
+ObjectId(5f5a0a7b863543710f9c0cfb),Germany - DFB Pokal,Fri 20:45,Havelse,Mainz,16.0,9.50,1.13,5.90,1.06,-,3.55,1.25,1.68
+ObjectId(5f5a0a7b863543710f9c0cfc),Germany - DFB Pokal,Sat 15:30,Altglienicke,Koln,15.0,8.50,1.15,5.40,1.07,-,3.20,1.30,1.73
+ObjectId(5f5a0a7b863543710f9c0cfd),Germany - DFB Pokal,Sat 15:30,Eintracht Celle,Augsburg,45.0,20.0,1.02,13.8,-,-,5.80,1.10,1.30
+ObjectId(5f5a0a7b863543710f9c0cfe),Germany - DFB Pokal,Sat 15:30,Engers,Bochum,40.0,18.0,1.03,12.4,-,-,4.00,1.20,-
+ObjectId(5f5a0a7c863543710f9c0cff),Germany - DFB Pokal,Sat 15:30,Furstenwalde,Wolfsburg,40.0,18.0,1.03,12.4,-,-,4.70,1.15,-
+ObjectId(5f5a0a7c863543710f9c0d00),Germany - DFB Pokal,Sat 15:30,Meinerzhagen,Greuther Furth,16.0,9.50,1.13,5.90,1.06,-,3.55,1.25,1.68
+ObjectId(5f5a0a7c863543710f9c0d01),Germany - DFB Pokal,Sat 15:30,Munchen 1860,Eintr.Frankfurt,6.00,4.20,1.55,2.47,1.23,1.13,2.55,1.45,2.15
+ObjectId(5f5a0a7c863543710f9c0d02),Germany - DFB Pokal,Sat 15:30,Nurnberg,RB Leipzig,7.75,5.00,1.38,3.00,1.17,1.08,2.55,1.45,2.15
+ObjectId(5f5a0a7d863543710f9c0d03),Germany - DFB Pokal,Sat 15:30,Oberneuland,M' gladbach,50.0,30.0,1.02,18.7,-,-,5.80,1.10,1.30
+ObjectId(5f5a0a7d863543710f9c0d04),Germany - DFB Pokal,Sat 15:30,Todesfelde,Osnabruck,15.0,7.25,1.18,4.80,1.09,-,2.41,1.50,2.20
+ObjectId(5f5a0a7d863543710f9c0d05),Germany - DFB Pokal,Sat 18:30,Ingolstadt,Fortuna Dusseldorf,3.00,3.30,2.40,1.57,1.33,1.39,1.90,1.80,3.05
+ObjectId(5f5a0a7d863543710f9c0d06),Germany - DFB Pokal,Sat 18:30,Karlsruher,Union Berlin,3.60,3.45,2.05,1.76,1.31,1.29,1.96,1.75,2.90
+ObjectId(5f5a0a7d863543710f9c0d07),Germany - DFB Pokal,Sat 18:30,Ulm,Erzgebirge Aue,3.90,3.50,1.95,1.84,1.30,1.25,1.96,1.75,2.90
+ObjectId(5f5a0a7e863543710f9c0d08),Germany - DFB Pokal,Sat 20:45,CZ Jena,Werder,8.50,5.40,1.33,3.30,1.15,1.07,2.55,1.45,2.15
+ObjectId(5f5a0a7e863543710f9c0d09),Germany - DFB Pokal,Sun 15:30,Chemnitz,Hoffenheim,19.0,11.0,1.10,6.90,1.04,-,2.90,1.35,1.90
+ObjectId(5f5a0a7e863543710f9c0d0a),Germany - DFB Pokal,Sun 15:30,Elversberg,St.Pauli,4.10,3.50,1.90,1.89,1.30,1.23,2.11,1.65,2.70
+ObjectId(5f5a0a7e863543710f9c0d0b),Germany - DFB Pokal,Sun 15:30,Hansa,Stuttgart,4.60,3.60,1.80,2.02,1.29,1.20,2.03,1.70,2.75
+ObjectId(5f5a0a7f863543710f9c0d0c),Germany - DFB Pokal,Sun 15:30,K'lautern,Jahn Regensburg,2.70,3.25,2.65,1.47,1.34,1.46,1.90,1.80,3.05
+ObjectId(5f5a0a7f863543710f9c0d0d),Germany - DFB Pokal,Sun 15:30,Norderstedt,Leverkusen,45.0,30.0,1.02,18.0,-,-,5.80,1.10,-
+ObjectId(5f5a0a7f863543710f9c0d0e),Germany - DFB Pokal,Sun 15:30,Rielasingen,Holstein Kiel,23.0,12.0,1.08,7.80,-,-,3.55,1.25,1.68
+ObjectId(5f5a0a7f863543710f9c0d0f),Germany - DFB Pokal,Sun 15:30,Schweinfurt,Schalke,19.0,11.0,1.10,6.90,1.04,-,2.90,1.35,1.90
+ObjectId(5f5a0a80863543710f9c0d10),Germany - DFB Pokal,Sun 15:30,Steinbach,Sandhausen,5.20,3.70,1.70,2.16,1.28,1.16,2.11,1.65,2.70
+ObjectId(5f5a0a80863543710f9c0d11),Germany - DFB Pokal,Sun 15:30,Wiedenbruck,Paderborn,9.00,5.70,1.30,3.45,1.14,1.06,2.55,1.45,2.10
+ObjectId(5f5a0a80863543710f9c0d12),Germany - DFB Pokal,Sun 18:30,Magdeburg,Darmstadt,2.80,3.25,2.55,1.50,1.33,1.43,1.85,1.85,3.15
+ObjectId(5f5a0a80863543710f9c0d13),Germany - DFB Pokal,Sun 18:30,Mannheim,Freiburg,6.50,4.30,1.50,2.55,1.22,1.11,2.29,1.55,2.40
+ObjectId(5f5a0a81863543710f9c0d14),Germany - DFB Pokal,Sun 18:30,Wehen,Heidenheim,2.75,3.35,2.55,1.51,1.32,1.45,2.19,1.60,2.55
+ObjectId(5f5a0a81863543710f9c0d15),Germany - DFB Pokal,Mon 18:30,Dinamo Dresden,Hamburger,3.80,3.45,2.00,1.81,1.31,1.27,2.19,1.60,2.55
+ObjectId(5f5a0a81863543710f9c0d16),Germany - DFB Pokal,Mon 18:30,RW Essen,Bielefeld,8.00,5.30,1.35,3.15,1.16,1.08,2.55,1.45,2.15
+ObjectId(5f5a0a81863543710f9c0d17),Germany - DFB Pokal,Mon 18:30,Wurzburger,Hannover,3.20,3.40,2.25,1.65,1.32,1.35,2.19,1.60,2.55
+ObjectId(5f5a0a81863543710f9c0d18),Germany - DFB Pokal,Mon 20:45,Duisburg,Dortmund,16.0,9.50,1.13,5.90,1.06,-,3.20,1.30,1.73
+ObjectId(5f5a0a82863543710f9c0d19),France - Ligue 1,Thu 21:00,Lens,PSG,4.90,3.60,1.75,2.08,1.29,1.18,1.90,1.80,3.05
+ObjectId(5f5a0a82863543710f9c0d1a),France - Ligue 1,Thu 21:00,Lens,PSG,5.05,3.75,1.80,2.15,1.33,1.22,2.00,1.85,3.15
+ObjectId(5f5a0a82863543710f9c0d1b),France - Ligue 1,Fri 21:00,Bordeaux,Olympique Lyon,3.90,3.40,2.00,1.82,1.32,1.26,1.69,2.05,3.80
+ObjectId(5f5a0a82863543710f9c0d1c),France - Ligue 1,Sat 17:00,Montpellier,Nice,2.30,3.20,3.25,1.34,1.35,1.61,1.72,2.00,3.60
+ObjectId(5f5a0a82863543710f9c0d1d),France - Ligue 1,Sat 21:00,Saint-Etienne ,Strasbourg,2.15,3.20,3.60,1.29,1.35,1.69,1.62,2.15,4.00
+ObjectId(5f5a0a83863543710f9c0d1e),France - Ligue 1,Sun 13:00,Lille,Metz,1.60,3.70,6.25,1.12,1.27,2.32,1.69,2.05,3.80
+ObjectId(5f5a0a83863543710f9c0d1f),France - Ligue 1,Sun 15:00,Angers,Reims,2.55,2.75,3.30,1.32,1.44,1.50,1.41,2.70,5.40
+ObjectId(5f5a0a83863543710f9c0d20),France - Ligue 1,Sun 15:00,Dijon,Brest,2.60,3.10,2.85,1.41,1.36,1.48,1.69,2.05,3.80
+ObjectId(5f5a0a83863543710f9c0d21),France - Ligue 1,Sun 15:00,Lorient,Lens,2.25,3.10,3.50,1.30,1.37,1.64,1.60,2.20,4.20
+ObjectId(5f5a0a84863543710f9c0d22),France - Ligue 1,Sun 15:00,Nimes,Rennes,3.25,3.20,2.30,1.61,1.35,1.34,1.69,2.05,3.80
+ObjectId(5f5a0a84863543710f9c0d23),France - Ligue 1,Sun 17:00,Monaco,Nantes,1.90,3.50,4.10,1.23,1.30,1.89,1.90,1.80,3.05
+ObjectId(5f5a0a84863543710f9c0d24),France - Ligue 1,Sun 21:00,PSG,Olympique Marseille,1.50,4.50,6.00,1.13,1.20,2.55,2.90,1.35,1.95
+ObjectId(5f5a0a84863543710f9c0d25),France - Ligue 1,Tue 21:00,Montpellier,Olympique Lyon,3.70,3.40,2.05,1.77,1.32,1.28,1.72,2.00,3.60
+ObjectId(5f5a0a84863543710f9c0d26),France - Ligue 1,Wed 21:00,PSG,Metz,1.07,13.0,25.0,-,1.03,8.50,4.00,1.20,1.53
+ObjectId(5f5a0a85863543710f9c0d27),France - Ligue 1,17.09. Thu 21:00,Olympique Marseille,Saint-Etienne ,1.80,3.45,4.80,1.18,1.31,2.01,1.69,2.05,3.80
+ObjectId(5f5a0a85863543710f9c0d28),France - Ligue 1,18.09. Fri 21:00,Olympique Lyon,Nimes,1.45,4.30,7.75,1.08,1.22,2.75,1.96,1.75,2.90
+ObjectId(5f5a0a85863543710f9c0d29),France - Ligue 1,19.09. Sat 17:00,Lens,Bordeaux,3.00,3.10,2.50,1.52,1.36,1.38,1.62,2.15,4.00
+ObjectId(5f5a0a85863543710f9c0d2a),France - Ligue 1,19.09. Sat 21:00,Rennes,Monaco,2.35,3.35,3.05,1.38,1.33,1.60,1.90,1.80,3.05
+ObjectId(5f5a0a85863543710f9c0d2b),France - Ligue 1,20.09. Sun 15:00,Brest,Lorient,2.35,3.10,3.25,1.34,1.36,1.59,1.60,2.20,4.20
+ObjectId(5f5a0a86863543710f9c0d2c),France - Ligue 1,20.09. Sun 15:00,Metz,Reims,2.65,2.95,2.95,1.40,1.40,1.48,1.47,2.50,5.00
+ObjectId(5f5a0a86863543710f9c0d2d),France - Ligue 1,20.09. Sun 15:00,Montpellier,Angers,2.05,3.30,3.80,1.26,1.33,1.77,1.60,2.20,4.20
+ObjectId(5f5a0a86863543710f9c0d2e),France - Ligue 1,20.09. Sun 15:00,Strasbourg,Dijon,1.90,3.40,4.30,1.22,1.32,1.90,1.69,2.05,3.80
+ObjectId(5f5a0a86863543710f9c0d2f),France - Ligue 1,20.09. Sun 17:00,Nantes,Saint-Etienne ,2.25,3.10,3.50,1.30,1.37,1.64,1.55,2.30,4.40
+ObjectId(5f5a0a86863543710f9c0d30),France - Ligue 1,20.09. Sun 21:00,Olympique Marseille,Lille,2.20,3.10,3.60,1.29,1.37,1.67,1.60,2.20,4.20
+ObjectId(5f5a0a87863543710f9c0d31),Serbia - Super Liga,Fri 19:00,Cukaricki,Crvena Zvezda,6.25,4.00,1.55,2.44,1.24,1.12,1.96,1.75,2.90
+ObjectId(5f5a0a87863543710f9c0d32),Netherlands - Eredivisie,Sat 18:45,Heerenveen,Willem II,2.60,3.30,2.70,1.45,1.32,1.49,2.19,1.60,2.55
+ObjectId(5f5a0a87863543710f9c0d33),Netherlands - Eredivisie,Sat 20:00,Zwolle,Feyenoord,4.30,3.60,1.85,1.96,1.29,1.22,2.41,1.50,2.25
+ObjectId(5f5a0a87863543710f9c0d34),Netherlands - Eredivisie,Sat 21:00,Twente,Fortuna S.,1.90,3.50,4.10,1.23,1.30,1.89,2.03,1.70,2.75
+ObjectId(5f5a0a88863543710f9c0d35),Netherlands - Eredivisie,Sun 12:15,Emmen,VVV Venlo,1.90,3.50,4.10,1.23,1.30,1.89,2.03,1.70,2.75
+ObjectId(5f5a0a88863543710f9c0d36),Netherlands - Eredivisie,Sun 14:30,Heracles,ADO Den Haag,1.85,3.60,4.30,1.22,1.29,1.96,2.11,1.65,2.70
+ObjectId(5f5a0a88863543710f9c0d37),Netherlands - Eredivisie,Sun 14:30,Sparta,Ajax,9.50,6.00,1.28,3.65,1.13,1.05,3.20,1.30,1.73
+ObjectId(5f5a0a88863543710f9c0d38),Netherlands - Eredivisie,Sun 16:45,Groningen,PSV,3.50,3.45,2.10,1.74,1.31,1.31,1.85,1.85,3.15
+ObjectId(5f5a0a88863543710f9c0d39),Netherlands - Eredivisie,Sun 16:45,RKC Waalwijk,Vitesse,4.70,3.70,1.75,2.07,1.28,1.19,2.41,1.50,2.25
+ObjectId(5f5a0a89863543710f9c0d3a),Belgium - Pro League,Fri 20:45,Eupen,Gent,3.60,3.45,2.05,1.76,1.31,1.29,2.03,1.70,2.75
+ObjectId(5f5a0a89863543710f9c0d3b),Belgium - Pro League,Sat 16:15,Mechelen,Oostende,1.95,3.50,3.90,1.25,1.30,1.84,2.29,1.55,2.40
+ObjectId(5f5a0a89863543710f9c0d3c),Belgium - Pro League,Sat 18:30,Leuven,Standard,5.50,3.80,1.65,2.25,1.27,1.15,1.80,1.90,3.30
+ObjectId(5f5a0a89863543710f9c0d3d),Belgium - Pro League,Sat 20:45,Club Brugge,Waas.Beveren,1.18,7.25,15.0,-,1.09,4.80,2.55,1.45,2.10
+ObjectId(5f5a0a89863543710f9c0d3e),Belgium - Pro League,Sun 13:30,Anderlecht,Cercle Brugge,1.50,4.30,6.50,1.11,1.22,2.55,2.29,1.55,2.40
+ObjectId(5f5a0a8a863543710f9c0d3f),Belgium - Pro League,Sun 16:00,St.Truiden,Antwerp,3.90,3.50,1.95,1.84,1.30,1.25,1.96,1.75,2.90
+ObjectId(5f5a0a8a863543710f9c0d40),Belgium - Pro League,Sun 18:15,Zulte-Waregem,Charleroi,3.60,3.45,2.05,1.76,1.31,1.29,2.03,1.70,2.75
+ObjectId(5f5a0a8a863543710f9c0d41),Belgium - Pro League,Sun 20:45,Kortrijk,Moeskroen,1.90,3.50,4.10,1.23,1.30,1.89,2.03,1.70,2.75
+ObjectId(5f5a0a8a863543710f9c0d42),Belgium - Pro League,Mon 20:45,Beerschot Wilrijk,Genk,3.50,3.45,2.10,1.74,1.31,1.31,2.11,1.65,2.70
+ObjectId(5f5a0a8a863543710f9c0d43),Turkey - 1. Super Ligi ,Fri 19:00,Rizespor,Fenerbahce,4.10,3.50,1.90,1.89,1.30,1.23,2.03,1.70,2.75
+ObjectId(5f5a0a8b863543710f9c0d44),Turkey - 1. Super Ligi ,Sat 16:00,Karagumruk,Malatyaspor,3.00,3.30,2.40,1.57,1.33,1.39,1.90,1.80,3.05
+ObjectId(5f5a0a8b863543710f9c0d45),Turkey - 1. Super Ligi ,Sat 16:00,Sivasspor,Alanyaspor,2.25,3.40,3.20,1.35,1.32,1.65,2.19,1.60,2.55
+ObjectId(5f5a0a8b863543710f9c0d46),Turkey - 1. Super Ligi ,Sat 19:00,Galatasaray,Gazisehir Gaziantep,1.50,4.30,6.50,1.11,1.22,2.55,2.19,1.60,2.55
+ObjectId(5f5a0a8b863543710f9c0d47),Turkey - 1. Super Ligi ,Sat 19:00,Goztepe,Denizlispor,2.20,3.25,3.45,1.31,1.34,1.67,1.69,2.05,3.80
+ObjectId(5f5a0a8c863543710f9c0d48),Turkey - 1. Super Ligi ,Sun 16:00,Ankaragucu,Erzurum,2.50,3.20,2.95,1.40,1.35,1.53,1.72,2.00,3.60
+ObjectId(5f5a0a8c863543710f9c0d49),Turkey - 1. Super Ligi ,Sun 16:00,Kayserispor,Kasimpasa,3.05,3.35,2.35,1.60,1.33,1.38,2.03,1.70,2.75
+ObjectId(5f5a0a8c863543710f9c0d4a),Turkey - 1. Super Ligi ,Sun 19:00,Antalya,Genclerbirligi,2.35,3.35,3.05,1.38,1.33,1.60,2.11,1.65,2.70
+ObjectId(5f5a0a8c863543710f9c0d4b),Turkey - 1. Super Ligi ,Sun 19:00,Trabzon,Besiktas,2.30,3.40,3.10,1.37,1.32,1.62,2.29,1.55,2.40
+ObjectId(5f5a0a8c863543710f9c0d4c),Turkey - 1. Super Ligi ,Mon 19:00,Hatayspor ,Buyuksehir,5.20,3.70,1.70,2.16,1.28,1.16,1.76,1.95,3.45
+ObjectId(5f5a0a8d863543710f9c0d4d),Russia - Premier League,Sat 12:45,Tambov,Ufa,3.25,2.75,2.60,1.49,1.44,1.34,1.41,2.70,5.40
+ObjectId(5f5a0a8d863543710f9c0d4e),Russia - Premier League,Sat 15:30,Ural,Khimki,2.40,3.00,3.30,1.33,1.39,1.57,1.53,2.35,4.60
+ObjectId(5f5a0a8d863543710f9c0d4f),Russia - Premier League,Sat 18:00,Akhmat Grozny,Sochi,2.60,3.00,2.95,1.39,1.38,1.49,1.53,2.35,4.60
+ObjectId(5f5a0a8d863543710f9c0d50),Russia - Premier League,Sun 15:30,Dinamo Moscow,Rubin,2.05,3.15,4.00,1.24,1.36,1.76,1.53,2.35,4.60
+ObjectId(5f5a0a8d863543710f9c0d51),Russia - Premier League,Sun 18:00,CSKA,Spartak Moscow,2.55,3.20,2.85,1.42,1.35,1.51,1.76,1.95,3.45
+ObjectId(5f5a0a8e863543710f9c0d52),Russia - Premier League,Sun 18:00,Rotor,Krasnodar,6.50,3.90,1.55,2.44,1.25,1.11,1.76,1.95,3.45
+ObjectId(5f5a0a8e863543710f9c0d53),Russia - Premier League,Mon 17:30,Zenit,Arsenal Tula,1.25,5.80,12.0,1.03,1.13,3.90,2.03,1.70,2.70
+ObjectId(5f5a0a8e863543710f9c0d54),Russia - Premier League,Mon 19:30,Rostov,Lok.Moscow,2.60,3.05,2.90,1.40,1.37,1.49,1.60,2.20,4.20
+ObjectId(5f5a0a8e863543710f9c0d55),Portugal - Primeira Liga,18.09. Fri 20:00,Famalicao,Benfica,8.50,4.50,1.40,2.90,1.20,1.07,2.03,1.70,2.75
+ObjectId(5f5a0a8f863543710f9c0d56),Portugal - Primeira Liga,18.09. Fri 22:15,Guimaraes,Belenenses,1.35,4.90,9.50,1.06,1.18,3.20,2.03,1.70,2.75
+ObjectId(5f5a0a8f863543710f9c0d57),Portugal - Primeira Liga,19.09. Sat 17:00,Nacional,Boavista,2.50,2.95,3.20,1.35,1.40,1.53,1.47,2.50,5.00
+ObjectId(5f5a0a8f863543710f9c0d58),Portugal - Primeira Liga,19.09. Sat 19:30,Sporting,Gil Vicente,1.40,4.50,8.50,1.07,1.20,2.90,1.85,1.85,3.15
+ObjectId(5f5a0a8f863543710f9c0d59),Portugal - Primeira Liga,19.09. Sat 22:00,Porto,Braga,1.60,3.90,5.80,1.13,1.25,2.33,2.03,1.70,2.75
+ObjectId(5f5a0a8f863543710f9c0d5a),Portugal - Primeira Liga,20.09. Sun 17:00,Santa Clara,Maritimo,2.10,3.20,3.80,1.27,1.35,1.74,1.60,2.20,4.20
+ObjectId(5f5a0a90863543710f9c0d5b),Portugal - Primeira Liga,20.09. Sun 19:30,Moreirense,Farense,2.20,3.10,3.60,1.29,1.37,1.67,1.60,2.20,4.20
+ObjectId(5f5a0a90863543710f9c0d5c),Portugal - Primeira Liga,20.09. Sun 22:00,Tondela,Rio Ave,3.60,3.10,2.20,1.67,1.37,1.29,1.55,2.30,4.40
+ObjectId(5f5a0a90863543710f9c0d5d),Portugal - Primeira Liga,21.09. Mon 20:45,Portimonense,Ferreira,2.15,3.10,3.80,1.27,1.37,1.71,1.60,2.20,4.20
+ObjectId(5f5a0a90863543710f9c0d5e),England - The Championship ,Fri 20:45,Watford,Middlesbrou.,2.05,3.35,3.80,1.27,1.33,1.78,1.69,2.05,3.80
+ObjectId(5f5a0a90863543710f9c0d5f),England - The Championship ,Sat 13:30,Birmingham,Brentford,4.00,3.45,1.95,1.85,1.31,1.25,1.76,1.95,3.45
+ObjectId(5f5a0a91863543710f9c0d60),England - The Championship ,Sat 13:30,Wycombe,Rotherham,2.75,3.20,2.65,1.48,1.35,1.45,1.80,1.90,3.30
+ObjectId(5f5a0a91863543710f9c0d61),England - The Championship ,Sat 16:00,Barnsley,Luton,2.25,3.30,3.25,1.34,1.33,1.64,1.85,1.85,3.15
+ObjectId(5f5a0a91863543710f9c0d62),England - The Championship ,Sat 16:00,Bournemouth,Blackburn,2.00,3.45,3.80,1.27,1.31,1.81,1.80,1.90,3.30
+ObjectId(5f5a0a91863543710f9c0d63),England - The Championship ,Sat 16:00,Bristol City,Coventry,2.20,3.35,3.35,1.33,1.33,1.68,1.76,1.95,3.45
+ObjectId(5f5a0a91863543710f9c0d64),England - The Championship ,Sat 16:00,Cardiff,Sheffield W.,2.20,3.25,3.45,1.31,1.34,1.67,1.69,2.05,3.80
+ObjectId(5f5a0a92863543710f9c0d65),England - The Championship ,Sat 16:00,Derby,Reading,2.15,3.35,3.50,1.31,1.33,1.71,1.85,1.85,3.15
+ObjectId(5f5a0a92863543710f9c0d66),England - The Championship ,Sat 16:00,Huddersfield,Norwich,3.25,3.20,2.30,1.61,1.35,1.34,1.72,2.00,3.60
+ObjectId(5f5a0a92863543710f9c0d67),England - The Championship ,Sat 16:00,Millwall,Stoke,2.65,3.00,2.90,1.41,1.38,1.47,1.55,2.30,4.40
+ObjectId(5f5a0a92863543710f9c0d68),England - The Championship ,Sat 16:00,Preston,Swansea,2.40,3.10,3.20,1.35,1.37,1.57,1.60,2.20,4.20
+ObjectId(5f5a0a93863543710f9c0d69),England - The Championship ,Sat 16:00,QPR,Nott.Forest,2.85,3.10,2.60,1.48,1.36,1.41,1.72,2.00,3.60
+ObjectId(5f5a0a93863543710f9c0d6a),Germany - 2. Bundesliga,18.09. Fri 18:30,Hamburger,Fortuna Dusseldorf,2.10,3.45,3.50,1.31,1.31,1.74,2.03,1.70,2.75
+ObjectId(5f5a0a93863543710f9c0d6b),Germany - 2. Bundesliga,18.09. Fri 18:30,Jahn Regensburg,Nurnberg,3.20,3.40,2.25,1.65,1.32,1.35,2.03,1.70,2.75
+ObjectId(5f5a0a93863543710f9c0d6c),Germany - 2. Bundesliga,19.09. Sat 13:00,Hannover,Karlsruher,1.60,3.90,5.80,1.13,1.25,2.33,1.96,1.75,2.90
+ObjectId(5f5a0a93863543710f9c0d6d),Germany - 2. Bundesliga,19.09. Sat 13:00,Sandhausen,Darmstadt,2.30,3.25,3.20,1.35,1.34,1.61,1.76,1.95,3.45
+ObjectId(5f5a0a94863543710f9c0d6e),Germany - 2. Bundesliga,19.09. Sat 13:00,Wurzburger,Erzgebirge Aue,2.10,3.45,3.50,1.31,1.31,1.74,1.96,1.75,2.90
+ObjectId(5f5a0a94863543710f9c0d6f),Germany - 2. Bundesliga,20.09. Sun 13:30,Greuther Furth,Osnabruck,2.00,3.45,3.80,1.27,1.31,1.81,1.96,1.75,2.90
+ObjectId(5f5a0a94863543710f9c0d70),Germany - 2. Bundesliga,20.09. Sun 13:30,Heidenheim,Braunschweig,1.95,3.45,4.00,1.25,1.31,1.85,1.76,1.95,3.45
+ObjectId(5f5a0a94863543710f9c0d71),Germany - 2. Bundesliga,20.09. Sun 13:30,Holstein Kiel,Paderborn,2.30,3.40,3.10,1.37,1.32,1.62,2.11,1.65,2.70
+ObjectId(5f5a0a94863543710f9c0d72),Germany - 2. Bundesliga,21.09. Mon 20:30,Bochum,St.Pauli,1.95,3.50,3.90,1.25,1.30,1.84,1.90,1.80,3.05
+ObjectId(5f5a0a95863543710f9c0d73),Copa Libertadores,Wed 00:15,Wilstermann ,Atletico PR ,1.60,3.80,6.00,1.13,1.26,2.33,1.80,1.90,3.30
+ObjectId(5f5a0a95863543710f9c0d74),Copa Libertadores,Wed 02:30,Binacional,LDU Quito,4.80,3.45,1.80,2.01,1.31,1.18,1.62,2.15,4.00
+ObjectId(5f5a0a95863543710f9c0d75),Copa Libertadores,Wed 02:30,Santos,Olimpia,1.37,4.70,9.00,1.06,1.19,3.05,1.85,1.85,3.15
+ObjectId(5f5a0a95863543710f9c0d76),Armenia - Premier League,Fri 14:45,Noah,Ararat Y.,1.95,3.35,3.70,1.23,1.28,1.76,1.76,1.95,3.40
+ObjectId(5f5a0a96863543710f9c0d77),Armenia - Premier League,Fri 17:15,Ararat A.,Lori,1.80,3.50,4.20,1.19,1.26,1.91,2.11,1.65,2.65
+ObjectId(5f5a0a96863543710f9c0d78),Australia - Capital Teritory League - play off,Sat 05:30,Belconnen,Cooma Tigers,1.65,3.90,4.60,1.16,1.21,2.11,3.20,1.30,1.80
+ObjectId(5f5a0a96863543710f9c0d79),Australia - Capital Teritory League - play off,Sat 07:45,Canberra,Gungahlin,2.00,3.80,2.95,1.31,1.19,1.66,2.50,1.40,1.97
+ObjectId(5f5a0a96863543710f9c0d7a),Australia - Capital Teritory League - play out,Sun 07:45,Tuggeranong United,Canberra Olympic,2.90,3.80,2.05,1.64,1.20,1.33,2.50,1.40,1.97
+ObjectId(5f5a0a96863543710f9c0d7b),Australia - NSW Premier League,Fri 11:30,Blacktown City,Sydney M21,2.65,3.70,2.25,1.54,1.22,1.40,2.50,1.40,1.97
+ObjectId(5f5a0a97863543710f9c0d7c),Australia - NSW Premier League,Fri 11:30,Manly United,North Shore M.,1.80,3.90,3.45,1.23,1.18,1.83,2.37,1.45,2.10
+ObjectId(5f5a0a97863543710f9c0d7d),Australia - NSW Premier League,Sat 08:00,Marconi,Druit Taun R.,1.75,4.00,3.60,1.22,1.18,1.89,2.37,1.45,2.10
+ObjectId(5f5a0a97863543710f9c0d7e),Australia - NSW Premier League,Sun 07:00,Sydney Olympic,APIA Leichhardt,1.50,4.30,5.10,1.11,1.16,2.33,2.37,1.45,2.10
+ObjectId(5f5a0a97863543710f9c0d7f),Australia - NSW Premier League,Sun 07:00,Sydney United,Sydney W. M21,1.55,4.30,4.60,1.14,1.16,2.22,2.50,1.40,1.97
+ObjectId(5f5a0a97863543710f9c0d80),Australia - NSW Premier League,Sun 08:00,Rockdale City,South Coast Wolves,2.65,3.70,2.25,1.54,1.22,1.40,2.37,1.45,2.10
+ObjectId(5f5a0a98863543710f9c0d81),Australia - Queensland Premier League,Sat 09:30,Brisbane City,Redlands United,1.65,4.30,3.90,1.19,1.16,2.05,2.90,1.30,1.80
+ObjectId(5f5a0a98863543710f9c0d82),Australia - Queensland Premier League,Sat 10:30,Gold Coust Knights,Brisbane Strikers,1.33,5.00,7.00,1.05,1.12,2.90,3.60,1.20,1.55
+ObjectId(5f5a0a98863543710f9c0d83),Australia - Queensland Premier League,Sat 11:00,Brisbane Suburbs,Capalaba,2.40,3.70,2.45,1.46,1.21,1.47,2.90,1.30,1.80
+ObjectId(5f5a0a98863543710f9c0d84),Australia - Queensland Premier League,Sun 07:30,Moreton Bay United,Lions,8.50,6.25,1.23,3.60,1.07,-,4.10,1.15,1.37
+ObjectId(5f5a0a98863543710f9c0d85),Australia - South Premier League,Fri 12:00,Metro Stars,Campbelltown,2.45,3.60,2.45,1.46,1.23,1.46,2.25,1.50,2.20
+ObjectId(5f5a0a99863543710f9c0d86),Australia - South Premier League,Sat 07:30,Adelaide City,Raiders,2.20,3.70,2.70,1.38,1.21,1.56,2.15,1.55,2.35
+ObjectId(5f5a0a99863543710f9c0d87),Australia - South Premier League,Sat 07:30,Comets,Adelaide M21,1.18,6.75,10.5,-,1.06,4.10,2.90,1.30,1.70
+ObjectId(5f5a0a99863543710f9c0d88),Australia - South Premier League,Sat 07:30,Para Hills,Blue Eagles,3.80,4.10,1.70,1.97,1.17,1.20,2.50,1.40,1.97
+ObjectId(5f5a0a99863543710f9c0d89),Australia - South Premier League,Sat 09:30,Cumberland,Croydon,2.55,3.35,2.55,1.45,1.27,1.45,2.15,1.55,2.35
+ObjectId(5f5a0a9a863543710f9c0d8a),Australia - South Premier League,Sat 10:30,Adelaide Olympic,Modbury,3.35,3.80,1.85,1.78,1.19,1.24,2.37,1.45,2.10
+ObjectId(5f5a0a9a863543710f9c0d8b),Austria - 1.Liga,Fri 18:30,A.Lustenau,Horn,2.20,3.40,3.00,1.34,1.27,1.59,2.55,1.45,2.10
+ObjectId(5f5a0a9a863543710f9c0d8c),Austria - 1.Liga,Fri 18:30,Austria Kl.,BW Linz,1.55,4.00,5.40,1.12,1.20,2.30,2.55,1.45,2.10
+ObjectId(5f5a0a9a863543710f9c0d8d),Austria - 1.Liga,Fri 18:30,FAC Wien,Lafnitz,2.75,3.25,2.45,1.49,1.30,1.40,2.11,1.65,2.65
+ObjectId(5f5a0a9a863543710f9c0d8e),Austria - 1.Liga,Fri 18:30,Kapfenberg,Wacker Innsbruck,4.00,3.60,1.80,1.89,1.24,1.20,2.41,1.50,2.20
+ObjectId(5f5a0a9b863543710f9c0d8f),Austria - 1.Liga,Sat 14:30,FC Juniors OO,Austria W.II,2.60,3.30,2.55,1.45,1.29,1.44,2.70,1.40,1.97
+ObjectId(5f5a0a9b863543710f9c0d90),Austria - 1.Liga,Sat 20:00,GAK,Dornbirn,2.00,3.45,3.45,1.27,1.27,1.73,2.41,1.50,2.20
+ObjectId(5f5a0a9b863543710f9c0d91),Austria - 1.Liga,Sun 10:30,Amstetten,Vorwarts,1.95,3.45,3.60,1.25,1.26,1.76,2.29,1.55,2.35
+ObjectId(5f5a0a9b863543710f9c0d92),Austria - 1.Liga,Sun 12:30,Liefering,Rapid II,1.50,4.10,5.80,1.10,1.19,2.40,2.90,1.35,1.92
+ObjectId(5f5a0a9b863543710f9c0d93),Austria - Bundesliga,Fri 18:30,Rapid,Admira,1.55,4.20,6.00,1.13,1.23,2.47,2.55,1.45,2.15
+ObjectId(5f5a0a9c863543710f9c0d94),Austria - Bundesliga,Fri 20:30,LASK,Austria Vienna,1.50,4.30,6.50,1.11,1.22,2.55,2.29,1.55,2.40
+ObjectId(5f5a0a9c863543710f9c0d95),Austria - Bundesliga,Sat 17:00,Altach,Hartberg,2.05,3.45,3.60,1.29,1.31,1.76,2.19,1.60,2.55
+ObjectId(5f5a0a9c863543710f9c0d96),Austria - Bundesliga,Sun 14:30,Ried,WSG Tirol,2.05,3.45,3.60,1.29,1.31,1.76,2.19,1.60,2.55
+ObjectId(5f5a0a9c863543710f9c0d97),Austria - Bundesliga,Sun 14:30,St.Polten,Sturm,3.90,3.50,1.95,1.84,1.30,1.25,1.96,1.75,2.90
+ObjectId(5f5a0a9d863543710f9c0d98),Austria - Bundesliga,Sun 17:00,Wolfsberger,Salzburg,6.00,4.50,1.50,2.55,1.20,1.13,2.90,1.35,1.95
+ObjectId(5f5a0a9d863543710f9c0d99),Austria Regionalliga Mittle,Fri 19:00,Bad Gleichenberg,Ried II,1.55,4.40,4.50,1.15,1.15,2.22,2.90,1.30,1.80
+ObjectId(5f5a0a9d863543710f9c0d9a),Austria Regionalliga Mittle,Fri 19:00,Hertha Wels,Voclamarkt,1.30,5.30,7.25,1.04,1.10,3.05,2.90,1.30,1.70
+ObjectId(5f5a0a9d863543710f9c0d9b),Austria Regionalliga Mittle,Fri 19:00,Spittal,Wels A.,2.05,3.80,2.90,1.33,1.20,1.64,2.50,1.40,1.97
+ObjectId(5f5a0a9d863543710f9c0d9c),Austria Regionalliga Mittle,Fri 19:00,Weiz SC,St. Anna,2.80,3.70,2.15,1.59,1.22,1.36,2.37,1.45,2.10
+ObjectId(5f5a0a9e863543710f9c0d9d),Austria Regionalliga Ost,Fri 19:30,Mannsdorf,Mauerwerk,1.45,4.30,5.70,1.08,1.16,2.45,2.25,1.50,2.20
+ObjectId(5f5a0a9e863543710f9c0d9e),Austria Regionalliga Ost,Fri 19:30,Neustadt,Drassburg,1.70,3.90,3.90,1.18,1.18,1.95,2.25,1.50,2.20
+ObjectId(5f5a0a9e863543710f9c0d9f),Austria Regionalliga West - Tyrol,Fri 19:00,Kitzbuhel,SV Hall,1.30,5.20,7.50,1.04,1.11,3.05,2.70,1.35,1.87
+ObjectId(5f5a0a9e863543710f9c0da0),Austria Regionalliga West - Tyrol,Fri 19:00,WSG Tirol II,Wacker Innsbruck II,8.50,5.70,1.25,3.40,1.09,1.03,2.25,1.50,2.15
+ObjectId(5f5a0a9e863543710f9c0da1),Austria Regionalliga West - Tyrol,29.09. Tue 19:00,Schwaz,SV Hall,1.38,4.60,6.50,1.06,1.14,2.65,2.70,1.35,1.92
+ObjectId(5f5a0a9f863543710f9c0da2),B&H - Premier Liga,Fri 20:00,Sarajevo,Borac B.,1.85,3.35,4.10,1.19,1.27,1.84,1.69,2.05,3.70
+ObjectId(5f5a0a9f863543710f9c0da3),B&H - Premier Liga,Wed 17:00,Olimpic Sar.,Sarajevo,7.75,4.20,1.40,2.70,1.19,1.05,1.90,1.80,3.00
+ObjectId(5f5a0a9f863543710f9c0da4),B&H - Premier Liga,Wed 17:00,Zeljeznicar,Zrinjski,1.70,3.45,4.90,1.14,1.26,2.02,1.72,2.00,3.50
+ObjectId(5f5a0a9f863543710f9c0da5),Belarus  1,Fri 16:00,Minsk ,Gorodeya,2.05,3.30,3.45,1.26,1.29,1.69,1.90,1.80,3.00
+ObjectId(5f5a0aa0863543710f9c0da6),Belarus  1,Sat 13:00,Rukh Brest,Neman Grodno ,3.30,3.30,2.10,1.65,1.28,1.28,1.90,1.80,3.00
+ObjectId(5f5a0aa0863543710f9c0da7),Belarus  1,Sat 15:00,Bate Borisov,Smolevichy,1.10,8.50,19.0,-,1.04,5.80,2.55,1.45,2.05
+ObjectId(5f5a0aa0863543710f9c0da8),Belarus  1,Sat 17:00,Sh.Soligorsk,Vitebsk,1.47,3.90,7.00,1.07,1.21,2.50,1.76,1.95,3.40
+ObjectId(5f5a0aa0863543710f9c0da9),Belarus  1,Sat 19:00,Dinamo Minsk,Dinamo Brest,2.15,3.00,3.50,1.25,1.33,1.62,1.55,2.30,4.30
+ObjectId(5f5a0aa0863543710f9c0daa),Belarus  1,Sun 13:00,Energetik BGU,Slutsk,1.50,4.00,6.00,1.09,1.20,2.40,2.19,1.60,2.50
+ObjectId(5f5a0aa1863543710f9c0dab),Belarus  1,Sun 15:00,Belshina ,Minsk Isloch,3.30,3.30,2.10,1.65,1.28,1.28,2.03,1.70,2.70
+ObjectId(5f5a0aa1863543710f9c0dac),Belarus  1,Sun 17:00,Torpedo Zhodino ,Slavia Mozyr ,1.70,3.60,4.70,1.15,1.25,2.04,2.29,1.55,2.35
+ObjectId(5f5a0aa1863543710f9c0dad),Belarus  1,23.09. Wed 15:00,Smolevichy,Minsk ,3.05,3.00,2.40,1.51,1.34,1.33,1.62,2.15,3.90
+ObjectId(5f5a0aa1863543710f9c0dae),Belarus - Reserve Vysshaya Liga,Fri 12:30,Bate Borisov II,Smolevichi II,1.15,7.50,11.0,-,1.04,4.40,2.70,1.35,1.87
+ObjectId(5f5a0aa1863543710f9c0daf),Belarus - Reserve Vysshaya Liga,Fri 14:00,Soligrski II,Vitebsk II,1.13,8.00,13.0,-,1.04,4.90,2.90,1.30,1.70
+ObjectId(5f5a0aa2863543710f9c0db0),Belgium - Second Division,Fri 20:00,Lommel,Lierse Kempenzonen,2.15,3.35,3.15,1.31,1.28,1.62,2.19,1.60,2.50
+ObjectId(5f5a0aa2863543710f9c0db1),Belgium - Second Division,Sat 20:45,Deinze,RWD Molenbeek,2.05,3.25,3.50,1.26,1.29,1.69,1.76,1.95,3.40
+ObjectId(5f5a0aa2863543710f9c0db2),Belgium - Second Division,Sun 16:00,Club Brugge II,St.Gilloise,4.80,3.50,1.70,2.02,1.26,1.14,1.90,1.80,3.00
+ObjectId(5f5a0aa2863543710f9c0db3),Belgium - Second Division,Sun 20:00,RFC Seraing,Westerlo,3.10,3.20,2.25,1.57,1.30,1.32,1.80,1.90,3.25
+ObjectId(5f5a0aa2863543710f9c0db4),Brazil - 1 W,Thu 20:00,Kindermann W,Osasco W,1.05,11.5,22.0,-,-,7.50,4.10,1.15,1.37
+ObjectId(5f5a0aa3863543710f9c0db5),Brazil - 1 W,Fri 00:30,Internacional W,Corinthians W,4.90,4.10,1.55,2.23,1.18,1.12,2.15,1.55,2.35
+ObjectId(5f5a0aa3863543710f9c0db6),Brazil - Serie A,Fri 00:15,Bahia ,Gremio,2.90,3.05,2.60,1.49,1.37,1.40,1.60,2.20,4.20
+ObjectId(5f5a0aa3863543710f9c0db7),Brazil - Serie A,Fri 00:15,Corinthians ,Palmeiras ,3.30,3.00,2.40,1.57,1.39,1.33,1.53,2.35,4.60
+ObjectId(5f5a0aa3863543710f9c0db8),Brazil - Serie A,Fri 00:15,Internacional,Ceara CE,1.63,3.50,6.50,1.11,1.30,2.28,1.55,2.30,4.40
+ObjectId(5f5a0aa4863543710f9c0db9),Brazil - Serie A,Fri 00:15,Internacional,Ceara CE,1.75,3.70,6.85,1.19,1.39,2.40,1.65,2.45,4.65
+ObjectId(5f5a0aa4863543710f9c0dba),Brazil - Serie A,Fri 02:00,Vasco da Gama ,Atletico Go,2.00,3.30,4.00,1.25,1.33,1.81,1.53,2.35,4.60
+ObjectId(5f5a0aa4863543710f9c0dbb),Brazil - Serie A,Fri 02:00,Vasco da Gama ,Atletico Go,2.10,3.40,4.15,1.30,1.39,1.87,1.60,2.45,4.75
+ObjectId(5f5a0aa4863543710f9c0dbc),Brazil - Serie A,Sat 21:30,Atletico PR ,Coritiba,1.90,3.35,4.40,1.21,1.33,1.90,1.53,2.35,4.60
+ObjectId(5f5a0aa4863543710f9c0dbd),Brazil - Serie A,Sat 23:55,Santos,Sao Paulo,2.65,3.00,2.90,1.41,1.38,1.47,1.55,2.30,4.40
+ObjectId(5f5a0aa5863543710f9c0dbe),Brazil - Serie A,Sun 21:00,Fluminense,Corinthians ,2.60,3.00,2.95,1.39,1.38,1.49,1.53,2.35,4.60
+ObjectId(5f5a0aa5863543710f9c0dbf),Brazil - Serie A,Sun 21:00,Gremio,Fortaleza CE,1.80,3.45,4.80,1.18,1.31,2.01,1.62,2.15,4.00
+ObjectId(5f5a0aa5863543710f9c0dc0),Brazil - Serie A,Sun 23:00,Atletico Mineiro,Bragantino ,1.55,4.00,6.25,1.12,1.24,2.44,1.85,1.85,3.15
+ObjectId(5f5a0aa5863543710f9c0dc1),Brazil - Serie A,Sun 23:00,Bahia ,Atletico Go,1.85,3.40,4.60,1.20,1.32,1.95,1.53,2.35,4.60
+ObjectId(5f5a0aa5863543710f9c0dc2),Brazil - Serie A,Sun 23:00,Ceara CE,Flamengo ,5.10,3.50,1.75,2.08,1.30,1.17,1.72,2.00,3.60
+ObjectId(5f5a0aa6863543710f9c0dc3),Brazil - Serie A,Sun 23:00,Goias,Internacional,4.60,3.40,1.85,1.95,1.32,1.20,1.60,2.20,4.20
+ObjectId(5f5a0aa6863543710f9c0dc4),Brazil - Serie A,Mon 00:45,Palmeiras ,Sport Recife ,1.50,3.90,7.75,1.08,1.26,2.55,1.60,2.20,4.20
+ObjectId(5f5a0aa6863543710f9c0dc5),Brazil - Serie A,Mon 01:30,Botafogo ,Vasco da Gama ,2.90,2.95,2.70,1.46,1.40,1.41,1.53,2.35,4.60
+ObjectId(5f5a0aa6863543710f9c0dc6),Brazil - Serie C group A,Fri 01:00,Treze PB,Remo,4.20,3.30,1.85,1.85,1.28,1.19,1.60,2.20,4.10
+ObjectId(5f5a0aa7863543710f9c0dc7),Brazil - Serie C group B,Thu 20:00,Volta Redonda,Ypiranga,2.10,3.05,3.60,1.24,1.33,1.65,1.60,2.20,4.10
+ObjectId(5f5a0aa7863543710f9c0dc8),Bulgaria  A PFG,Fri 17:45,Botev Vratsa ,Arda Kardzhali,2.75,2.75,2.80,1.38,1.39,1.39,1.60,2.20,4.10
+ObjectId(5f5a0aa7863543710f9c0dc9),Bulgaria  A PFG,Fri 20:00,Botev Plovdiv,Tsarsko Selo,1.85,3.35,4.10,1.19,1.27,1.84,1.72,2.00,3.50
+ObjectId(5f5a0aa7863543710f9c0dca),Bulgaria  A PFG,Sat 17:45,Cherno More ,CSKA Sofia,3.20,3.10,2.25,1.57,1.32,1.30,1.69,2.05,3.70
+ObjectId(5f5a0aa7863543710f9c0dcb),Bulgaria  A PFG,Sat 20:00,Ludogorets,Lokomotiv Plovdiv ,1.60,3.70,5.40,1.12,1.23,2.20,1.85,1.85,3.10
+ObjectId(5f5a0aa8863543710f9c0dcc),Bulgaria  A PFG,Sun 17:45,CSKA 1948,Montana,1.65,3.60,5.10,1.13,1.25,2.11,1.80,1.90,3.25
+ObjectId(5f5a0aa8863543710f9c0dcd),Bulgaria  A PFG,Sun 20:00,Levski Sofia,Etar,1.50,3.80,6.50,1.08,1.22,2.40,1.80,1.90,3.25
+ObjectId(5f5a0aa8863543710f9c0dce),Bulgaria  A PFG,Mon 18:30,Slavia Sofia,Beroe,3.70,3.35,1.95,1.76,1.28,1.23,1.76,1.95,3.40
+ObjectId(5f5a0aa8863543710f9c0dcf),Bulgaria 2,Thu 16:00,Dobrudzha,Lokomotiv Sofia,15.0,7.00,1.15,4.70,1.07,-,2.55,1.45,2.05
+ObjectId(5f5a0aa8863543710f9c0dd0),Chile 1,Thu 16:00,Audax Italiano,La Serena,2.05,3.30,3.45,1.26,1.29,1.69,1.96,1.75,2.85
+ObjectId(5f5a0aa9863543710f9c0dd1),Chile 1,Thu 16:00,Audax Italiano,La Serena,2.15,3.40,3.55,1.32,1.34,1.74,2.05,1.80,2.95
+ObjectId(5f5a0aa9863543710f9c0dd2),Chile 1,Thu 21:00,Deportes Iquique,Universitad Chile,4.50,3.50,1.75,1.97,1.26,1.17,1.96,1.75,2.85
+ObjectId(5f5a0aa9863543710f9c0dd3),Chile 1,Thu 21:00,Deportes Iquique,Universitad Chile,4.65,3.65,1.80,2.04,1.30,1.21,2.05,1.80,2.95
+ObjectId(5f5a0aa9863543710f9c0dd4),Chile 1,Thu 23:30,Everton CD,Antofagasta,2.40,3.10,2.95,1.35,1.32,1.51,1.69,2.05,3.70
+ObjectId(5f5a0aa9863543710f9c0dd5),Chile 2,Thu 18:30,Dep.Santa Cruz,Puerto Montt,3.45,3.20,2.10,1.66,1.31,1.27,1.72,2.00,3.50
+ObjectId(5f5a0aaa863543710f9c0dd6),Chile 2,Thu 21:00,Copiapo,Nublense,2.40,3.15,2.90,1.36,1.31,1.51,1.76,1.95,3.40
+ObjectId(5f5a0aaa863543710f9c0dd7),China CSL - Group A,Sun 12:00,Jiangsu,Guangzhou R&F,1.55,3.90,5.60,1.11,1.21,2.30,2.29,1.55,2.35
+ObjectId(5f5a0aaa863543710f9c0dd8),China CSL - Group A,Sun 14:00,Shandong,Guangzhou E.,3.45,3.45,2.00,1.73,1.27,1.27,2.29,1.55,2.35
+ObjectId(5f5a0aaa863543710f9c0dd9),China CSL - Group A,Mon 12:00,Henan Jianye,Shenzhen,4.20,3.45,1.80,1.89,1.26,1.18,2.03,1.70,2.70
+ObjectId(5f5a0aab863543710f9c0dda),China CSL - Group A,Mon 14:00,Dalien Aerbin,Shanghai Shenhua,2.00,3.35,3.50,1.25,1.27,1.71,1.96,1.75,2.85
+ObjectId(5f5a0aab863543710f9c0ddb),China CSL - Group B,Thu 14:00,Shanghai Dongya,Qingdao Hainiu,1.35,4.80,7.50,1.05,1.14,2.90,2.41,1.50,2.20
+ObjectId(5f5a0aab863543710f9c0ddc),China CSL - Group B,Thu 14:00,Shanghai Dongya,Qingdao Hainiu,1.45,5.15,8.05,1.13,1.23,3.10,2.60,1.65,2.35
+ObjectId(5f5a0aab863543710f9c0ddd),China CSL - Group B,Fri 12:00,Chongqing,Hebei CFFC,3.50,3.35,2.00,1.71,1.27,1.25,2.11,1.65,2.65
+ObjectId(5f5a0aab863543710f9c0dde),China CSL - Group B,Fri 14:00,Shijiazhuang,Wuhan Zall ,2.80,3.20,2.45,1.49,1.31,1.39,1.85,1.85,3.10
+ObjectId(5f5a0aac863543710f9c0ddf),Colombia - Apertura,Sun 01:00,Deportivo Cali,Millionarios,2.05,3.05,3.80,1.23,1.33,1.69,1.53,2.35,4.50
+ObjectId(5f5a0aac863543710f9c0de0),Colombia - Apertura,Mon 02:30,Deportivo Pasto,Deportivo Tolima,2.65,2.85,2.85,1.37,1.37,1.43,1.53,2.35,4.50
+ObjectId(5f5a0aac863543710f9c0de1),Colombia - Super Cup,Sat 02:00,America Cali,CPD Junior,2.50,2.90,3.00,1.34,1.36,1.47,1.53,2.35,4.50
+ObjectId(5f5a0aac863543710f9c0de2),Croatia - 1.NHL,Fri 20:00,Slaven,Sibenik,1.55,3.90,5.60,1.11,1.21,2.30,2.11,1.65,2.65
+ObjectId(5f5a0aac863543710f9c0de3),Croatia - 1.NHL,Sat 17:00,Osijek,Rijeka,2.35,3.25,2.90,1.36,1.30,1.53,2.03,1.70,2.70
+ObjectId(5f5a0aad863543710f9c0de4),Croatia - 1.NHL,Sat 19:05,Hajduk,Dinamo Z.,3.00,3.30,2.25,1.57,1.29,1.34,2.11,1.65,2.65
+ObjectId(5f5a0aad863543710f9c0de5),Croatia - 1.NHL,Sun 17:00,Istra 1961,Varaždin,2.40,3.15,2.90,1.36,1.31,1.51,1.80,1.90,3.25
+ObjectId(5f5a0aad863543710f9c0de6),Croatia - 1.NHL,Sun 19:05,Lok.Zagreb,Hnk Gorica,2.30,3.30,2.90,1.36,1.28,1.54,2.19,1.60,2.50
+ObjectId(5f5a0aad863543710f9c0de7),Croatia 2. HNL,Fri 16:30,Dubrava,Inter Zapresic,2.75,3.05,2.55,1.45,1.32,1.39,1.69,2.05,3.70
+ObjectId(5f5a0aae863543710f9c0de8),Croatia 2. HNL,Sat 16:30,Dragovoljac,Dugopolje,2.30,3.25,2.95,1.35,1.29,1.55,1.90,1.80,3.00
+ObjectId(5f5a0aae863543710f9c0de9),Croatia 2. HNL,Sat 16:30,Orijent,Medjimurje,2.10,3.30,3.30,1.28,1.28,1.65,1.90,1.80,3.00
+ObjectId(5f5a0aae863543710f9c0dea),Croatia 2. HNL,Sat 16:30,Rudes,Opatija,3.10,3.10,2.30,1.55,1.32,1.32,1.69,2.05,3.70
+ObjectId(5f5a0aae863543710f9c0deb),Croatia 2. HNL,Sat 16:30,Solin,Dinamo Z.II,2.65,2.95,2.75,1.40,1.35,1.42,1.62,2.15,3.90
+ObjectId(5f5a0aae863543710f9c0dec),Croatia 2. HNL,Sat 18:00,Cibalia,Kustosija,2.60,3.00,2.75,1.39,1.34,1.43,1.69,2.05,3.70
+ObjectId(5f5a0aaf863543710f9c0ded),Croatia 2. HNL,Sun 16:30,Osijek II,Junak Sinj,1.60,3.60,5.60,1.11,1.24,2.19,1.72,2.00,3.50
+ObjectId(5f5a0aaf863543710f9c0dee),Croatia 2. HNL,Sun 16:30,Zmijavci,Hajduk II,2.35,3.15,2.95,1.35,1.31,1.52,1.76,1.95,3.40
+ObjectId(5f5a0aaf863543710f9c0def),Cyprus 1. Division,Sat 17:30,Apoel Nicosia,Ael Limassol,1.70,3.40,5.00,1.13,1.27,2.02,1.60,2.20,4.10
+ObjectId(5f5a0aaf863543710f9c0df0),Cyprus 1. Division,Sat 18:30,Apollon Lim.,Paphos,1.45,4.10,6.75,1.07,1.19,2.55,1.96,1.75,2.85
+ObjectId(5f5a0aaf863543710f9c0df1),Cyprus 1. Division,Sat 19:30,Anorthosis,Omonia,2.55,3.05,2.75,1.39,1.32,1.45,1.69,2.05,3.70
+ObjectId(5f5a0ab0863543710f9c0df2),Cyprus 1. Division,Sun 17:30,Nea Salamina,Enosis P.,1.75,3.50,4.50,1.17,1.26,1.97,1.90,1.80,3.00
+ObjectId(5f5a0ab0863543710f9c0df3),Cyprus 1. Division,Sun 18:30,Karmiotissa,AEK Larnaca,5.10,3.60,1.65,2.11,1.25,1.13,2.03,1.70,2.70
+ObjectId(5f5a0ab0863543710f9c0df4),Cyprus 1. Division,Sun 19:30,Olympiakos N.,Katokopia,2.05,3.20,3.60,1.25,1.31,1.69,1.69,2.05,3.70
+ObjectId(5f5a0ab0863543710f9c0df5),Cyprus 1. Division,Mon 18:00,Ethnikos Achnas,Ermis,1.85,3.45,4.00,1.20,1.26,1.85,1.90,1.80,3.00
+ObjectId(5f5a0ab1863543710f9c0df6),Czech R. - 2. liga,Thu 18:00,Slovan Usti,Vysocina Jihlava,2.95,3.35,2.25,1.57,1.28,1.35,2.55,1.45,2.10
+ObjectId(5f5a0ab1863543710f9c0df7),Czech R. - 2. liga,Fri 17:00,Blansko,Dukla Praha,4.90,3.60,1.67,2.08,1.25,1.14,2.19,1.60,2.50
+ObjectId(5f5a0ab1863543710f9c0df8),Czech R. - 2. liga,Fri 18:00,Hradec,Chrudim,1.45,4.20,6.50,1.08,1.19,2.55,2.29,1.55,2.35
+ObjectId(5f5a0ab1863543710f9c0df9),Czech R. - 2. liga,Sat 17:00,Prostejov,Zizkov,3.90,3.60,1.82,1.87,1.24,1.21,2.70,1.40,1.97
+ObjectId(5f5a0ab1863543710f9c0dfa),Czech R. - 2. liga,Sat 17:00,SK Lisen,Varnsdorf,1.85,3.60,3.80,1.22,1.24,1.85,2.55,1.45,2.10
+ObjectId(5f5a0ab2863543710f9c0dfb),Czech R. - 2. liga,Sat 17:00,Trinec,Vlasim,2.25,3.25,3.05,1.33,1.29,1.57,1.90,1.80,3.00
+ObjectId(5f5a0ab2863543710f9c0dfc),Czech R. - Czech Liga,Fri 18:00,Sigma O.,Bohemians 05,2.45,3.10,3.10,1.37,1.37,1.55,1.60,2.20,4.20
+ObjectId(5f5a0ab2863543710f9c0dfd),Czech R. - Czech Liga,Sat 17:00,Budejovice,Liberec,3.30,3.40,2.20,1.67,1.32,1.34,1.90,1.80,3.05
+ObjectId(5f5a0ab2863543710f9c0dfe),Czech R. - Czech Liga,Sat 17:00,Jablonec,Ostrava,1.95,3.45,4.00,1.25,1.31,1.85,1.76,1.95,3.45
+ObjectId(5f5a0ab2863543710f9c0dff),Czech R. - Czech Liga,Sat 17:00,Pribram,Opava,2.15,3.20,3.60,1.29,1.35,1.69,1.62,2.15,4.00
+ObjectId(5f5a0ab3863543710f9c0e00),Czech R. - Czech Liga,Sat 17:00,Teplice,Slovacko,2.55,3.15,2.85,1.41,1.35,1.50,1.69,2.05,3.80
+ObjectId(5f5a0ab3863543710f9c0e01),Czech R. - Czech Liga,Sat 19:30,Pardubice,Slavia Praha,19.0,11.0,1.10,6.90,1.04,-,3.20,1.30,1.73
+ObjectId(5f5a0ab3863543710f9c0e02),Czech R. - Czech Liga,Sun 16:30,Karvina,Sparta Praha,6.50,4.30,1.50,2.55,1.22,1.11,2.19,1.60,2.55
+ObjectId(5f5a0ab3863543710f9c0e03),Czech R. - Czech Liga,Sun 16:30,Zlin,Brno,2.00,3.40,3.90,1.26,1.32,1.82,1.69,2.05,3.80
+ObjectId(5f5a0ab4863543710f9c0e04),Czech R. - Czech Liga,Sun 19:00,Plzen,M.Boleslav,1.25,6.50,10.0,1.05,1.11,3.90,2.90,1.35,1.90
+ObjectId(5f5a0ab4863543710f9c0e05),Denmark - Superliga,Fri 19:00,Sonderjylland,Midtjylland,5.80,3.90,1.60,2.33,1.25,1.13,2.03,1.70,2.75
+ObjectId(5f5a0ab4863543710f9c0e06),Denmark - Superliga,Sun 14:00,Horsens,Randers,2.75,3.25,2.60,1.49,1.34,1.44,1.85,1.85,3.15
+ObjectId(5f5a0ab4863543710f9c0e07),Denmark - Superliga,Sun 14:00,Lyngby,Aalborg,3.10,3.35,2.30,1.61,1.32,1.36,2.03,1.70,2.75
+ObjectId(5f5a0ab4863543710f9c0e08),Denmark - Superliga,Sun 16:00,Brondby,Nordsjaelland,2.05,3.45,3.60,1.29,1.31,1.76,2.29,1.55,2.40
+ObjectId(5f5a0ab5863543710f9c0e09),Denmark - Superliga,Sun 18:00,Odense,Copenhagen,4.10,3.50,1.90,1.89,1.30,1.23,1.96,1.75,2.90
+ObjectId(5f5a0ab5863543710f9c0e0a),Denmark - Superliga,Mon 19:00,Aarhus,Vejle Kolding,1.65,3.80,5.50,1.15,1.27,2.25,1.85,1.85,3.15
+ObjectId(5f5a0ab5863543710f9c0e0b),Denmark 2,Thu 19:00,Hobro IK,Viborg,3.15,3.25,2.20,1.60,1.30,1.31,1.85,1.85,3.10
+ObjectId(5f5a0ab5863543710f9c0e0c),Denmark 2,Fri 19:00,HB Koge,Hvidovre,2.30,3.25,2.95,1.35,1.29,1.55,2.03,1.70,2.70
+ObjectId(5f5a0ab5863543710f9c0e0d),Denmark 2,Fri 19:00,Helsingor,Silkeborg,4.20,3.50,1.80,1.91,1.26,1.19,2.19,1.60,2.50
+ObjectId(5f5a0ab6863543710f9c0e0e),Denmark 2,Sat 14:00,Skive,Esbjerg,4.80,3.50,1.70,2.02,1.26,1.14,2.19,1.60,2.50
+ObjectId(5f5a0ab6863543710f9c0e0f),Denmark 2,Sat 16:00,Fremad Amager,Vendsyssel,2.65,3.05,2.65,1.42,1.33,1.42,1.85,1.85,3.10
+ObjectId(5f5a0ab6863543710f9c0e10),Denmark 2,Sun 14:00,Fredericia,Kolding IF,2.00,3.40,3.50,1.26,1.27,1.72,2.19,1.60,2.50
+ObjectId(5f5a0ab6863543710f9c0e11),Denmark 3 A,Sat 13:00,SFB Oure,Thisted,2.45,3.70,2.40,1.47,1.21,1.46,2.15,1.55,2.35
+ObjectId(5f5a0ab6863543710f9c0e12),Denmark 3 A,Sat 13:00,Sydvest,Vsk Aarhus,2.55,3.35,2.55,1.45,1.27,1.45,2.15,1.55,2.35
+ObjectId(5f5a0ab7863543710f9c0e13),Denmark 3 A,Sat 14:00,Dalum,Holbaek ,2.45,3.60,2.45,1.46,1.23,1.46,2.06,1.60,2.50
+ObjectId(5f5a0ab7863543710f9c0e14),Denmark 3 A,Sat 14:00,Frem,Middelfart,2.95,3.70,2.05,1.64,1.21,1.32,2.15,1.55,2.35
+ObjectId(5f5a0ab7863543710f9c0e15),Denmark 3 A,Sat 14:00,Naesby,Arhus Fremad,3.50,3.80,1.80,1.82,1.19,1.22,2.15,1.55,2.35
+ObjectId(5f5a0ab7863543710f9c0e16),Denmark 3 A,Sun 13:00,Holstebro,Brabrand,3.00,3.70,2.00,1.66,1.20,1.30,2.25,1.50,2.20
+ObjectId(5f5a0ab8863543710f9c0e17),Denmark 3 A,Sun 15:00,B93,Jammerbugt,2.40,3.70,2.45,1.46,1.21,1.47,2.25,1.50,2.20
+ObjectId(5f5a0ab8863543710f9c0e18),Denmark 3 B,Fri 19:00,HIK,Skovshoved,1.75,3.70,3.80,1.19,1.20,1.87,1.80,1.80,3.00
+ObjectId(5f5a0ab8863543710f9c0e19),Denmark 3 B,Fri 19:00,Roskilde,Bronshoj,2.40,3.60,2.50,1.44,1.22,1.48,1.85,1.75,2.85
+ObjectId(5f5a0ab8863543710f9c0e1a),Denmark 3 B,Sat 13:00,Vanlose,Roskilde KFUM,2.00,3.70,3.00,1.30,1.20,1.66,1.91,1.70,2.70
+ObjectId(5f5a0ab8863543710f9c0e1b),Denmark 3 B,Sat 14:00,Hillerod,Avarta,1.90,3.70,3.30,1.26,1.21,1.74,2.06,1.60,2.50
+ObjectId(5f5a0ab9863543710f9c0e1c),Denmark 3 B,Sat 15:00,Nykobing,Slagelse,1.50,4.00,5.50,1.09,1.18,2.32,2.06,1.60,2.50
+ObjectId(5f5a0ab9863543710f9c0e1d),Denmark 3 B,Sun 13:00,AB Kobenhavn,Naestved,2.95,3.70,2.05,1.64,1.21,1.32,2.06,1.60,2.50
+ObjectId(5f5a0ab9863543710f9c0e1e),Egypt - Premier League,Thu 15:30,Pyramids,El Masry Club,1.70,3.50,4.90,1.14,1.26,2.04,1.80,1.90,3.25
+ObjectId(5f5a0ab9863543710f9c0e1f),Egypt - Premier League,Thu 15:30,Pyramids,El Masry Club,1.80,3.70,5.15,1.21,1.33,2.15,1.90,2.00,3.45
+ObjectId(5f5a0ab9863543710f9c0e20),Egypt - Premier League,Thu 18:00,Al Moqawloon,Haras,2.05,3.00,3.80,1.22,1.33,1.68,1.47,2.50,4.90
+ObjectId(5f5a0aba863543710f9c0e21),Egypt - Premier League,Thu 18:00,El Entag,Aswan,2.45,2.85,3.10,1.32,1.37,1.48,1.47,2.50,4.90
+ObjectId(5f5a0aba863543710f9c0e22),Egypt - Premier League,Thu 20:30,Smouha,Zamalek,4.10,3.20,1.90,1.80,1.30,1.19,1.47,2.50,4.90
+ObjectId(5f5a0aba863543710f9c0e23),Egypt - Premier League,Thu 20:30,Smouha,Zamalek,4.25,3.30,2.00,1.86,1.36,1.25,1.55,2.60,5.05
+ObjectId(5f5a0aba863543710f9c0e24),Egypt - Premier League,Fri 18:00,El Geish,El Gounah,2.85,2.75,2.75,1.40,1.40,1.38,1.53,2.35,4.50
+ObjectId(5f5a0abb863543710f9c0e25),Egypt - Premier League,Fri 18:00,Tanta,Lel Makasa,4.40,3.30,1.82,1.89,1.29,1.17,1.60,2.20,4.10
+ObjectId(5f5a0abb863543710f9c0e26),Egypt - Premier League,Fri 20:30,Al Ahly Cairo,SC Ismaily,1.17,6.25,15.0,-,1.09,4.40,1.96,1.75,2.80
+ObjectId(5f5a0abb863543710f9c0e27),England - League One,Sat 16:00,Accrington,Peterborough,3.50,3.45,2.10,1.74,1.31,1.31,2.11,1.65,2.70
+ObjectId(5f5a0abb863543710f9c0e28),England - League One,Sat 16:00,Crewe,Charlton,2.90,3.25,2.50,1.53,1.34,1.41,1.80,1.90,3.30
+ObjectId(5f5a0abb863543710f9c0e29),England - League One,Sat 16:00,Doncaster,Milton Keynes Dons,2.25,3.10,3.50,1.30,1.37,1.64,1.60,2.20,4.20
+ObjectId(5f5a0abc863543710f9c0e2a),England - League One,Sat 16:00,Fleetwood,Burton,2.20,3.35,3.35,1.33,1.33,1.68,1.80,1.90,3.30
+ObjectId(5f5a0abc863543710f9c0e2b),England - League One,Sat 16:00,Gillingham,Hull,2.75,3.20,2.65,1.48,1.35,1.45,1.76,1.95,3.45
+ObjectId(5f5a0abc863543710f9c0e2c),England - League One,Sat 16:00,Lincoln City,Oxford,2.85,3.20,2.55,1.51,1.35,1.42,1.76,1.95,3.45
+ObjectId(5f5a0abc863543710f9c0e2d),England - League One,Sat 16:00,Northampton,Wimbledon,2.25,3.20,3.35,1.32,1.35,1.64,1.72,2.00,3.60
+ObjectId(5f5a0abc863543710f9c0e2e),England - League One,Sat 16:00,Plymouth,Blackpool,2.65,3.25,2.70,1.46,1.34,1.47,1.85,1.85,3.15
+ObjectId(5f5a0abd863543710f9c0e2f),England - League One,Sat 16:00,Portsmouth,Shrewsbury,1.90,3.40,4.30,1.22,1.32,1.90,1.62,2.15,4.00
+ObjectId(5f5a0abd863543710f9c0e30),England - League One,Sat 16:00,Sunderland,Bristol Rovers,1.85,3.45,4.50,1.20,1.31,1.95,1.72,2.00,3.60
+ObjectId(5f5a0abd863543710f9c0e31),England - League One,Sat 16:00,Swindon,Rochdale,2.00,3.45,3.80,1.27,1.31,1.81,2.03,1.70,2.75
+ObjectId(5f5a0abd863543710f9c0e32),England - League One,Sun 13:00,Ipswich,Wigan,1.70,3.70,5.20,1.16,1.28,2.16,2.03,1.70,2.75
+ObjectId(5f5a0abe863543710f9c0e33),England - League Two,Sat 16:00,Barrow,Stevenage,2.30,3.25,3.20,1.35,1.34,1.61,1.76,1.95,3.45
+ObjectId(5f5a0abe863543710f9c0e34),England - League Two,Sat 16:00,Bolton,Forest Green,2.10,3.35,3.60,1.29,1.33,1.74,1.76,1.95,3.45
+ObjectId(5f5a0abe863543710f9c0e35),England - League Two,Sat 16:00,Bradford,Colchester,2.30,3.25,3.20,1.35,1.34,1.61,1.76,1.95,3.45
+ObjectId(5f5a0abe863543710f9c0e36),England - League Two,Sat 16:00,Cambridge,Carlisle,2.55,3.20,2.85,1.42,1.35,1.51,1.76,1.95,3.45
+ObjectId(5f5a0abe863543710f9c0e37),England - League Two,Sat 16:00,Cheltenham,Morecambe,1.90,3.50,4.20,1.23,1.31,1.91,1.80,1.90,3.30
+ObjectId(5f5a0abf863543710f9c0e38),England - League Two,Sat 16:00,Mansfield,Tranmere,2.40,3.25,3.05,1.38,1.34,1.57,1.76,1.95,3.45
+ObjectId(5f5a0abf863543710f9c0e39),England - League Two,Sat 16:00,Oldham,Leyton,2.30,3.30,3.15,1.36,1.33,1.61,1.80,1.90,3.30
+ObjectId(5f5a0abf863543710f9c0e3a),England - League Two,Sat 16:00,Port Vale,Crawley Town,2.00,3.45,3.80,1.27,1.31,1.81,1.90,1.80,3.05
+ObjectId(5f5a0abf863543710f9c0e3b),England - League Two,Sat 16:00,Salford City,Exeter,2.10,3.35,3.60,1.29,1.33,1.74,1.80,1.90,3.30
+ObjectId(5f5a0abf863543710f9c0e3c),England - League Two,Sat 16:00,Scunthorpe,Newport,2.65,3.10,2.80,1.43,1.36,1.47,1.62,2.15,4.00
+ObjectId(5f5a0ac0863543710f9c0e3d),England - League Two,Sat 16:00,Southend,Harrogate T.,2.35,3.30,3.05,1.37,1.33,1.59,1.80,1.90,3.30
+ObjectId(5f5a0ac0863543710f9c0e3e),England - League Two,Sat 16:00,Walsall,Grimsby,2.20,3.35,3.35,1.33,1.33,1.68,1.76,1.95,3.45
+ObjectId(5f5a0ac0863543710f9c0e3f),England - Premier Women,Sun 14:00,Everton W,Tottenham W,3.30,3.70,1.90,1.74,1.21,1.26,1.75,1.85,3.10
+ObjectId(5f5a0ac0863543710f9c0e40),Estonia - Esiliiga,Thu 17:00,Maardu,Parnu Jalgpalliklubi,1.22,6.25,9.50,-,-,3.75,3.20,1.25,1.65
+ObjectId(5f5a0ac1863543710f9c0e41),Estonia - Meistriliiga,Sat 15:00,Tulevik V.,Paide,11.0,6.25,1.20,3.95,1.08,-,2.55,1.45,2.05
+ObjectId(5f5a0ac1863543710f9c0e42),Estonia - Meistriliiga,Sun 12:00,Tallinn JK Legion,Trans Narva,3.35,3.40,2.05,1.69,1.27,1.28,2.55,1.45,2.10
+ObjectId(5f5a0ac1863543710f9c0e43),Estonia - Meistriliiga,Sun 14:00,Kuressaare,Levadia Tallinn,13.0,7.50,1.15,4.70,1.06,-,3.55,1.25,1.65
+ObjectId(5f5a0ac1863543710f9c0e44),Finland  3  A,Thu 17:30,Mikkelin Kissat,Kultsu,1.32,5.10,7.25,1.05,1.12,2.95,2.70,1.35,1.92
+ObjectId(5f5a0ac1863543710f9c0e45),Finland  3  A,Thu 17:30,Pepo,Reipas Lahti,1.65,4.00,4.20,1.17,1.18,2.05,2.25,1.50,2.20
+ObjectId(5f5a0ac2863543710f9c0e46),Finland  3  A,Fri 17:30,PK-35,PKKU,1.17,7.25,10.5,-,1.05,4.20,3.20,1.25,1.65
+ObjectId(5f5a0ac2863543710f9c0e47),Finland - Veikkausliiga,Thu 17:30,Hifk,Helsinki,5.50,3.80,1.65,2.25,1.27,1.15,1.85,1.85,3.15
+ObjectId(5f5a0ac2863543710f9c0e48),Finland - Veikkausliiga,Thu 17:30,Hifk,Helsinki,5.80,4.00,1.75,2.37,1.34,1.22,1.95,1.95,3.35
+ObjectId(5f5a0ac2863543710f9c0e49),Finland - Veikkausliiga,Sat 16:00,Haka,SJK,2.70,3.25,2.65,1.47,1.34,1.46,1.85,1.85,3.15
+ObjectId(5f5a0ac2863543710f9c0e4a),Finland - Veikkausliiga,Sat 16:00,RoPS,Honka,7.25,4.00,1.50,2.55,1.24,1.09,1.80,1.90,3.30
+ObjectId(5f5a0ac3863543710f9c0e4b),Finland - Veikkausliiga,Sun 17:30,Ilves,Helsinki,3.90,3.50,1.95,1.84,1.30,1.25,1.96,1.75,2.90
+ObjectId(5f5a0ac3863543710f9c0e4c),Finland - Veikkausliiga,Mon 17:00,TPS,Mariehamn,2.75,3.30,2.55,1.50,1.32,1.44,1.96,1.75,2.90
+ObjectId(5f5a0ac3863543710f9c0e4d),Finland - Veikkausliiga,Mon 17:30,Hifk,Inter Turku,4.10,3.40,1.95,1.86,1.32,1.24,1.72,2.00,3.60
+ObjectId(5f5a0ac3863543710f9c0e4e),Finland - Veikkausliiga,Mon 17:30,Lahti,Kups,4.10,3.50,1.90,1.89,1.30,1.23,1.96,1.75,2.90
+ObjectId(5f5a0ac4863543710f9c0e4f),Finland - Ykkonen,Fri 17:30,Mikkelin Palloilijat,Jaro,3.35,3.40,2.05,1.69,1.27,1.28,2.41,1.50,2.20
+ObjectId(5f5a0ac4863543710f9c0e50),Finland - Ykkonen,Sat 14:00,Gnistan,Kajaani,2.95,3.35,2.25,1.57,1.28,1.35,2.41,1.50,2.20
+ObjectId(5f5a0ac4863543710f9c0e51),Finland - Ykkonen,Sat 14:00,SJK II,AC Oulu,9.50,5.70,1.25,3.55,1.10,1.03,2.70,1.40,1.95
+ObjectId(5f5a0ac4863543710f9c0e52),Finland - Ykkonen,Sat 15:00,E.I.F.,KPV,2.05,3.40,3.35,1.28,1.27,1.69,2.19,1.60,2.50
+ObjectId(5f5a0ac4863543710f9c0e53),Finland - Ykkonen,Sat 16:00,Musa,KTP,2.90,3.30,2.30,1.54,1.28,1.36,2.29,1.55,2.35
+ObjectId(5f5a0ac5863543710f9c0e54),Finland - Ykkonen,Sat 16:00,MyPa,VPS,4.70,3.60,1.70,2.04,1.25,1.15,2.29,1.55,2.35
+ObjectId(5f5a0ac5863543710f9c0e55),Finland 1 Women,Sat 14:00,Honka W,TPS W,1.08,9.00,20.0,-,1.02,6.20,2.15,1.55,2.30
+ObjectId(5f5a0ac5863543710f9c0e56),Finland 3 B,Fri 17:00,Atlantis,Grifk,2.15,3.70,2.80,1.36,1.22,1.59,2.37,1.45,2.10
+ObjectId(5f5a0ac5863543710f9c0e57),Finland 3 C,Fri 17:00,GBK,Kiisto,1.23,6.00,9.00,1.02,1.08,3.60,2.70,1.35,1.87
+ObjectId(5f5a0ac5863543710f9c0e58),Finland 3 C,Fri 17:30,JBK,VIFK,1.60,4.20,4.30,1.16,1.17,2.12,2.37,1.45,2.10
+ObjectId(5f5a0ac6863543710f9c0e59),France - Ligue 1 Women,Fri 18:30,Montpellier W,Guingamp W,1.33,4.70,7.50,1.04,1.13,2.85,2.15,1.55,2.35
+ObjectId(5f5a0ac6863543710f9c0e5a),France - Ligue 2,Sat 15:00,Guingamp,Le Havre,2.00,3.30,4.00,1.25,1.33,1.81,1.53,2.35,4.60
+ObjectId(5f5a0ac6863543710f9c0e5b),France - Ligue 2,Sat 19:00,Ajaccio,Dunkerque,2.10,3.05,4.00,1.24,1.38,1.73,1.47,2.50,5.00
+ObjectId(5f5a0ac6863543710f9c0e5c),France - Ligue 2,Sat 19:00,Amiens,Paris ,2.30,3.10,3.35,1.32,1.36,1.61,1.55,2.30,4.40
+ObjectId(5f5a0ac6863543710f9c0e5d),France - Ligue 2,Sat 19:00,Auxerre,Clermont,2.40,3.00,3.30,1.33,1.39,1.57,1.53,2.35,4.60
+ObjectId(5f5a0ac7863543710f9c0e5e),France - Ligue 2,Sat 19:00,Chambly,Grenoble,2.95,3.00,2.60,1.49,1.38,1.39,1.53,2.35,4.60
+ObjectId(5f5a0ac7863543710f9c0e5f),France - Ligue 2,Sat 19:00,Niort,Nancy,2.90,3.00,2.65,1.47,1.38,1.41,1.53,2.35,4.60
+ObjectId(5f5a0ac7863543710f9c0e60),France - Ligue 2,Sat 19:00,Rodez ,Caen,2.90,3.00,2.65,1.47,1.38,1.41,1.53,2.35,4.60
+ObjectId(5f5a0ac7863543710f9c0e61),France - Ligue 2,Sat 19:00,Troyes,Pau,1.75,3.45,5.20,1.16,1.31,2.07,1.55,2.30,4.40
+ObjectId(5f5a0ac8863543710f9c0e62),France - Ligue 2,Sat 19:00,Valenciennes,Chateauroux,2.15,3.10,3.80,1.27,1.37,1.71,1.60,2.20,4.20
+ObjectId(5f5a0ac8863543710f9c0e63),France National,Fri 20:00,Avranches,Bastia Borgo,2.15,3.00,3.50,1.25,1.33,1.62,1.55,2.30,4.30
+ObjectId(5f5a0ac8863543710f9c0e64),France National,Fri 20:00,Bastia,Bourg Peronnas,1.95,3.30,3.80,1.23,1.29,1.77,1.62,2.15,3.90
+ObjectId(5f5a0ac8863543710f9c0e65),France National,Fri 20:00,Boulogne,Le Mans,2.15,3.05,3.50,1.26,1.33,1.63,1.60,2.20,4.10
+ObjectId(5f5a0ac8863543710f9c0e66),France National,Fri 20:00,Cholet,Laval,2.45,3.00,2.95,1.35,1.34,1.49,1.62,2.15,3.90
+ObjectId(5f5a0ac9863543710f9c0e67),France National,Fri 20:00,Red Star 93,Villefranche,2.35,3.00,3.10,1.32,1.34,1.52,1.60,2.20,4.10
+ObjectId(5f5a0ac9863543710f9c0e68),France National,Fri 20:00,Sporting Lyon,Creteil,2.45,3.00,2.95,1.35,1.34,1.49,1.60,2.20,4.10
+ObjectId(5f5a0ac9863543710f9c0e69),France National,Mon 18:45,Quevilly,Sete,2.45,2.90,3.05,1.33,1.36,1.49,1.53,2.35,4.50
+ObjectId(5f5a0ac9863543710f9c0e6a),Friendly,Thu 15:00,Genoa,Carrarese,1.40,4.50,6.25,1.07,1.14,2.60,2.25,1.50,2.20
+ObjectId(5f5a0ac9863543710f9c0e6b),Friendly,Thu 15:00,Genoa,Carrarese,1.50,4.85,6.70,1.15,1.23,2.80,2.45,1.65,2.35
+ObjectId(5f5a0aca863543710f9c0e6c),Friendly,Thu 16:30,Cesena,Imolese,2.15,3.70,2.80,1.36,1.22,1.59,1.91,1.70,2.70
+ObjectId(5f5a0aca863543710f9c0e6d),Friendly,Thu 16:30,Cesena,Imolese,2.25,3.85,2.90,1.42,1.27,1.65,2.00,1.75,2.80
+ObjectId(5f5a0aca863543710f9c0e6e),Friendly,Thu 16:30,Gubbio,Ternana,2.45,3.60,2.45,1.46,1.23,1.46,1.71,1.90,3.25
+ObjectId(5f5a0aca863543710f9c0e6f),Friendly,Thu 17:30,Parma,Pro Sesto,1.20,6.50,9.50,-,1.07,3.85,3.20,1.25,1.65
+ObjectId(5f5a0acb863543710f9c0e70),Friendly,Thu 18:00,Fano,Ascoli,3.70,3.80,1.75,1.87,1.19,1.20,1.85,1.75,2.85
+ObjectId(5f5a0acb863543710f9c0e71),Friendly,Thu 18:00,Fano,Ascoli,3.90,4.00,1.85,1.97,1.25,1.26,1.95,1.85,3.00
+ObjectId(5f5a0acb863543710f9c0e72),Georgia - Erovnuli Liga,Sat 19:00,Dinamo Batumi,Dinamo Tibilisi,3.05,3.25,2.25,1.57,1.29,1.33,1.90,1.80,3.00
+ObjectId(5f5a0acb863543710f9c0e73),Germany - 1. Bundesliga Women,Fri 19:15,Leverkusen W,Duisburg W,2.20,3.70,2.70,1.38,1.21,1.56,2.06,1.60,2.50
+ObjectId(5f5a0acb863543710f9c0e74),Germany 3,18.09. Fri 17:45,K'lautern,Dinamo Dresden,2.55,3.15,2.70,1.41,1.31,1.45,1.85,1.85,3.10
+ObjectId(5f5a0acc863543710f9c0e75),Germany 3,19.09. Sat 14:00,Bayern II,Turkucu,2.10,3.30,3.30,1.28,1.28,1.65,1.90,1.80,3.00
+ObjectId(5f5a0acc863543710f9c0e76),Germany 3,19.09. Sat 14:00,Hansa,Duisburg,2.00,3.30,3.60,1.25,1.29,1.72,1.80,1.90,3.25
+ObjectId(5f5a0acc863543710f9c0e77),Germany 3,19.09. Sat 14:00,Lubeck,Saarbrucken,2.45,3.20,2.80,1.39,1.31,1.49,1.85,1.85,3.10
+ObjectId(5f5a0acc863543710f9c0e78),Germany 3,19.09. Sat 14:00,SV Meppen,Munchen 1860,2.30,3.25,2.95,1.35,1.29,1.55,1.90,1.80,3.00
+ObjectId(5f5a0acc863543710f9c0e79),Germany 3,19.09. Sat 14:00,Wehen,Verl,1.75,3.50,4.50,1.17,1.26,1.97,2.03,1.70,2.70
+ObjectId(5f5a0acd863543710f9c0e7a),Germany 3,19.09. Sat 14:00,Zwickau,Unterhaching,2.35,3.25,2.90,1.36,1.30,1.53,1.96,1.75,2.85
+ObjectId(5f5a0acd863543710f9c0e7b),Germany 3,20.09. Sun 14:00,Ingolstadt,Uerdingen,1.75,3.50,4.50,1.17,1.26,1.97,2.03,1.70,2.70
+ObjectId(5f5a0acd863543710f9c0e7c),Germany 3,20.09. Sun 14:00,Magdeburg,Hallescher,2.15,3.10,3.40,1.27,1.32,1.62,1.69,2.05,3.70
+ObjectId(5f5a0acd863543710f9c0e7d),Germany 3,21.09. Mon 19:00,Mannheim,Victoria Koln,2.20,3.30,3.10,1.32,1.29,1.60,2.19,1.60,2.50
+ObjectId(5f5a0ace863543710f9c0e7e),Greece - Cup,Sat 20:00,AEK,Olympiakos,2.75,3.05,2.55,1.45,1.32,1.39,1.69,2.05,3.70
+ObjectId(5f5a0ace863543710f9c0e7f),Greece - Super League,Fri 17:15,Aris,Lamia,1.55,3.80,7.00,1.10,1.27,2.46,1.69,2.05,3.80
+ObjectId(5f5a0ace863543710f9c0e80),Greece - Super League,Fri 19:30,PAOK,Larisa,1.28,5.50,11.0,1.04,1.15,3.65,2.11,1.65,2.65
+ObjectId(5f5a0ace863543710f9c0e81),Greece - Super League,Sat 17:00,OFI,Panetolikos,1.85,3.45,4.50,1.20,1.31,1.95,1.69,2.05,3.80
+ObjectId(5f5a0ace863543710f9c0e82),Greece - Super League,Sun 17:30,Atromitos,Volos NPS,1.62,3.70,6.00,1.13,1.28,2.29,1.72,2.00,3.60
+ObjectId(5f5a0acf863543710f9c0e83),Greece - Super League,Sun 19:30,Asteras Tripolis,Panathinaikos,2.90,3.05,2.60,1.49,1.37,1.40,1.60,2.20,4.20
+ObjectId(5f5a0acf863543710f9c0e84),Hungary - NB1,Fri 20:00,Ferencvaros,Paksi,1.25,5.50,10.0,-,1.11,3.55,2.19,1.60,2.45
+ObjectId(5f5a0acf863543710f9c0e85),Hungary - NB1,Sat 14:45,Mezokovesd,Budafoki,1.65,3.60,5.10,1.13,1.25,2.11,1.85,1.85,3.10
+ObjectId(5f5a0acf863543710f9c0e86),Hungary - NB1,Sat 17:00,Diosgyor,Honved,2.30,3.25,2.95,1.35,1.29,1.55,1.96,1.75,2.85
+ObjectId(5f5a0acf863543710f9c0e87),Hungary - NB1,Sat 19:30,Fehervar,Puskas,1.70,3.50,4.80,1.14,1.26,2.02,2.03,1.70,2.70
+ObjectId(5f5a0ad0863543710f9c0e88),Hungary - NB1,Sun 15:00,Ujpest,Kisvarda,1.90,3.30,4.00,1.21,1.29,1.81,1.62,2.15,3.90
+ObjectId(5f5a0ad0863543710f9c0e89),Hungary - NB1,Sun 17:30,MTK,Zalaegerszeg,2.00,3.35,3.50,1.25,1.27,1.71,1.90,1.80,3.00
+ObjectId(5f5a0ad0863543710f9c0e8a),ISLAND  3,Sun 18:00,Throttur V.,KF Fjallabyggd,1.85,3.80,3.35,1.24,1.19,1.78,2.37,1.45,2.10
+ObjectId(5f5a0ad0863543710f9c0e8b),Iceland  -  Cup,Thu 18:30,Hafnarfjordur,Stjarnan,2.40,3.60,2.50,1.44,1.22,1.48,1.98,1.65,2.65
+ObjectId(5f5a0ad0863543710f9c0e8c),Iceland  -  Cup,Thu 18:30,Hafnarfjordur,Stjarnan,2.50,3.75,2.60,1.50,1.27,1.54,2.05,1.70,2.75
+ObjectId(5f5a0ad1863543710f9c0e8d),Iceland  -  Cup,Thu 21:15,Breidablik,KR Reykjavik,2.15,3.70,2.80,1.36,1.22,1.59,2.50,1.40,1.97
+ObjectId(5f5a0ad1863543710f9c0e8e),Iceland  -  Cup,Thu 21:15,Breidablik,KR Reykjavik,2.25,3.85,2.90,1.42,1.27,1.65,2.60,1.45,2.05
+ObjectId(5f5a0ad1863543710f9c0e8f),Iceland  -  Cup,Thu 21:15,Valur,Hk Kopavogur,1.37,4.60,7.00,1.06,1.15,2.75,2.50,1.40,1.97
+ObjectId(5f5a0ad1863543710f9c0e90),Iceland  -  Cup,Thu 21:15,Valur,Hk Kopavogur,1.50,4.95,7.50,1.15,1.25,2.95,2.70,1.50,2.15
+ObjectId(5f5a0ad2863543710f9c0e91),Iceland - Urvalsdeild,Sun 16:00,KR Reykjavik,Stjarnan,2.05,3.40,3.35,1.28,1.27,1.69,2.41,1.50,2.20
+ObjectId(5f5a0ad2863543710f9c0e92),Iceland - Urvalsdeild,Sun 18:00,Ka Akureyri,Fylkir,2.45,3.25,2.75,1.40,1.30,1.49,2.11,1.65,2.65
+ObjectId(5f5a0ad2863543710f9c0e93),Iceland - Urvalsdeild,Sun 18:30,Hafnarfjordur,Breidablik,2.85,3.40,2.30,1.55,1.27,1.37,2.90,1.35,1.92
+ObjectId(5f5a0ad2863543710f9c0e94),Iceland - Urvalsdeild,Sun 21:15,Hk Kopavogur,Akranes,2.40,3.40,2.70,1.41,1.27,1.50,2.90,1.35,1.92
+ObjectId(5f5a0ad2863543710f9c0e95),Iceland - Urvalsdeild,Sun 22:00,Valur,Vikingur,1.85,3.50,3.90,1.21,1.25,1.84,2.41,1.50,2.20
+ObjectId(5f5a0ad3863543710f9c0e96),Iceland - Urvalsdeild,Mon 21:15,Grotta,Fjolnir,2.70,3.30,2.45,1.49,1.28,1.41,2.55,1.45,2.10
+ObjectId(5f5a0ad3863543710f9c0e97),Ireland - First Division,Fri 20:45,Cabinteely,Athlone,1.22,6.25,10.0,1.02,1.09,3.85,2.70,1.40,1.95
+ObjectId(5f5a0ad3863543710f9c0e98),Ireland - First Division,Fri 20:45,Galway,Shamrock II,1.47,4.00,6.75,1.07,1.21,2.50,1.90,1.80,3.00
+ObjectId(5f5a0ad3863543710f9c0e99),Ireland - First Division,Fri 20:45,Wexford,Bray,7.50,4.30,1.40,2.70,1.18,1.06,2.11,1.65,2.65
+ObjectId(5f5a0ad3863543710f9c0e9a),Ireland - First Division,Sat 20:00,Cobh Ramblers,UCD,2.55,3.25,2.60,1.43,1.29,1.44,2.11,1.65,2.65
+ObjectId(5f5a0ad4863543710f9c0e9b),Ireland - First Division,Sat 20:30,Longford,Drogheda,2.45,3.25,2.75,1.40,1.30,1.49,2.11,1.65,2.65
+ObjectId(5f5a0ad4863543710f9c0e9c),Ireland - Premier League,Fri 18:45,Bohemians D.,Waterford,1.75,3.35,4.70,1.15,1.28,1.96,1.60,2.20,4.10
+ObjectId(5f5a0ad4863543710f9c0e9d),Ireland - Premier League,Fri 21:00,Dundalk,Shelbourne,1.50,3.90,6.25,1.08,1.21,2.40,1.90,1.80,3.00
+ObjectId(5f5a0ad4863543710f9c0e9e),Ireland - Premier League,Sat 15:00,Cork City,Shamrock,10.0,4.70,1.30,3.20,1.15,1.02,1.80,1.90,3.20
+ObjectId(5f5a0ad5863543710f9c0e9f),Ireland - Premier League,Sat 18:00,St.Patrick's,Sligo,1.85,3.25,4.30,1.18,1.29,1.85,1.53,2.35,4.50
+ObjectId(5f5a0ad5863543710f9c0ea0),Ireland - Premier League,Sun 18:00,Finn Harps,Derry City,4.50,3.30,1.80,1.90,1.29,1.16,1.53,2.35,4.50
+ObjectId(5f5a0ad5863543710f9c0ea1),Israel - Liga Leumit,Thu 19:30,Hapoel Ikhsal,Hapoel R.G.,3.20,3.10,2.25,1.57,1.32,1.30,1.69,2.05,3.70
+ObjectId(5f5a0ad5863543710f9c0ea2),Israel - Liga Leumit,Thu 19:30,Hapoel Kfar Shalem,Hapoel Katamon,3.30,3.00,2.25,1.57,1.34,1.29,1.60,2.20,4.10
+ObjectId(5f5a0ad5863543710f9c0ea3),Israel - Liga Leumit,Thu 19:30,Hapoel P.T.,Ironi Ramat,2.50,3.00,2.90,1.36,1.34,1.47,1.60,2.20,4.10
+ObjectId(5f5a0ad6863543710f9c0ea4),Israel - Liga Leumit,Thu 19:30,Hapoel Umm Al Fahm,Beitar T.A.,2.15,3.15,3.35,1.28,1.31,1.62,1.72,2.00,3.50
+ObjectId(5f5a0ad6863543710f9c0ea5),Israel - Liga Leumit,Thu 19:30,Sektzia,Hapoel Akko,2.10,3.15,3.50,1.26,1.31,1.66,1.69,2.05,3.70
+ObjectId(5f5a0ad6863543710f9c0ea6),Israel - Liga Leumit,Mon 18:00,Kfar Kasem,Maccabi Naz.,2.95,3.00,2.45,1.49,1.34,1.35,1.60,2.20,4.10
+ObjectId(5f5a0ad6863543710f9c0ea7),Japan - J1 League,Sat 11:00,Shimizu SP,Kashima A.,4.60,3.60,1.80,2.02,1.29,1.20,2.29,1.55,2.40
+ObjectId(5f5a0ad6863543710f9c0ea8),Japan - J1 League,Sat 12:00,Vissel Kobe,Tokyo,3.25,3.45,2.20,1.67,1.31,1.34,2.11,1.65,2.70
+ObjectId(5f5a0ad7863543710f9c0ea9),Japan - J1 League,Sun 06:05,Sapporo,Urawa RD,2.50,3.35,2.80,1.43,1.32,1.53,2.11,1.65,2.70
+ObjectId(5f5a0ad7863543710f9c0eaa),Japan - J1 League,Sun 11:00,Vegalta Sendai,Oita Trinita,2.20,3.30,3.40,1.32,1.34,1.67,1.72,2.00,3.60
+ObjectId(5f5a0ad7863543710f9c0eab),Japan - J1 League,Sun 11:00,Yokohama FC,Nagoya GE,3.80,3.45,2.00,1.81,1.31,1.27,2.03,1.70,2.75
+ObjectId(5f5a0ad7863543710f9c0eac),Japan - J1 League,Sun 11:30,Kawasaki F.,Sanfrecce Hiroshima,1.50,4.40,6.25,1.12,1.21,2.55,2.70,1.40,2.00
+ObjectId(5f5a0ad7863543710f9c0ead),Japan - J1 League,Sun 11:45,Sangan,Kashiwa R.,3.35,3.35,2.20,1.68,1.33,1.33,1.85,1.85,3.15
+ObjectId(5f5a0ad8863543710f9c0eae),Japan - J1 League,Sun 12:00,Gamba Osaka,Bellmare S.,1.55,4.10,6.00,1.12,1.23,2.44,2.11,1.65,2.70
+ObjectId(5f5a0ad8863543710f9c0eaf),Japan - J1 League,Sun 12:00,Yokohama F.Marinos,Cerezo Osaka,2.20,3.45,3.25,1.34,1.31,1.67,2.41,1.50,2.25
+ObjectId(5f5a0ad8863543710f9c0eb0),Japan - J2 League,Sat 12:00,Ehime,JEF United,2.55,3.10,2.75,1.40,1.32,1.46,1.76,1.95,3.40
+ObjectId(5f5a0ad8863543710f9c0eb1),Japan - J2 League,Sat 12:00,Tokushima,Kanazawa,1.85,3.45,4.00,1.20,1.26,1.85,1.90,1.80,3.00
+ObjectId(5f5a0ad9863543710f9c0eb2),Japan - J2 League,Sun 11:00,Fukuoka,M.Zelvia,2.50,2.95,2.95,1.35,1.35,1.48,1.55,2.30,4.30
+ObjectId(5f5a0ad9863543710f9c0eb3),Japan - J2 League,Sun 11:00,Okayama,Kofu,2.60,3.00,2.75,1.39,1.34,1.43,1.62,2.15,3.90
+ObjectId(5f5a0ad9863543710f9c0eb4),Japan - J2 League,Sun 11:00,Tochigi,Yamaga,2.25,2.90,3.45,1.27,1.36,1.58,1.41,2.70,5.30
+ObjectId(5f5a0ad9863543710f9c0eb5),Japan - J2 League,Sun 11:00,Tokyo Verdy,Kusatsu,1.80,3.45,4.30,1.18,1.27,1.91,1.85,1.85,3.10
+ObjectId(5f5a0ad9863543710f9c0eb6),Japan - J2 League,Sun 11:00,V-Varen Nagasaki ,Jubilo Iwata,2.70,3.00,2.65,1.42,1.34,1.41,1.80,1.90,3.25
+ObjectId(5f5a0ada863543710f9c0eb7),Japan - J2 League,Sun 11:30,Kyoto Purple Sanga,Ryukyu,1.70,3.50,4.80,1.14,1.26,2.02,1.96,1.75,2.85
+ObjectId(5f5a0ada863543710f9c0eb8),Japan - J2 League,Sun 12:00,Giravanz,Albirex Niigata,2.60,3.20,2.60,1.43,1.30,1.43,1.96,1.75,2.85
+ObjectId(5f5a0ada863543710f9c0eb9),Japan - J2 League,Sun 12:00,Mito Hollyhock,Yamaguchi,1.85,3.45,4.00,1.20,1.26,1.85,2.03,1.70,2.70
+ObjectId(5f5a0ada863543710f9c0eba),Japan - J2 League,Sun 12:00,Omiya Ardija,Yamagata,2.25,3.05,3.25,1.29,1.33,1.57,1.62,2.15,3.90
+ObjectId(5f5a0ada863543710f9c0ebb),Japan - J3 League,Sat 06:00,Grulla Morioka,Yokohama SK,2.45,3.25,2.75,1.40,1.30,1.49,2.11,1.65,2.65
+ObjectId(5f5a0adb863543710f9c0ebc),Japan - J3 League,Sat 10:00,Fujieda,Kamatamare,1.62,3.60,5.30,1.12,1.24,2.14,1.85,1.85,3.10
+ObjectId(5f5a0adb863543710f9c0ebd),Japan - J3 League,Sat 11:30,Toyama,Gamba M23,1.75,3.50,4.50,1.17,1.26,1.97,2.11,1.65,2.65
+ObjectId(5f5a0adb863543710f9c0ebe),Japan - J3 League,Sat 12:00,Gainare Tottori,Azul Klaro,2.05,3.30,3.45,1.26,1.29,1.69,1.85,1.85,3.10
+ObjectId(5f5a0adb863543710f9c0ebf),Japan - J3 League,Sat 12:00,Kumamoto,Sagamihara,1.95,3.35,3.70,1.23,1.28,1.76,1.90,1.80,3.00
+ObjectId(5f5a0adc863543710f9c0ec0),Japan - J3 League,Sun 06:00,Vanraure,Gifu,2.45,3.20,2.80,1.39,1.31,1.49,1.90,1.80,3.00
+ObjectId(5f5a0adc863543710f9c0ec1),Japan - J3 League,Sun 08:00,Fukushima,Kagoshima,3.05,3.25,2.25,1.57,1.29,1.33,1.96,1.75,2.85
+ObjectId(5f5a0adc863543710f9c0ec2),Japan - J3 League,Sun 08:00,Imabari,Blaublitz,2.70,3.15,2.55,1.45,1.31,1.41,1.80,1.90,3.25
+ObjectId(5f5a0adc863543710f9c0ec3),Jordan - Premier League,Thu 18:30,Al Wihdat,Al Ramtha,1.55,3.90,5.60,1.11,1.21,2.30,2.11,1.65,2.65
+ObjectId(5f5a0adc863543710f9c0ec4),Kazakhstan - Premier League,Fri 12:00,Zhetysu,Okzhetpes ,1.85,3.35,4.10,1.19,1.27,1.84,1.69,2.05,3.70
+ObjectId(5f5a0add863543710f9c0ec5),Kazakhstan - Premier League,Fri 17:00,Karagandy,Taraz,2.00,3.25,3.70,1.24,1.30,1.73,1.62,2.15,3.90
+ObjectId(5f5a0add863543710f9c0ec6),Kazakhstan - Premier League,Sat 11:00,Ordabasy S.,Astana,4.30,3.40,1.80,1.90,1.27,1.18,1.80,1.90,3.25
+ObjectId(5f5a0add863543710f9c0ec7),Kazakhstan - Premier League,Sat 13:00,Tobol Kostanay,Kyzylzhar,1.70,3.45,4.90,1.14,1.26,2.02,1.72,2.00,3.50
+ObjectId(5f5a0add863543710f9c0ec8),Kazakhstan - Premier League,Sat 16:00,Kairat Almaty,Kyzylorda,1.60,3.70,5.40,1.12,1.23,2.20,1.80,1.90,3.25

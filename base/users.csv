@@ -1,0 +1,15 @@
+_id,username,email,password,date,birthDate
+ObjectId(5ec79d47f50a4a77a65a5b93),jela,jzivovic96@gmail.com,inkubacija,,
+ObjectId(5ec95240b489cc34be18856b),jela123,jzivoic96@gmailc.om,inkubacija,,
+ObjectId(5f38fba9f1bff860c230d2e1),nidzo,carnik94@gmail.com,prikolica,16 Aug 2020,9 Apr 1994
+ObjectId(5f48c8482d6b106ee7231722),nidzolina,bla@bla.com,nidzolina,28 Aug 2020,9 Apr 1994
+ObjectId(5f4928cb34d28671729e099e),prikolica,bla1@bla.com,prikolica,28 Aug 2020,4 Sep 1994
+ObjectId(5f492f9834d28671729e09a1),nidza,blaba@bla.com,nidzolina,28 Aug 2020,4 Sep 1994
+ObjectId(5f49330734d28671729e09a3),je,fh@gmail.com,oooooooo,28 Aug 2020,4 Sep 1994
+ObjectId(5f57c43cc26a5a756d9990c3),nidzo123,bla@bla123.com,oooooooo,8 Sep 2020,9 Apr 1994
+ObjectId(5f57c679c26a5a756d9990c6),qwer,bla@bla12345.com,oooooooo,8 Sep 2020,4 Apr 1994
+ObjectId(5f57d16f579976051ccc4c7f),pera,pera@gmail.com,oooooooo,8 Sep 2020,9 Sep 1999
+ObjectId(5f57d1cb579976051ccc4c80),pera123,p@gmail.com,oooooooo,8 Sep 2020,9 Sep 1999
+ObjectId(5f57d319579976051ccc4c81),pera99,pera123123@gmail.com,oooooooo,8 Sep 2020,9 Sep 1994
+ObjectId(5f57d9fc579976051ccc4c84),pera666,pera123342@gmail.com,oooooooo,8 Sep 2020,9 Sep 1996
+ObjectId(5f57dbb8579976051ccc4c87),pera123456,p123@gmail.com,oooooooo,8 Sep 2020,9 Sep 1999
